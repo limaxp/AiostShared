@@ -1,0 +1,3090 @@
+Groups:
+  Building_Blocks:
+    name: Building Blocks
+    item: BRICKS
+  Decoration_Blocks:
+    name: Decoration
+    item: PEONY
+  Redstone:
+    name: Redstone
+    item: REDSTONE
+  Transportation:
+    name: Transportation
+    item: POWERED_RAIL
+  Miscellaneous:
+    name: Misc
+    item: LAVA_BUCKET
+  Foodstuffs:
+    name: Food
+    item: APPLE
+  Tools:
+    name: Tools
+    item:
+      Iron Axe:
+        material: IRON_AXE
+        nbt: '{HideFlags:2}'
+  Combat:
+    name: Combat
+    item:
+      Gold Sword:
+        material: GOLDEN_SWORD
+        nbt: '{HideFlags:2}'
+  Brewing:
+    name: Brewing
+    item:
+      Water Bottle:
+        material: POTION
+        nbt: '{HideFlags:32,Potion:"minecraft:water"}'
+  Guns:
+    name: Guns
+    item: 
+      Desert Eagle:
+        material: bow
+        predicate: 
+          custom_model_data: 13
+  Spells:
+    name: Spells
+    item: 
+      Flame:
+        material: bow
+        predicate: 
+          custom_model_data: 16
+  Furniture:
+    name: Furniture
+    item: 
+      Oak Chair:
+        material: scute
+        predicate: 
+          custom_model_data: 32
+Quartz Crystal Hammer:
+  material: diamond_pickaxe
+  group: tools
+  item:
+    class: Pickaxe
+    creativeModeTab: tools
+    toolMaterial: quartz_crystal
+    damage: 3
+    attackSpeed: -3.2
+    rarity: rare
+  predicate: 
+    custom_model_data: 1
+  path: aiost/tools/quartz_crystal_hammer
+  effects: 
+    HammerEffect:
+      actions:
+      - block_break
+      condition: main_hand
+      radius: 2
+Lava Crystal Hammer:
+  material: diamond_pickaxe
+  group: tools
+  item:
+    class: Pickaxe
+    creativeModeTab: tools
+    toolMaterial: lava_crystal
+    damage: 3
+    attackSpeed: -3.2
+    rarity: rare
+  predicate: 
+    custom_model_data: 2
+  path: aiost/tools/lava_crystal_hammer
+  effects: 
+    HammerEffect:
+      actions:
+      - block_break
+      condition: main_hand
+      radius: 2
+Obsidian Crystal Hammer:
+  material: diamond_pickaxe
+  group: tools
+  item:
+    class: Pickaxe
+    creativeModeTab: tools
+    toolMaterial: obsidian_crystal
+    damage: 3
+    attackSpeed: -3.2
+    rarity: rare
+  predicate: 
+    custom_model_data: 3
+  path: aiost/tools/obsidian_crystal_hammer
+  effects: 
+    HammerEffect:
+      actions:
+      - block_break
+      condition: main_hand
+      radius: 1
+Black Diamond Hammer:
+  material: diamond_pickaxe
+  group: tools
+  item:
+    class: Pickaxe
+    creativeModeTab: tools
+    toolMaterial: black_diamond
+    damage: 3
+    attackSpeed: -3.2
+    rarity: rare
+  predicate: 
+    custom_model_data: 4
+  path: aiost/tools/black_diamond_hammer
+  effects: 
+    HammerEffect:
+      actions:
+      - block_break
+      condition: main_hand
+      radius: 1
+Ruby Hammer:
+  material: diamond_pickaxe
+  group: tools
+  item:
+    class: Pickaxe
+    creativeModeTab: tools
+    toolMaterial: ruby
+    damage: 3
+    attackSpeed: -3.2
+  predicate: 
+    custom_model_data: 5
+  path: aiost/tools/ruby_hammer
+  effects: 
+    HammerEffect:
+      actions:
+      - block_break
+      condition: main_hand
+      radius: 1
+Emerald Hammer:
+  material: diamond_pickaxe
+  group: tools
+  item:
+    class: Pickaxe
+    creativeModeTab: tools
+    toolMaterial: emerald
+    damage: 3
+    attackSpeed: -3.2
+  predicate: 
+    custom_model_data: 6
+  path: aiost/tools/emerald_hammer
+  effects: 
+    HammerEffect:
+      actions:
+      - block_break
+      condition: main_hand
+      radius: 1
+Diamond Hammer:
+  material: diamond_pickaxe
+  group: tools
+  item:
+    class: Pickaxe
+    creativeModeTab: tools
+    toolMaterial: diamond
+    damage: 3
+    attackSpeed: -3.2
+  predicate: 
+    custom_model_data: 7
+  path: aiost/tools/diamond_hammer
+  effects: 
+    HammerEffect:
+      actions:
+      - block_break
+      condition: main_hand
+      radius: 1
+Quartz Crystal Pickaxe:
+  material: diamond_pickaxe
+  group: tools
+  item:
+    class: Pickaxe
+    creativeModeTab: tools
+    toolMaterial: quartz_crystal
+    damage: 1
+    attackSpeed: -2.8
+    rarity: rare
+  predicate: 
+    custom_model_data: 8
+  path: aiost/tools/quartz_crystal_pickaxe
+Lava Crystal Pickaxe:
+  material: diamond_pickaxe
+  group: tools
+  item:
+    class: Pickaxe
+    creativeModeTab: tools
+    toolMaterial: lava_crystal
+    damage: 1
+    attackSpeed: -2.8
+    rarity: rare
+  predicate: 
+    custom_model_data: 9
+  path: aiost/tools/lava_crystal_pickaxe
+Obsidian Crystal Pickaxe:
+  material: diamond_pickaxe
+  group: tools
+  item:
+    class: Pickaxe
+    creativeModeTab: tools
+    toolMaterial: obsidian_crystal
+    damage: 1
+    attackSpeed: -2.8
+    rarity: rare
+  predicate: 
+    custom_model_data: 10
+  path: aiost/tools/obsidian_crystal_pickaxe
+Black Diamond Pickaxe:
+  material: diamond_pickaxe
+  group: tools
+  item:
+    class: Pickaxe
+    creativeModeTab: tools
+    toolMaterial: black_diamond
+    damage: 1
+    attackSpeed: -2.8
+    rarity: rare
+  predicate: 
+    custom_model_data: 11
+  path: aiost/tools/black_diamond_pickaxe
+Ruby Pickaxe:
+  material: diamond_pickaxe
+  group: tools
+  item:
+    class: Pickaxe
+    creativeModeTab: tools
+    toolMaterial: ruby
+    damage: 1
+    attackSpeed: -2.8
+  predicate: 
+    custom_model_data: 12
+  path: aiost/tools/ruby_pickaxe
+Emerald Pickaxe:
+  material: diamond_pickaxe
+  group: tools
+  item:
+    class: Pickaxe
+    creativeModeTab: tools
+    toolMaterial: diamond
+    damage: 1
+    attackSpeed: -2.8
+  predicate: 
+    custom_model_data: 13
+  path: aiost/tools/emerald_pickaxe
+Iron Hammer:
+  material: iron_pickaxe
+  group: tools
+  item:
+    class: Pickaxe
+    creativeModeTab: tools
+    toolMaterial: iron
+    damage: 3
+    attackSpeed: -3.2
+  predicate: 
+    custom_model_data: 1
+  path: aiost/tools/iron_hammer
+  effects: 
+    HammerEffect:
+      actions:
+      - block_break
+      condition: main_hand
+      radius: 1
+Bronze Hammer:
+  material: iron_pickaxe
+  group: tools
+  item:
+    class: Pickaxe
+    creativeModeTab: tools
+    toolMaterial: bronze
+    damage: 3
+    attackSpeed: -3.2
+  predicate: 
+    custom_model_data: 2
+  path: aiost/tools/bronze_hammer
+  effects: 
+    HammerEffect:
+      actions:
+      - block_break
+      condition: main_hand
+      radius: 1
+Bronze Pickaxe:
+  material: iron_pickaxe
+  group: tools
+  item:
+    class: Pickaxe
+    creativeModeTab: tools
+    toolMaterial: bronze
+    damage: 1
+    attackSpeed: -2.8
+  predicate: 
+    custom_model_data: 3
+  path: aiost/tools/bronze_pickaxe
+Golden Hammer:
+  material: golden_pickaxe
+  group: tools
+  item:
+    class: Pickaxe
+    creativeModeTab: tools
+    toolMaterial: gold
+    damage: 3
+    attackSpeed: -3.2
+  predicate: 
+    custom_model_data: 1
+  path: aiost/tools/golden_hammer
+  effects: 
+    HammerEffect:
+      actions:
+      - block_break
+      condition: main_hand
+      radius: 1
+Tin Hammer:
+  material: stone_pickaxe
+  group: tools
+  item:
+    class: Pickaxe
+    creativeModeTab: tools
+    toolMaterial: tin
+    damage: 3
+    attackSpeed: -3.2
+  predicate: 
+    custom_model_data: 1
+  path: aiost/tools/tin_hammer
+  effects: 
+    HammerEffect:
+      actions:
+      - block_break
+      condition: main_hand
+      radius: 1
+Copper Hammer:
+  material: stone_pickaxe
+  group: tools
+  item:
+    class: Pickaxe
+    creativeModeTab: tools
+    toolMaterial: copper
+    damage: 3
+    attackSpeed: -3.2
+  predicate: 
+    custom_model_data: 2
+  path: aiost/tools/copper_hammer
+  effects: 
+    HammerEffect:
+      actions:
+      - block_break
+      condition: main_hand
+      radius: 1
+Stone Hammer:
+  material: stone_pickaxe
+  group: tools
+  item:
+    class: Pickaxe
+    creativeModeTab: tools
+    toolMaterial: stone
+    damage: 3
+    attackSpeed: -3.2
+  predicate: 
+    custom_model_data: 3
+  path: aiost/tools/stone_hammer
+  effects: 
+    HammerEffect:
+      actions:
+      - block_break
+      condition: main_hand
+      radius: 1
+Tin Pickaxe:
+  material: stone_pickaxe
+  group: tools
+  item:
+    class: Pickaxe
+    creativeModeTab: tools
+    toolMaterial: tin
+    damage: 1
+    attackSpeed: -2.8
+  predicate: 
+    custom_model_data: 4
+  path: aiost/tools/tin_pickaxe
+Copper Pickaxe:
+  material: stone_pickaxe
+  group: tools
+  item:
+    class: Pickaxe
+    creativeModeTab: tools
+    toolMaterial: copper
+    damage: 1
+    attackSpeed: -2.8
+  predicate: 
+    custom_model_data: 5
+  path: aiost/tools/copper_pickaxe
+Wooden Hammer:
+  material: wooden_pickaxe
+  group: tools
+  item:
+    class: Pickaxe
+    creativeModeTab: tools
+    toolMaterial: wood
+    damage: 3
+    attackSpeed: -3.2
+  predicate: 
+    custom_model_data: 1
+  path: aiost/tools/wooden_hammer
+  effects: 
+    HammerEffect:
+      actions:
+      - block_break
+      condition: main_hand
+      radius: 1
+Quartz Crystal Shovel:
+  material: diamond_shovel
+  group: tools
+  item:
+    class: Shovel
+    creativeModeTab: tools
+    toolMaterial: quartz_crystal
+    damage: 1.5
+    attackSpeed: -3.0
+    rarity: rare
+  predicate: 
+    custom_model_data: 1
+  path: aiost/tools/quartz_crystal_shovel
+Lava Crystal Shovel:
+  material: diamond_shovel
+  group: tools
+  item:
+    class: Shovel
+    creativeModeTab: tools
+    toolMaterial: lava_crystal
+    damage: 1.5
+    attackSpeed: -3.0
+    rarity: rare
+  predicate: 
+    custom_model_data: 2
+  path: aiost/tools/lava_crystal_shovel
+Obsidian Crystal Shovel:
+  material: diamond_shovel
+  group: tools
+  item:
+    class: Shovel
+    creativeModeTab: tools
+    toolMaterial: obsidian_crystal
+    damage: 1.5
+    attackSpeed: -3.0
+    rarity: rare
+  predicate: 
+    custom_model_data: 3
+  path: aiost/tools/obsidian_crystal_shovel
+Black Diamond Shovel:
+  material: diamond_shovel
+  group: tools
+  item:
+    class: Shovel
+    creativeModeTab: tools
+    toolMaterial: black_diamond
+    damage: 1.5
+    attackSpeed: -3.0
+    rarity: rare
+  predicate: 
+    custom_model_data: 4
+  path: aiost/tools/black_diamond_shovel
+Ruby Shovel:
+  material: diamond_shovel
+  group: tools
+  item:
+    class: Shovel
+    creativeModeTab: tools
+    toolMaterial: ruby
+    damage: 1.5
+    attackSpeed: -3.0
+  predicate: 
+    custom_model_data: 5
+  path: aiost/tools/ruby_shovel
+Emerald Shovel:
+  material: diamond_shovel
+  group: tools
+  item:
+    class: Shovel
+    creativeModeTab: tools
+    toolMaterial: emerald
+    damage: 1.5
+    attackSpeed: -3.0
+  predicate: 
+    custom_model_data: 6
+  path: aiost/tools/emerald_shovel
+Bronze Shovel:
+  material: iron_shovel
+  group: tools
+  item:
+    class: Shovel
+    creativeModeTab: tools
+    toolMaterial: bronze
+    damage: 1.5
+    attackSpeed: -3.0
+  predicate: 
+    custom_model_data: 1
+  path: aiost/tools/bronze_shovel
+Tin Shovel:
+  material: stone_shovel
+  group: tools
+  item:
+    class: Shovel
+    creativeModeTab: tools
+    toolMaterial: tin
+    damage: 1.5
+    attackSpeed: -3.0
+  predicate: 
+    custom_model_data: 1
+  path: aiost/tools/tin_shovel
+Copper Shovel:
+  material: stone_shovel
+  group: tools
+  item:
+    class: Shovel
+    creativeModeTab: tools
+    toolMaterial: copper
+    damage: 1.5
+    attackSpeed: -3.0
+  predicate: 
+    custom_model_data: 2
+  path: aiost/tools/copper_shovel
+Quartz Crystal Waraxe:
+  material: diamond_axe
+  group: combat
+  item:
+    class: Axe
+    creativeModeTab: combat
+    toolMaterial: quartz_crystal
+    damage: 6
+    attackSpeed: -3.1
+    rarity: rare
+  predicate: 
+    custom_model_data: 1
+  path: aiost/weapons/quartz_crystal_waraxe
+Lava Crystal Waraxe:
+  material: diamond_axe
+  group: combat
+  item:
+    class: Axe
+    creativeModeTab: combat
+    toolMaterial: lava_crystal
+    damage: 6
+    attackSpeed: -3.1
+    rarity: rare
+  predicate: 
+    custom_model_data: 2
+  path: aiost/weapons/lava_crystal_waraxe
+Obsidian Crystal Waraxe:
+  material: diamond_axe
+  group: combat
+  item:
+    class: Axe
+    creativeModeTab: combat
+    toolMaterial: obsidian_crystal
+    damage: 6
+    attackSpeed: -3.1
+    rarity: rare
+  predicate: 
+    custom_model_data: 3
+  path: aiost/weapons/obsidian_crystal_waraxe
+Black Diamond Waraxe:
+  material: diamond_axe
+  group: combat
+  item:
+    class: Axe
+    creativeModeTab: combat
+    toolMaterial: black_diamond
+    damage: 6
+    attackSpeed: -3.1
+    rarity: rare
+  predicate: 
+    custom_model_data: 4
+  path: aiost/weapons/black_diamond_waraxe
+Ruby Waraxe:
+  material: diamond_axe
+  group: combat
+  item:
+    class: Axe
+    creativeModeTab: combat
+    toolMaterial: ruby
+    damage: 6
+    attackSpeed: -3.1
+  predicate: 
+    custom_model_data: 5
+  path: aiost/weapons/ruby_waraxe
+Emerald Waraxe:
+  material: diamond_axe
+  group: combat
+  item:
+    class: Axe
+    creativeModeTab: combat
+    toolMaterial: emerald
+    damage: 6
+    attackSpeed: -3.1
+  predicate: 
+    custom_model_data: 6
+  path: aiost/weapons/emerald_waraxe
+Diamond Waraxe:
+  material: diamond_axe
+  group: combat
+  item:
+    class: Axe
+    creativeModeTab: combat
+    toolMaterial: diamond
+    damage: 6
+    attackSpeed: -3.1
+  predicate: 
+    custom_model_data: 7
+  path: aiost/weapons/diamond_waraxe
+Quartz Crystal Axe:
+  material: diamond_axe
+  group: tools
+  item:
+    class: Axe
+    creativeModeTab: tools
+    toolMaterial: quartz_crystal
+    damage: 5
+    attackSpeed: -3.0
+    rarity: rare
+  predicate: 
+    custom_model_data: 8
+  path: aiost/tools/quartz_crystal_axe
+Lava Crystal Axe:
+  material: diamond_axe
+  group: tools
+  item:
+    class: Axe
+    creativeModeTab: tools
+    toolMaterial: lava_crystal
+    damage: 5
+    attackSpeed: -3.0
+    rarity: rare
+  predicate: 
+    custom_model_data: 9
+  path: aiost/tools/lava_crystal_axe
+Obsidian Crystal Axe:
+  material: diamond_axe
+  group: tools
+  item:
+    class: Axe
+    creativeModeTab: tools
+    toolMaterial: obsidian_crystal
+    damage: 5
+    attackSpeed: -3.0
+    rarity: rare
+  predicate: 
+    custom_model_data: 10
+  path: aiost/tools/obsidian_crystal_axe
+Black Diamond Axe:
+  material: diamond_axe
+  group: tools
+  item:
+    class: Axe
+    creativeModeTab: tools
+    toolMaterial: black_diamond
+    damage: 5
+    attackSpeed: -3.0
+    rarity: rare
+  predicate: 
+    custom_model_data: 11
+  path: aiost/tools/black_diamond_axe
+Ruby Axe:
+  material: diamond_axe
+  group: tools
+  item:
+    class: Axe
+    creativeModeTab: tools
+    toolMaterial: ruby
+    damage: 5
+    attackSpeed: -3.0
+  predicate: 
+    custom_model_data: 12
+  path: aiost/tools/ruby_axe
+Emerald Axe:
+  material: diamond_axe
+  group: tools
+  item:
+    class: Axe
+    creativeModeTab: tools
+    toolMaterial: emerald
+    damage: 5
+    attackSpeed: -3.0
+  predicate: 
+    custom_model_data: 13
+  path: aiost/tools/emerald_axe
+Iron Waraxe:
+  material: iron_axe
+  group: combat
+  item:
+    class: Axe
+    creativeModeTab: combat
+    toolMaterial: iron
+    damage: 6
+    attackSpeed: -3.1
+  predicate: 
+    custom_model_data: 1
+  path: aiost/weapons/iron_waraxe
+Bronze Waraxe:
+  material: iron_axe
+  group: combat
+  item:
+    class: Axe
+    creativeModeTab: combat
+    toolMaterial: bronze
+    damage: 6
+    attackSpeed: -3.1
+  predicate: 
+    custom_model_data: 2
+  path: aiost/weapons/bronze_waraxe
+Bronze Axe:
+  material: iron_axe
+  group: tools
+  item:
+    class: Axe
+    creativeModeTab: tools
+    toolMaterial: bronze
+    damage: 5
+    attackSpeed: -3.0
+  predicate: 
+    custom_model_data: 3
+  path: aiost/tools/bronze_axe
+Golden Waraxe:
+  material: golden_axe
+  group: combat
+  item:
+    class: Axe
+    creativeModeTab: combat
+    toolMaterial: gold
+    damage: 6
+    attackSpeed: -3.1
+  predicate: 
+    custom_model_data: 1
+  path: aiost/weapons/golden_waraxe
+Tin Waraxe:
+  material: stone_axe
+  group: combat
+  item:
+    class: Axe
+    creativeModeTab: combat
+    toolMaterial: tin
+    damage: 6
+    attackSpeed: -3.1
+  predicate: 
+    custom_model_data: 1
+  path: aiost/weapons/tin_waraxe
+Copper Waraxe:
+  material: stone_axe
+  group: combat
+  item:
+    class: Axe
+    creativeModeTab: combat
+    toolMaterial: copper
+    damage: 6
+    attackSpeed: -3.1
+  predicate: 
+    custom_model_data: 2
+  path: aiost/weapons/copper_waraxe
+Stone Waraxe:
+  material: stone_axe
+  group: combat
+  item:
+    class: Axe
+    creativeModeTab: combat
+    toolMaterial: stone
+    damage: 6
+    attackSpeed: -3.1
+  predicate: 
+    custom_model_data: 3
+  path: aiost/weapons/stone_waraxe
+Tin Axe:
+  material: stone_axe
+  group: tools
+  item:
+    class: Axe
+    creativeModeTab: tools
+    toolMaterial: tin
+    damage: 5
+    attackSpeed: -3.0
+  predicate: 
+    custom_model_data: 4
+  path: aiost/tools/tin_axe
+Copper Axe:
+  material: stone_axe
+  group: tools
+  item:
+    class: Axe
+    creativeModeTab: tools
+    toolMaterial: copper
+    damage: 5
+    attackSpeed: -3.0
+  predicate: 
+    custom_model_data: 5
+  path: aiost/tools/copper_axe
+Wooden Waraxe:
+  material: wooden_axe
+  group: combat
+  item:
+    class: Axe
+    creativeModeTab: combat
+    toolMaterial: wood
+    damage: 6
+    attackSpeed: -3.1
+  predicate: 
+    custom_model_data: 1
+  path: aiost/weapons/wooden_waraxe
+Quartz Crystal Hoe:
+  material: diamond_hoe
+  group: tools
+  item:
+    class: Hoe
+    creativeModeTab: tools
+    toolMaterial: quartz_crystal
+    attackSpeed: 0
+    rarity: rare
+  predicate: 
+    custom_model_data: 1
+  path: aiost/tools/quartz_crystal_hoe
+Lava Crystal Hoe:
+  material: diamond_hoe
+  group: tools
+  item:
+    class: Hoe
+    creativeModeTab: tools
+    toolMaterial: lava_crystal
+    attackSpeed: 0
+    rarity: rare
+  predicate: 
+    custom_model_data: 2
+  path: aiost/tools/lava_crystal_hoe
+Obsidian Crystal Hoe:
+  material: diamond_hoe
+  group: tools
+  item:
+    class: Hoe
+    creativeModeTab: tools
+    toolMaterial: obsidian_crystal
+    attackSpeed: 0
+    rarity: rare
+  predicate: 
+    custom_model_data: 3
+  path: aiost/tools/obsidian_crystal_hoe
+Black Diamond Hoe:
+  material: diamond_hoe
+  group: tools
+  item:
+    class: Hoe
+    creativeModeTab: tools
+    toolMaterial: black_diamond
+    attackSpeed: 0
+    rarity: rare
+  predicate: 
+    custom_model_data: 4
+  path: aiost/tools/black_diamond_hoe
+Ruby Hoe:
+  material: diamond_hoe
+  group: tools
+  item:
+    class: Hoe
+    creativeModeTab: tools
+    toolMaterial: ruby
+    attackSpeed: 0
+  predicate: 
+    custom_model_data: 5
+  path: aiost/tools/ruby_hoe
+Emerald Hoe:
+  material: diamond_hoe
+  group: tools
+  item:
+    class: Hoe
+    creativeModeTab: tools
+    toolMaterial: emerald
+    attackSpeed: 0
+  predicate: 
+    custom_model_data: 6
+  path: aiost/tools/emerald_hoe
+Bronze Hoe:
+  material: diamond_hoe
+  group: tools
+  item:
+    class: Hoe
+    creativeModeTab: tools
+    toolMaterial: bronze
+    attackSpeed: -1.0F
+  predicate: 
+    custom_model_data: 7
+  path: aiost/tools/bronze_hoe
+Tin Hoe:
+  material: diamond_hoe
+  group: tools
+  item:
+    class: Hoe
+    creativeModeTab: tools
+    toolMaterial: tin
+    attackSpeed: -2.0F
+  predicate: 
+    custom_model_data: 8
+  path: aiost/tools/tin_hoe
+Copper Hoe:
+  material: diamond_hoe
+  group: tools
+  item:
+    class: Hoe
+    creativeModeTab: tools
+    toolMaterial: copper
+    attackSpeed: -2.0F
+  predicate: 
+    custom_model_data: 9
+  path: aiost/tools/copper_hoe
+Iron Bow:
+  material: bow
+  group: combat
+  item:
+    class: MaterialBow
+    creativeModeTab: combat
+    toolMaterial: iron
+  predicate: 
+    custom_model_data: 1
+  path: aiost/weapons/iron_bow
+  parts:
+    Iron Bow Pulling 0:
+      predicate:
+        custom_model_data: 1
+        pulling: 1
+      path: aiost/weapons/iron_bow_pulling_0
+    Iron Bow Pulling 1:
+      predicate:
+        custom_model_data: 1
+        pulling: 1
+        pull: 0.65
+      path: aiost/weapons/iron_bow_pulling_1
+    Iron Bow Pulling 2:
+      predicate:
+        custom_model_data: 1
+        pulling: 1
+        pull: 0.9
+      path: aiost/weapons/iron_bow_pulling_2
+Golden Bow:
+  material: bow
+  group: combat
+  item:
+    class: MaterialBow
+    creativeModeTab: combat
+    toolMaterial: gold
+  predicate: 
+    custom_model_data: 2
+  path: aiost/weapons/golden_bow
+  parts:
+    Golden Bow Pulling 0:
+      predicate:
+        custom_model_data: 2
+        pulling: 1
+      path: aiost/weapons/golden_bow_pulling_0
+    Golden Bow Pulling 1:
+      predicate:
+        custom_model_data: 2
+        pulling: 1
+        pull: 0.65
+      path: aiost/weapons/golden_bow_pulling_1
+    Golden Bow Pulling 2:
+      predicate:
+        custom_model_data: 2
+        pulling: 1
+        pull: 0.9
+      path: aiost/weapons/golden_bow_pulling_2
+Diamond Bow:
+  material: bow
+  group: combat
+  item:
+    class: MaterialBow
+    creativeModeTab: combat
+    toolMaterial: diamond
+  predicate: 
+    custom_model_data: 3
+  path: aiost/weapons/diamond_bow
+  parts:
+    Diamond Bow Pulling 0:
+      predicate:
+        custom_model_data: 3
+        pulling: 1
+      path: aiost/weapons/diamond_bow_pulling_0
+    Diamond Bow Pulling 1:
+      predicate:
+        custom_model_data: 3
+        pulling: 1
+        pull: 0.65
+      path: aiost/weapons/diamond_bow_pulling_1
+    Diamond Bow Pulling 2:
+      predicate:
+        custom_model_data: 3
+        pulling: 1
+        pull: 0.9
+      path: aiost/weapons/diamond_bow_pulling_2
+Emerald Bow:
+  material: bow
+  group: combat
+  item:
+    class: MaterialBow
+    creativeModeTab: combat
+    toolMaterial: emerald
+  predicate: 
+    custom_model_data: 4
+  path: aiost/weapons/emerald_bow
+  parts:
+    Emerald Bow Pulling 0:
+      predicate:
+        custom_model_data: 4
+        pulling: 1
+      path: aiost/weapons/emerald_bow_pulling_0
+    Emerald Bow Pulling 1:
+      predicate:
+        custom_model_data: 4
+        pulling: 1
+        pull: 0.65
+      path: aiost/weapons/emerald_bow_pulling_1
+    Emerald Bow Pulling 2:
+      predicate:
+        custom_model_data: 4
+        pulling: 1
+        pull: 0.9
+      path: aiost/weapons/emerald_bow_pulling_2
+Black Diamond Bow:
+  material: bow
+  group: combat
+  item:
+    class: MaterialBow
+    creativeModeTab: combat
+    toolMaterial: black_diamond
+    rarity: rare
+  predicate: 
+    custom_model_data: 5
+  path: aiost/weapons/black_diamond_bow
+  parts:
+    Black Diamond Bow Pulling 0:
+      predicate:
+        custom_model_data: 5
+        pulling: 1
+      path: aiost/weapons/black_diamond_bow_pulling_0
+    Black Diamond Bow Pulling 1:
+      predicate:
+        custom_model_data: 5
+        pulling: 1
+        pull: 0.65
+      path: aiost/weapons/black_diamond_bow_pulling_1
+    Black Diamond Bow Pulling 2:
+      predicate:
+        custom_model_data: 5
+        pulling: 1
+        pull: 0.9
+      path: aiost/weapons/black_diamond_bow_pulling_2
+Bronze Bow:
+  material: bow
+  group: combat
+  item:
+    class: MaterialBow
+    creativeModeTab: combat
+    toolMaterial: bronze
+  predicate: 
+    custom_model_data: 6
+  path: aiost/weapons/bronze_bow
+  parts:
+    Bronze Bow Pulling 0:
+      predicate:
+        custom_model_data: 6
+        pulling: 1
+      path: aiost/weapons/bronze_bow_pulling_0
+    Bronze Bow Pulling 1:
+      predicate:
+        custom_model_data: 6
+        pulling: 1
+        pull: 0.65
+      path: aiost/weapons/bronze_bow_pulling_1
+    Bronze Bow Pulling 2:
+      predicate:
+        custom_model_data: 6
+        pulling: 1
+        pull: 0.9
+      path: aiost/weapons/bronze_bow_pulling_2
+Copper Bow:
+  material: bow
+  group: combat
+  item:
+    class: MaterialBow
+    creativeModeTab: combat
+    toolMaterial: copper
+  predicate: 
+    custom_model_data: 7
+  path: aiost/weapons/copper_bow
+  parts:
+    Copper Bow Pulling 0:
+      predicate:
+        custom_model_data: 7
+        pulling: 1
+      path: aiost/weapons/copper_bow_pulling_0
+    Copper Bow Pulling 1:
+      predicate:
+        custom_model_data: 7
+        pulling: 1
+        pull: 0.65
+      path: aiost/weapons/copper_bow_pulling_1
+    Copper Bow Pulling 2:
+      predicate:
+        custom_model_data: 7
+        pulling: 1
+        pull: 0.9
+      path: aiost/weapons/copper_bow_pulling_2
+Lava Crystal Bow:
+  material: bow
+  group: combat
+  item:
+    class: MaterialBow
+    creativeModeTab: combat
+    toolMaterial: lava_crystal
+    rarity: rare
+  predicate: 
+    custom_model_data: 8
+  path: aiost/weapons/lava_crystal_bow
+  parts:
+    Lava Crystal Bow Pulling 0:
+      predicate:
+        custom_model_data: 8
+        pulling: 1
+      path: aiost/weapons/lava_crystal_bow_pulling_0
+    Lava Crystal Bow Pulling 1:
+      predicate:
+        custom_model_data: 8
+        pulling: 1
+        pull: 0.65
+      path: aiost/weapons/lava_crystal_bow_pulling_1
+    Lava Crystal Bow Pulling 2:
+      predicate:
+        custom_model_data: 8
+        pulling: 1
+        pull: 0.9
+      path: aiost/weapons/lava_crystal_bow_pulling_2
+Obsidian Crystal Bow:
+  material: bow
+  group: combat
+  item:
+    class: MaterialBow
+    creativeModeTab: combat
+    toolMaterial: obsidian_crystal
+    rarity: rare
+  predicate: 
+    custom_model_data: 9
+  path: aiost/weapons/obsidian_crystal_bow
+  parts:
+    Obsidian Crystal Bow Pulling 0:
+      predicate:
+        custom_model_data: 9
+        pulling: 1
+      path: aiost/weapons/obsidian_crystal_bow_pulling_0
+    Obsidian Crystal Bow Pulling 1:
+      predicate:
+        custom_model_data: 9
+        pulling: 1
+        pull: 0.65
+      path: aiost/weapons/obsidian_crystal_bow_pulling_1
+    Obsidian Crystal Bow Pulling 2:
+      predicate:
+        custom_model_data: 9
+        pulling: 1
+        pull: 0.9
+      path: aiost/weapons/obsidian_crystal_bow_pulling_2
+Quartz Crystal Bow:
+  material: bow
+  group: combat
+  item:
+    class: MaterialBow
+    creativeModeTab: combat
+    toolMaterial: quartz_crystal
+    rarity: rare
+  predicate: 
+    custom_model_data: 10
+  path: aiost/weapons/quartz_crystal_bow
+  parts:
+    Quartz Crystal Bow Pulling 0:
+      predicate:
+        custom_model_data: 10
+        pulling: 1
+      path: aiost/weapons/quartz_crystal_bow_pulling_0
+    Quartz Crystal Bow Pulling 1:
+      predicate:
+        custom_model_data: 10
+        pulling: 1
+        pull: 0.65
+      path: aiost/weapons/quartz_crystal_bow_pulling_1
+    Quartz Crystal Bow Pulling 2:
+      predicate:
+        custom_model_data: 10
+        pulling: 1
+        pull: 0.9
+      path: aiost/weapons/quartz_crystal_bow_pulling_2
+Ruby Bow:
+  material: bow
+  group: combat
+  item:
+    class: MaterialBow
+    creativeModeTab: combat
+    toolMaterial: ruby
+  predicate: 
+    custom_model_data: 11
+  path: aiost/weapons/ruby_bow
+  parts:
+    Ruby Bow Pulling 0:
+      predicate:
+        custom_model_data: 11
+        pulling: 1
+      path: aiost/weapons/ruby_bow_pulling_0
+    Ruby Bow Pulling 1:
+      predicate:
+        custom_model_data: 11
+        pulling: 1
+        pull: 0.65
+      path: aiost/weapons/ruby_bow_pulling_1
+    Ruby Bow Pulling 2:
+      predicate:
+        custom_model_data: 11
+        pulling: 1
+        pull: 0.9
+      path: aiost/weapons/ruby_bow_pulling_2
+Tin Bow:
+  material: bow
+  group: combat
+  item:
+    class: MaterialBow
+    creativeModeTab: combat
+    toolMaterial: tin
+  predicate: 
+    custom_model_data: 12
+  path: aiost/weapons/tin_bow
+  parts:
+    Tin Bow Pulling 0:
+      predicate:
+        custom_model_data: 12
+        pulling: 1
+      path: aiost/weapons/tin_bow_pulling_0
+    Tin Bow Pulling 1:
+      predicate:
+        custom_model_data: 12
+        pulling: 1
+        pull: 0.65
+      path: aiost/weapons/tin_bow_pulling_1
+    Tin Bow Pulling 2:
+      predicate:
+        custom_model_data: 12
+        pulling: 1
+        pull: 0.9
+      path: aiost/weapons/tin_bow_pulling_2
+Desert Eagle:
+  material: bow
+  group: guns
+  predicate: 
+    custom_model_data: 13
+  path: aiost/guns/desert_eagle
+Desert Eagle Red:
+  material: bow
+  group: guns
+  predicate: 
+    custom_model_data: 14
+  path: aiost/guns/desert_eagle_red
+Ray Gun:
+  material: bow
+  group: guns
+  predicate: 
+    custom_model_data: 15
+  path: aiost/guns/ray_gun
+Flame:
+  material: bow
+  group: spells
+  item:
+    class: Spell
+    creativeModeTab: combat
+    spell: Flame
+  predicate: 
+    custom_model_data: 16
+  path: aiost/magic/flame
+Fire Ball:
+  material: bow
+  group: spells
+  item:
+    class: Spell
+    creativeModeTab: combat
+    spell: Fireball
+  predicate: 
+    custom_model_data: 17
+  path: aiost/magic/fire_ball
+Fire Aura:
+  material: bow
+  group: spells
+  item:
+    class: Spell
+    creativeModeTab: combat
+    spell: FireAura
+  predicate: 
+    custom_model_data: 18
+  path: aiost/magic/fire_aura
+Water Beam:
+  material: bow
+  group: spells
+  item:
+    class: Spell
+    creativeModeTab: combat
+    spell: WaterBeam
+  predicate: 
+    custom_model_data: 19
+  path: aiost/magic/water_beam
+Fountain:
+  material: bow
+  group: spells
+  item:
+    class: Spell
+    creativeModeTab: combat
+    spell: Fountain
+  predicate: 
+    custom_model_data: 20
+  path: aiost/magic/fountain
+Water Aura:
+  material: bow
+  group: spells
+  item:
+    class: Spell
+    creativeModeTab: combat
+    spell: WaterAura
+  predicate: 
+    custom_model_data: 21
+  path: aiost/magic/water_aura
+Earth Beam:
+  material: bow
+  group: spells
+  item:
+    class: Spell
+    creativeModeTab: combat
+    spell: EarthBeam
+  predicate: 
+    custom_model_data: 22
+  path: aiost/magic/earth_beam
+Earth Ball:
+  material: bow
+  group: spells
+  item:
+    class: Spell
+    creativeModeTab: combat
+    spell: Earthball
+  predicate: 
+    custom_model_data: 23
+  path: aiost/magic/earth_ball
+Earth Aura:
+  material: bow
+  group: spells
+  item:
+    class: Spell
+    creativeModeTab: combat
+    spell: EarthAura
+  predicate: 
+    custom_model_data: 24
+  path: aiost/magic/earth_aura
+Summon Zombie:
+  material: bow
+  group: spells
+  item:
+    class: Spell
+    creativeModeTab: combat
+    spell: SummonZombie
+  predicate: 
+    custom_model_data: 25
+  path: aiost/magic/summon
+Summon Skeleton:
+  material: bow
+  group: spells
+  item:
+    class: Spell
+    creativeModeTab: combat
+    spell: SummonSkeleton
+  predicate: 
+    custom_model_data: 26
+Quartz Crystal Bihander:
+  material: diamond_sword
+  group: combat
+  item:
+    class: Sword
+    creativeModeTab: combat
+    toolMaterial: quartz_crystal
+    damage: 7
+    attackSpeed: -3.2
+    rarity: rare
+  predicate:
+    custom_model_data: 1
+  path: aiost/weapons/quartz_crystal_bihander
+  effects:
+    BlockOffhand:
+      none: none
+Lava Crystal Bihander:
+  material: diamond_sword
+  group: combat
+  item:
+    class: Sword
+    creativeModeTab: combat
+    toolMaterial: lava_crystal
+    damage: 7
+    attackSpeed: -3.2
+    rarity: rare
+  predicate:
+    custom_model_data: 2
+  path: aiost/weapons/lava_crystal_bihander
+  effects:
+    BlockOffhand:
+      none: none
+Obsidian Crystal Bihander:
+  material: diamond_sword
+  group: combat
+  item:
+    class: Sword
+    creativeModeTab: combat
+    toolMaterial: obsidian_crystal
+    damage: 7
+    attackSpeed: -3.2
+    rarity: rare
+  predicate:
+    custom_model_data: 3
+  path: aiost/weapons/obsidian_crystal_bihander
+  effects:
+    BlockOffhand:
+      none: none
+Black Diamond Bihander:
+  material: diamond_sword
+  group: combat
+  item:
+    class: Sword
+    creativeModeTab: combat
+    toolMaterial: black_diamond
+    damage: 7
+    attackSpeed: -3.2
+    rarity: rare
+  predicate:
+    custom_model_data: 4
+  path: aiost/weapons/black_diamond_bihander
+  effects:
+    BlockOffhand:
+      none: none
+Ruby Bihander:
+  material: diamond_sword
+  group: combat
+  item:
+    class: Sword
+    creativeModeTab: combat
+    toolMaterial: ruby
+    damage: 7
+    attackSpeed: -3.2
+  predicate:
+    custom_model_data: 5
+  path: aiost/weapons/ruby_bihander
+  effects:
+    BlockOffhand:
+      none: none
+Emerald Bihander:
+  material: diamond_sword
+  group: combat
+  item:
+    class: Sword
+    creativeModeTab: combat
+    toolMaterial: emerald
+    damage: 7
+    attackSpeed: -3.2
+  predicate:
+    custom_model_data: 6
+  path: aiost/weapons/emerald_bihander
+  effects:
+    BlockOffhand:
+      none: none
+Diamond Bihander:
+  material: diamond_sword
+  group: combat
+  item:
+    class: Sword
+    creativeModeTab: combat
+    toolMaterial: diamond
+    damage: 7
+    attackSpeed: -3.2
+  predicate:
+    custom_model_data: 7
+  path: aiost/weapons/diamond_bihander
+  effects:
+    BlockOffhand:
+      none: none
+Golden Bihander:
+  material: diamond_sword
+  group: combat
+  item:
+    class: Sword
+    creativeModeTab: combat
+    toolMaterial: gold
+    damage: 7
+    attackSpeed: -3.2
+  predicate:
+    custom_model_data: 8
+  path: aiost/weapons/golden_bihander
+  effects:
+    BlockOffhand:
+      none: none
+Iron Bihander:
+  material: diamond_sword
+  group: combat
+  item:
+    class: Sword
+    creativeModeTab: combat
+    toolMaterial: iron
+    damage: 7
+    attackSpeed: -3.2
+  predicate:
+    custom_model_data: 9
+  path: aiost/weapons/iron_bihander
+  effects:
+    BlockOffhand:
+      none: none
+Bronze Bihander:
+  material: diamond_sword
+  group: combat
+  item:
+    class: Sword
+    creativeModeTab: combat
+    toolMaterial: bronze
+    damage: 7
+    attackSpeed: -3.2
+  predicate:
+    custom_model_data: 10
+  path: aiost/weapons/bronze_bihander
+  effects:
+    BlockOffhand:
+      none: none
+Tin Bihander:
+  material: diamond_sword
+  group: combat
+  item:
+    class: Sword
+    creativeModeTab: combat
+    toolMaterial: tin
+    damage: 7
+    attackSpeed: -3.2
+  predicate:
+    custom_model_data: 11
+  path: aiost/weapons/tin_bihander
+  effects:
+    BlockOffhand:
+      none: none
+Copper Bihander:
+  material: diamond_sword
+  group: combat
+  item:
+    class: Sword
+    creativeModeTab: combat
+    toolMaterial: copper
+    damage: 7
+    attackSpeed: -3.2
+  predicate:
+    custom_model_data: 12
+  path: aiost/weapons/copper_bihander
+  effects:
+    BlockOffhand:
+      none: none
+Stone Bihander:
+  material: diamond_sword
+  group: combat
+  item:
+    class: Sword
+    creativeModeTab: combat
+    toolMaterial: stone
+    damage: 7
+    attackSpeed: -3.2
+  predicate:
+    custom_model_data: 13
+  path: aiost/weapons/stone_bihander
+  effects:
+    BlockOffhand:
+      none: none
+Wooden Bihander:
+  material: diamond_sword
+  group: combat
+  item:
+    class: Sword
+    creativeModeTab: combat
+    toolMaterial: wood
+    damage: 7
+    attackSpeed: -3.2
+  predicate:
+    custom_model_data: 14
+  path: aiost/weapons/wooden_bihander
+  effects:
+    BlockOffhand:
+      none: none
+Quartz Crystal Sword:
+  material: diamond_sword
+  group: combat
+  item:
+    class: Sword
+    creativeModeTab: combat
+    toolMaterial: quartz_crystal
+    damage: 3
+    attackSpeed: -2.4
+    rarity: rare
+  predicate:
+    custom_model_data: 15
+  path: aiost/weapons/quartz_crystal_sword
+Lava Crystal Sword:
+  material: diamond_sword
+  group: combat
+  item:
+    class: Sword
+    creativeModeTab: combat
+    toolMaterial: lava_crystal
+    damage: 3
+    attackSpeed: -2.4
+    rarity: rare
+  predicate:
+    custom_model_data: 16
+  path: aiost/weapons/lava_crystal_sword
+Obsidian Crystal Sword:
+  material: diamond_sword
+  group: combat
+  item:
+    class: Sword
+    creativeModeTab: combat
+    toolMaterial: obsidian_crystal
+    damage: 3
+    attackSpeed: -2.4
+    rarity: rare
+  predicate:
+    custom_model_data: 17
+  path: aiost/weapons/obsidian_crystal_sword
+Black Diamond Sword:
+  material: diamond_sword
+  group: combat
+  item:
+    class: Sword
+    creativeModeTab: combat
+    toolMaterial: black_diamond
+    damage: 3
+    attackSpeed: -2.4
+    rarity: rare
+  predicate:
+    custom_model_data: 18
+  path: aiost/weapons/black_diamond_sword
+Ruby Sword:
+  material: diamond_sword
+  group: combat
+  item:
+    class: Sword
+    creativeModeTab: combat
+    toolMaterial: ruby
+    damage: 3
+    attackSpeed: -2.4
+  predicate:
+    custom_model_data: 19
+  path: aiost/weapons/ruby_sword
+Emerald Sword:
+  material: diamond_sword
+  group: combat
+  item:
+    class: Sword
+    creativeModeTab: combat
+    toolMaterial: emerald
+    damage: 3
+    attackSpeed: -2.4
+  predicate:
+    custom_model_data: 20
+  path: aiost/weapons/emerald_sword
+Bronze Sword:
+  material: diamond_sword
+  group: combat
+  item:
+    class: Sword
+    creativeModeTab: combat
+    toolMaterial: bronze
+    damage: 3
+    attackSpeed: -2.4
+  predicate:
+    custom_model_data: 21
+  path: aiost/weapons/bronze_sword
+Tin Sword:
+  material: diamond_sword
+  group: combat
+  item:
+    class: Sword
+    creativeModeTab: combat
+    toolMaterial: tin
+    damage: 3
+    attackSpeed: -2.4
+  predicate:
+    custom_model_data: 22
+  path: aiost/weapons/tin_sword
+Copper Sword:
+  material: diamond_sword
+  group: combat
+  item:
+    class: Sword
+    creativeModeTab: combat
+    toolMaterial: copper
+    damage: 3
+    attackSpeed: -2.4
+  predicate:
+    custom_model_data: 23
+  path: aiost/weapons/copper_sword
+Menu:
+  material: nether_star
+  group: miscellaneous
+  effects: 
+    CancelItemInventoryMoveAndDrop: 
+      none: none
+Quartz Crystal Dagger:
+  material: fishing_rod
+  group: combat
+  item:
+    class: Sword
+    creativeModeTab: combat
+    toolMaterial: quartz_crystal
+    damage: 2
+    attackSpeed: -1.8
+    rarity: rare
+  predicate:
+    custom_model_data: 1
+  path: aiost/weapons/quartz_crystal_dagger
+  effects:
+    Dagger:
+      none: none
+Lava Crystal Dagger:
+  material: fishing_rod
+  group: combat
+  item:
+    class: Sword
+    creativeModeTab: combat
+    toolMaterial: lava_crystal
+    damage: 2
+    attackSpeed: -1.8
+    rarity: rare
+  predicate:
+    custom_model_data: 2
+  path: aiost/weapons/lava_crystal_dagger
+  effects:
+    Dagger:
+      none: none
+Obsidian Crystal Dagger:
+  material: fishing_rod
+  group: combat
+  item:
+    class: Sword
+    creativeModeTab: combat
+    toolMaterial: obsidian_crystal
+    damage: 2
+    attackSpeed: -1.8
+    rarity: rare
+  predicate:
+    custom_model_data: 3
+  path: aiost/weapons/obsidian_crystal_dagger
+  effects:
+    Dagger:
+      none: none
+Black Diamond Dagger:
+  material: fishing_rod
+  group: combat
+  item:
+    class: Sword
+    creativeModeTab: combat
+    toolMaterial: black_diamond
+    damage: 2
+    attackSpeed: -1.8
+    rarity: rare
+  predicate:
+    custom_model_data: 4
+  path: aiost/weapons/black_diamond_dagger
+  effects:
+    Dagger:
+      none: none
+Ruby Dagger:
+  material: fishing_rod
+  group: combat
+  item:
+    class: Sword
+    creativeModeTab: combat
+    toolMaterial: ruby
+    damage: 2
+    attackSpeed: -1.8
+  predicate:
+    custom_model_data: 5
+  path: aiost/weapons/ruby_dagger
+  effects:
+    Dagger:
+      none: none
+Emerald Dagger:
+  material: fishing_rod
+  group: combat
+  item:
+    class: Sword
+    creativeModeTab: combat
+    toolMaterial: emerald
+    damage: 2
+    attackSpeed: -1.8
+  predicate:
+    custom_model_data: 6
+  path: aiost/weapons/emerald_dagger
+  effects:
+    Dagger:
+      none: none
+Diamond Dagger:
+  material: fishing_rod
+  group: combat
+  item:
+    class: Sword
+    creativeModeTab: combat
+    toolMaterial: diamond
+    damage: 2
+    attackSpeed: -1.8
+  predicate:
+    custom_model_data: 7
+  path: aiost/weapons/diamond_dagger
+  effects:
+    Dagger:
+      none: none
+Golden Dagger:
+  material: fishing_rod
+  group: combat
+  item:
+    class: Sword
+    creativeModeTab: combat
+    toolMaterial: gold
+    damage: 2
+    attackSpeed: -1.8
+  predicate:
+    custom_model_data: 8
+  path: aiost/weapons/golden_dagger
+  effects:
+    Dagger:
+      none: none
+Iron Dagger:
+  material: fishing_rod
+  group: combat
+  item:
+    class: Sword
+    creativeModeTab: combat
+    toolMaterial: iron
+    damage: 2
+    attackSpeed: -1.8
+  predicate:
+    custom_model_data: 9
+  path: aiost/weapons/iron_dagger
+  effects:
+    Dagger:
+      none: none
+Bronze Dagger:
+  material: fishing_rod
+  group: combat
+  item:
+    class: Sword
+    creativeModeTab: combat
+    toolMaterial: bronze
+    damage: 2
+    attackSpeed: -1.8
+  predicate:
+    custom_model_data: 10
+  path: aiost/weapons/bronze_dagger
+  effects:
+    Dagger:
+      none: none
+Tin Dagger:
+  material: fishing_rod
+  group: combat
+  item:
+    class: Sword
+    creativeModeTab: combat
+    toolMaterial: tin
+    damage: 2
+    attackSpeed: -1.8
+  predicate:
+    custom_model_data: 11
+  path: aiost/weapons/tin_dagger
+  effects:
+    Dagger:
+      none: none
+Copper Dagger:
+  material: fishing_rod
+  group: combat
+  item:
+    class: Sword
+    creativeModeTab: combat
+    toolMaterial: copper
+    damage: 2
+    attackSpeed: -1.8
+  predicate:
+    custom_model_data: 12
+  path: aiost/weapons/copper_dagger
+  effects:
+    Dagger:
+      none: none
+Stone Dagger:
+  material: fishing_rod
+  group: combat
+  item:
+    class: Sword
+    creativeModeTab: combat
+    toolMaterial: stone
+    damage: 2
+    attackSpeed: -1.8
+  predicate:
+    custom_model_data: 13
+  path: aiost/weapons/stone_dagger
+  effects:
+    Dagger:
+      none: none
+Wooden Dagger:
+  material: fishing_rod
+  group: combat
+  item:
+    class: Sword
+    creativeModeTab: combat
+    toolMaterial: wood
+    damage: 2
+    attackSpeed: -1.8
+  predicate:
+    custom_model_data: 14
+  path: aiost/weapons/wooden_dagger
+  effects:
+    Dagger:
+      none: none
+Shuriken:
+  material: fishing_rod
+  group: combat
+  predicate:
+    custom_model_data: 15
+  path: aiost/weapons/shuriken
+  effects:
+    Dagger:
+      none: none
+Quartz Crystal Spear:
+  material: trident
+  group: combat
+  predicate:
+    custom_model_data: 1
+  path: aiost/weapons/quartz_crystal_spear
+  effects:
+    ThrowSpear:
+      none: none
+  parts:
+    Quartz Crystal Spear In Hand:
+      material: trident_in_hand
+      predicate:
+        custom_model_data: 1
+      path: aiost/weapons/quartz_crystal_spear
+    Quartz Crystal Spear Throwing:
+      material: trident_in_hand
+      predicate:
+        custom_model_data: 1
+        throwing: 1  
+      path: aiost/weapons/quartz_crystal_spear_throwing
+Lava Crystal Spear:
+  material: trident
+  group: combat
+  predicate:
+    custom_model_data: 2
+  path: aiost/weapons/lava_crystal_spear
+  effects:
+    ThrowSpear:
+      none: none
+  parts:
+    Lava Crystal Spear In Hand:
+      material: trident_in_hand
+      predicate:
+        custom_model_data: 2
+      path: aiost/weapons/lava_crystal_spear
+    Lava Crystal Spear Throwing:
+      material: trident_in_hand
+      predicate:
+        custom_model_data: 2
+        throwing: 1  
+      path: aiost/weapons/lava_crystal_spear_throwing
+Obsidian Crystal Spear:
+  material: trident
+  group: combat
+  predicate:
+    custom_model_data: 3
+  path: aiost/weapons/obsidian_crystal_spear
+  effects:
+    ThrowSpear:
+      none: none
+  parts:
+    Obsidian Crystal Spear In Hand:
+      material: trident_in_hand
+      predicate:
+        custom_model_data: 3
+      path: aiost/weapons/obsidian_crystal_spear
+    Obsidian Crystal Spear Throwing:
+      material: trident_in_hand
+      predicate:
+        custom_model_data: 3
+        throwing: 1  
+      path: aiost/weapons/obsidian_crystal_spear_throwing
+Black Diamond Spear:
+  material: trident
+  group: combat
+  predicate:
+    custom_model_data: 4
+  path: aiost/weapons/black_diamond_spear
+  effects:
+    ThrowSpear:
+      none: none
+  parts:
+    Black Diamond Spear In Hand:
+      material: trident_in_hand
+      predicate:
+        custom_model_data: 4
+      path: aiost/weapons/black_diamond_spear
+    Black Diamond Spear Throwing:
+      material: trident_in_hand
+      predicate:
+        custom_model_data: 4
+        throwing: 1  
+      path: aiost/weapons/black_diamond_spear_throwing
+Ruby Spear:
+  material: trident
+  group: combat
+  predicate:
+    custom_model_data: 5
+  path: aiost/weapons/ruby_spear
+  effects:
+    ThrowSpear:
+      none: none
+  parts:
+    Ruby Spear In Hand:
+      material: trident_in_hand
+      predicate:
+        custom_model_data: 5
+      path: aiost/weapons/ruby_spear
+    Ruby Spear Throwing:
+      material: trident_in_hand
+      predicate:
+        custom_model_data: 5
+        throwing: 1  
+      path: aiost/weapons/ruby_spear_throwing
+Emerald Spear:
+  material: trident
+  group: combat
+  predicate:
+    custom_model_data: 6
+  path: aiost/weapons/emerald_spear
+  effects:
+    ThrowSpear:
+      none: none
+  parts:
+    Emerald Spear In Hand:
+      material: trident_in_hand
+      predicate:
+        custom_model_data: 6
+      path: aiost/weapons/emerald_spear
+    Emerald Spear Throwing:
+      material: trident_in_hand
+      predicate:
+        custom_model_data: 6
+        throwing: 1  
+      path: aiost/weapons/emerald_spear_throwing
+Diamond Spear:
+  material: trident
+  group: combat
+  predicate:
+    custom_model_data: 7
+  path: aiost/weapons/diamond_spear
+  effects:
+    ThrowSpear:
+      none: none
+  parts:
+    Diamond Spear In Hand:
+      material: trident_in_hand
+      predicate:
+        custom_model_data: 7
+      path: aiost/weapons/diamond_spear
+    Diamond Spear Throwing:
+      material: trident_in_hand
+      predicate:
+        custom_model_data: 7
+        throwing: 1  
+      path: aiost/weapons/diamond_spear_throwing
+Golden Spear:
+  material: trident
+  group: combat
+  predicate:
+    custom_model_data: 8
+  path: aiost/weapons/golden_spear
+  effects:
+    ThrowSpear:
+      none: none
+  parts:
+    Golden Spear In Hand:
+      material: trident_in_hand
+      predicate:
+        custom_model_data: 8
+      path: aiost/weapons/golden_spear
+    Golden Spear Throwing:
+      material: trident_in_hand
+      predicate:
+        custom_model_data: 8
+        throwing: 1  
+      path: aiost/weapons/golden_spear_throwing
+Iron Spear:
+  material: trident
+  group: combat
+  predicate:
+    custom_model_data: 9
+  path: aiost/weapons/iron_spear
+  effects:
+    ThrowSpear:
+      none: none
+  parts:
+    Iron Spear In Hand:
+      material: trident_in_hand
+      predicate:
+        custom_model_data: 9
+      path: aiost/weapons/iron_spear
+    Iron Spear Throwing:
+      material: trident_in_hand
+      predicate:
+        custom_model_data: 9
+        throwing: 1  
+      path: aiost/weapons/iron_spear_throwing
+Bronze Spear:
+  material: trident
+  group: combat
+  predicate:
+    custom_model_data: 10
+  path: aiost/weapons/bronze_spear
+  effects:
+    ThrowSpear:
+      none: none
+  parts:
+    Bronze Spear In Hand:
+      material: trident_in_hand
+      predicate:
+        custom_model_data: 10
+      path: aiost/weapons/bronze_spear
+    Bronze Spear Throwing:
+      material: trident_in_hand
+      predicate:
+        custom_model_data: 10
+        throwing: 1  
+      path: aiost/weapons/bronze_spear_throwing
+Tin Spear:
+  material: trident
+  group: combat
+  predicate:
+    custom_model_data: 11
+  path: aiost/weapons/tin_spear
+  effects:
+    ThrowSpear:
+      none: none
+  parts:
+    Tin Spear In Hand:
+      material: trident_in_hand
+      predicate:
+        custom_model_data: 11
+      path: aiost/weapons/tin_spear
+    Tin Spear Throwing:
+      material: trident_in_hand
+      predicate:
+        custom_model_data: 11
+        throwing: 1  
+      path: aiost/weapons/tin_spear_throwing
+Copper Spear:
+  material: trident
+  group: combat
+  predicate:
+    custom_model_data: 12
+  path: aiost/weapons/copper_spear
+  effects:
+    ThrowSpear:
+      none: none
+  parts:
+    Copper Spear In Hand:
+      material: trident_in_hand
+      predicate:
+        custom_model_data: 12
+      path: aiost/weapons/copper_spear
+    Copper Spear Throwing:
+      material: trident_in_hand
+      predicate:
+        custom_model_data: 12
+        throwing: 1  
+      path: aiost/weapons/copper_spear_throwing
+Stone Spear:
+  material: trident
+  group: combat
+  predicate:
+    custom_model_data: 13
+  path: aiost/weapons/stone_spear
+  effects:
+    ThrowSpear:
+      none: none
+  parts:
+    Stone Spear In Hand:
+      material: trident_in_hand
+      predicate:
+        custom_model_data: 13
+      path: aiost/weapons/stone_spear
+    Stone Spear Throwing:
+      material: trident_in_hand
+      predicate:
+        custom_model_data: 13
+        throwing: 1  
+      path: aiost/weapons/stone_spear_throwing
+Wooden Spear:
+  material: trident
+  group: combat
+  predicate:
+    custom_model_data: 14
+  path: aiost/weapons/wooden_spear
+  effects:
+    ThrowSpear:
+      none: none
+  parts:
+    Wooden Spear In Hand:
+      material: trident_in_hand
+      predicate:
+        custom_model_data: 14
+      path: aiost/weapons/wooden_spear
+    Wooden Spear Throwing:
+      material: trident_in_hand
+      predicate:
+        custom_model_data: 14
+        throwing: 1  
+      path: aiost/weapons/wooden_spear_throwing
+Aluminium Ingot:
+  material: scute
+  group: miscellaneous
+  item:
+    class: Item
+    creativeModeTab: misc
+  predicate:
+    custom_model_data: 1
+  path: aiost/items/aluminium_ingot
+Aluminium Nugget:
+  material: scute
+  group: miscellaneous
+  item:
+    class: Item
+    creativeModeTab: misc
+  predicate:
+    custom_model_data: 2
+  path: aiost/items/aluminium_nugget
+Black Diamond:
+  material: scute
+  group: miscellaneous
+  item:
+    class: Item
+    creativeModeTab: misc
+  predicate:
+    custom_model_data: 3
+  path: aiost/items/black_diamond
+Bronze Ingot:
+  material: scute
+  group: miscellaneous
+  item:
+    class: Item
+    creativeModeTab: misc
+  predicate:
+    custom_model_data: 4
+  path: aiost/items/bronze_ingot
+Bronze Nugget:
+  material: scute
+  group: miscellaneous
+  item:
+    class: Item
+    creativeModeTab: misc
+  predicate:
+    custom_model_data: 5
+  path: aiost/items/bronze_nugget
+Copper Ingot:
+  material: scute
+  group: miscellaneous
+  item:
+    class: Item
+    creativeModeTab: misc
+  predicate:
+    custom_model_data: 6
+  path: aiost/items/copper_ingot
+Copper Nugget:
+  material: scute
+  group: miscellaneous
+  item:
+    class: Item
+    creativeModeTab: misc
+  predicate:
+    custom_model_data: 7
+  path: aiost/items/copper_nugget
+Invisible Item:
+  material: scute
+  group: miscellaneous
+  item:
+    class: Item
+    creativeModeTab: misc
+  predicate:
+    custom_model_data: 8
+  path: aiost/items/invisible_item
+Lava Crystal:
+  material: scute
+  group: miscellaneous
+  item:
+    class: Item
+    creativeModeTab: misc
+  predicate:
+    custom_model_data: 9
+  path: aiost/items/lava_crystal
+Obsidian Crystal:
+  material: scute
+  group: miscellaneous
+  item:
+    class: Item
+    creativeModeTab: misc
+  predicate:
+    custom_model_data: 10
+  path: aiost/items/obsidian_crystal
+Quartz Crystal:
+  material: scute
+  group: miscellaneous
+  item:
+    class: Item
+    creativeModeTab: misc
+  predicate:
+    custom_model_data: 11
+  path: aiost/items/quartz_crystal
+ruby:
+  material: scute
+  group: miscellaneous
+  item:
+    class: Item
+    creativeModeTab: misc
+  predicate:
+    custom_model_data: 12
+  path: aiost/items/ruby
+Silver Ingot:
+  material: scute
+  group: miscellaneous
+  item:
+    class: Item
+    creativeModeTab: misc
+  predicate:
+    custom_model_data: 13
+  path: aiost/items/silver_ingot
+Silver Nugget:
+  material: scute
+  group: miscellaneous
+  item:
+    class: Item
+    creativeModeTab: misc
+  predicate:
+    custom_model_data: 14
+  path: aiost/items/silver_nugget
+Tin Ingot:
+  material: scute
+  group: miscellaneous
+  item:
+    class: Item
+    creativeModeTab: misc
+  predicate:
+    custom_model_data: 15
+  path: aiost/items/tin_ingot
+Tin Nugget:
+  material: scute
+  group: miscellaneous
+  item:
+    class: Item
+    creativeModeTab: misc
+  predicate:
+    custom_model_data: 16
+  path: aiost/items/tin_nugget
+Aluminium Block:
+  material: scute
+  group: building_blocks
+  item:
+    class: Item
+    creativeModeTab: building_blocks
+  predicate:
+    custom_model_data: 17
+  path: aiost/blocks/aluminium_block
+  effects: 
+    PlaceCustomBlock:
+      actions:
+      - right_click
+Aluminium Ore:
+  material: scute
+  group: building_blocks
+  item:
+    class: Item
+    creativeModeTab: building_blocks
+  predicate:
+    custom_model_data: 18
+  path: aiost/blocks/aluminium_ore
+  effects: 
+    PlaceCustomBlock:
+      actions:
+      - right_click
+Apple Block:
+  material: scute
+  group: decoration_blocks
+  item:
+    class: Item
+    creativeModeTab: building_blocks
+  predicate:
+    custom_model_data: 19
+  path: aiost/blocks/apple_block
+  effects: 
+    PlaceCustomBlock:
+      actions:
+      - right_click
+Black Diamond Block:
+  material: scute
+  group: building_blocks
+  item:
+    class: Item
+    creativeModeTab: building_blocks
+  predicate:
+    custom_model_data: 20
+  path: aiost/blocks/black_diamond_block
+  effects: 
+    PlaceCustomBlock:
+      actions:
+      - right_click
+Bronze Block:
+  material: scute
+  group: building_blocks
+  item:
+    class: Item
+    creativeModeTab: building_blocks
+  predicate:
+    custom_model_data: 21
+  path: aiost/blocks/bronze_block
+  effects: 
+    PlaceCustomBlock:
+      actions:
+      - right_click
+Copper Block:
+  material: scute
+  group: building_blocks
+  item:
+    class: Item
+    creativeModeTab: building_blocks
+  predicate:
+    custom_model_data: 22
+  path: aiost/blocks/copper_block
+  effects: 
+    PlaceCustomBlock:
+      actions:
+      - right_click
+Copper Ore:
+  material: scute
+  group: building_blocks
+  item:
+    class: Item
+    creativeModeTab: building_blocks
+  predicate:
+    custom_model_data: 23
+  path: aiost/blocks/copper_ore
+  effects: 
+    PlaceCustomBlock:
+      actions:
+      - right_click
+Lucky Block:
+  material: scute
+  group: building_blocks
+  item:
+    class: Item
+    creativeModeTab: building_blocks
+  predicate:
+    custom_model_data: 24
+  path: aiost/blocks/lucky_block
+  effects: 
+    PlaceCustomBlock:
+      actions:
+      - right_click
+Ruby Block:
+  material: scute
+  group: building_blocks
+  item:
+    class: Item
+    creativeModeTab: building_blocks
+  predicate:
+    custom_model_data: 25
+  path: aiost/blocks/ruby_block
+  effects: 
+    PlaceCustomBlock:
+      actions:
+      - right_click
+Ruby Ore:
+  material: scute
+  group: building_blocks
+  item:
+    class: Item
+    creativeModeTab: building_blocks
+  predicate:
+    custom_model_data: 26
+  path: aiost/blocks/ruby_ore
+  effects: 
+    PlaceCustomBlock:
+      actions:
+      - right_click
+Silver Block:
+  material: scute
+  group: building_blocks
+  item:
+    class: Item
+    creativeModeTab: building_blocks
+  predicate:
+    custom_model_data: 27
+  path: aiost/blocks/silver_block
+  effects: 
+    PlaceCustomBlock:
+      actions:
+      - right_click
+Silver Ore:
+  material: scute
+  group: building_blocks
+  item:
+    class: Item
+    creativeModeTab: building_blocks
+  predicate:
+    custom_model_data: 28
+  path: aiost/blocks/silver_ore
+  effects: 
+    PlaceCustomBlock:
+      actions:
+      - right_click
+Super Lucky Block:
+  material: scute
+  group: building_blocks
+  item:
+    class: Item
+    creativeModeTab: building_blocks
+  predicate:
+    custom_model_data: 29
+  path: aiost/blocks/super_lucky_block
+  effects: 
+    PlaceCustomBlock:
+      actions:
+      - right_click
+Tin Block:
+  material: scute
+  group: building_blocks
+  item:
+    class: Item
+    creativeModeTab: building_blocks
+  predicate:
+    custom_model_data: 30
+  path: aiost/blocks/tin_block
+  effects: 
+    PlaceCustomBlock:
+      actions:
+      - right_click
+Tin Ore:
+  material: scute
+  group: building_blocks
+  item:
+    class: Item
+    creativeModeTab: building_blocks
+  predicate:
+    custom_model_data: 31
+  path: aiost/blocks/tin_ore
+  effects: 
+    PlaceCustomBlock:
+      actions:
+      - right_click
+Oak Chair:
+  material: scute
+  group: furniture
+  item:
+    class: Item
+    creativeModeTab: decorations
+  predicate:
+    custom_model_data: 32
+  path: aiost/furniture/oak_chair
+  effects: 
+    PlaceFurniture:
+      actions:
+      - right_click
+Oak Table:
+  material: scute
+  group: furniture
+  item:
+    class: Item
+    creativeModeTab: decorations
+  predicate:
+    custom_model_data: 33
+  path: aiost/furniture/oak_table
+  effects: 
+    PlaceFurniture:
+      actions:
+      - right_click
+Bullet 1:
+  material: scute
+  group: miscellaneous
+  item:
+    class: Item
+    creativeModeTab: misc
+  predicate:
+    custom_model_data: 34
+  path: aiost/guns/bullet_1
+Stop Symbol:
+  material: scute
+  group: miscellaneous
+  item:
+    class: Item
+    creativeModeTab: misc
+  predicate:
+    custom_model_data: 35
+  path: aiost/symbols/stop_symbol
+  effects: 
+    CancelItemInventoryMove:
+      none: none
+Snail Brown:
+  material: scute
+  group: decoration_blocks
+  item:
+    class: Item
+    creativeModeTab: decorations
+  predicate:
+    custom_model_data: 36
+  path: aiost/mobs/snail_brown_standing
+Snail Brown Walking:
+  material: scute
+  group: decoration_blocks
+  item:
+    class: Item
+    creativeModeTab: decorations
+  predicate:
+    custom_model_data: 37
+  path: aiost/mobs/snail_brown_walking
+3D Allium:
+  material: scute
+  group: decoration_blocks
+  item:
+    class: Item
+    creativeModeTab: decorations
+  predicate:
+    custom_model_data: 38
+  path: aiost/blocks/3d_allium
+  effects: 
+    PlaceCustomBlock:
+      actions:
+      - right_click
+3D Bookshelf:
+  material: scute
+  group: building_blocks
+  item:
+    class: Item
+    creativeModeTab: decorations
+  predicate:
+    custom_model_data: 39
+  path: aiost/blocks/3d_bookshelf
+  effects: 
+    PlaceCustomBlock:
+      actions:
+      - right_click
+3D Brown Mushroom:
+  material: scute
+  group: decoration_blocks
+  item:
+    class: Item
+    creativeModeTab: decorations
+  predicate:
+    custom_model_data: 40
+  path: aiost/blocks/3d_brown_mushroom
+  effects: 
+    PlaceCustomBlock:
+      actions:
+      - right_click
+3D Cactus:
+  material: scute
+  group: building_blocks
+  item:
+    class: Item
+    creativeModeTab: decorations
+  predicate:
+    custom_model_data: 41
+  path: aiost/blocks/3d_cactus
+  effects: 
+    PlaceCustomBlock:
+      actions:
+      - right_click
+3D Crafting Table:
+  material: scute
+  group: building_blocks
+  item:
+    class: Item
+    creativeModeTab: decorations
+  predicate:
+    custom_model_data: 42
+  path: aiost/blocks/3d_crafting_table
+  effects: 
+    PlaceCustomBlock:
+      actions:
+      - right_click
+3D Daisy:
+  material: scute
+  group: decoration_blocks
+  item:
+    class: Item
+    creativeModeTab: decorations
+  predicate:
+    custom_model_data: 43
+  path: aiost/blocks/3d_daisy
+  effects: 
+    PlaceCustomBlock:
+      actions:
+      - right_click
+3D Dandelion:
+  material: scute
+  group: decoration_blocks
+  item:
+    class: Item
+    creativeModeTab: decorations
+  predicate:
+    custom_model_data: 44
+  path: aiost/blocks/3d_dandelion
+  effects: 
+    PlaceCustomBlock:
+      actions:
+      - right_click
+3D Enchanting Table:
+  material: scute
+  group: building_blocks
+  item:
+    class: Item
+    creativeModeTab: decorations
+  predicate:
+    custom_model_data: 45
+  path: aiost/blocks/3d_enchanting_table_base
+  effects: 
+    PlaceCustomBlock:
+      actions:
+      - right_click
+3D Furnace:
+  material: scute
+  group: decoration_blocks
+  item:
+    class: Item
+    creativeModeTab: decorations
+  predicate:
+    custom_model_data: 46
+  path: aiost/blocks/3d_furnace
+  effects: 
+    PlaceCustomBlock:
+      actions:
+      - right_click
+3D Grass:
+  material: scute
+  group: building_blocks
+  item:
+    class: Item
+    creativeModeTab: decorations
+  predicate:
+    custom_model_data: 47
+  path: aiost/blocks/3d_grass_normal
+  effects: 
+    PlaceCustomBlock:
+      actions:
+      - right_click
+3D Houstonia:
+  material: scute
+  group: decoration_blocks
+  item:
+    class: Item
+    creativeModeTab: decorations
+  predicate:
+    custom_model_data: 48
+  path: aiost/blocks/3d_houstonia
+  effects: 
+    PlaceCustomBlock:
+      actions:
+      - right_click
+3D Orange Tulip:
+  material: scute
+  group: decoration_blocks
+  item:
+    class: Item
+    creativeModeTab: decorations
+  predicate:
+    custom_model_data: 49
+  path: aiost/blocks/3d_orange_tulip
+  effects: 
+    PlaceCustomBlock:
+      actions:
+      - right_click
+3D Orchid:
+  material: scute
+  group: decoration_blocks
+  item:
+    class: Item
+    creativeModeTab: decorations
+  predicate:
+    custom_model_data: 50
+  path: aiost/blocks/3d_orchid
+  effects: 
+    PlaceCustomBlock:
+      actions:
+      - right_click
+3D Pink Tulip:
+  material: scute
+  group: decoration_blocks
+  item:
+    class: Item
+    creativeModeTab: decorations
+  predicate:
+    custom_model_data: 51
+  path: aiost/blocks/3d_pink_tulip
+  effects: 
+    PlaceCustomBlock:
+      actions:
+      - right_click
+3D Poppy:
+  material: scute
+  group: decoration_blocks
+  item:
+    class: Item
+    creativeModeTab: decorations
+  predicate:
+    custom_model_data: 52
+  path: aiost/blocks/3d_poppy
+  effects: 
+    PlaceCustomBlock:
+      actions:
+      - right_click
+3D Chiseled Quartz:
+  material: scute
+  group: building_blocks
+  item:
+    class: Item
+    creativeModeTab: decorations
+  predicate:
+    custom_model_data: 53
+  path: aiost/blocks/3d_quartz_chiseled
+  effects: 
+    PlaceCustomBlock:
+      actions:
+      - right_click
+3D Quartz Stairs:
+  material: scute
+  group: building_blocks
+  item:
+    class: Item
+    creativeModeTab: decorations
+  predicate:
+    custom_model_data: 54
+  path: aiost/blocks/3d_quartz_stairs
+  effects: 
+    PlaceCustomBlock:
+      actions:
+      - right_click
+3D Red Mushroom:
+  material: scute
+  group: decoration_blocks
+  item:
+    class: Item
+    creativeModeTab: decorations
+  predicate:
+    custom_model_data: 55
+  path: aiost/blocks/3d_red_mushroom
+  effects: 
+    PlaceCustomBlock:
+      actions:
+      - right_click
+3D Red Tulip:
+  material: scute
+  group: decoration_blocks
+  item:
+    class: Item
+    creativeModeTab: decorations
+  predicate:
+    custom_model_data: 56
+  path: aiost/blocks/3d_red_tulip
+  effects: 
+    PlaceCustomBlock:
+      actions:
+      - right_click
+3D Reeds:
+  material: scute
+  group: decoration_blocks
+  item:
+    class: Item
+    creativeModeTab: decorations
+  predicate:
+    custom_model_data: 57
+  path: aiost/blocks/3d_reeds
+  effects: 
+    PlaceCustomBlock:
+      actions:
+      - right_click
+3D Chiseled Stone Brick:
+  material: scute
+  group: building_blocks
+  item:
+    class: Item
+    creativeModeTab: decorations
+  predicate:
+    custom_model_data: 58
+  path: aiost/blocks/3d_stone_brick_chiseled
+  effects: 
+    PlaceCustomBlock:
+      actions:
+      - right_click
+3D Cracked Stone Brick:
+  material: scute
+  group: building_blocks
+  item:
+    class: Item
+    creativeModeTab: decorations
+  predicate:
+    custom_model_data: 59
+  path: aiost/blocks/3d_stone_brick_cracked
+  effects: 
+    PlaceCustomBlock:
+      actions:
+      - right_click
+3D Mossy Stone Brick:
+  material: scute
+  group: building_blocks
+  item:
+    class: Item
+    creativeModeTab: decorations
+  predicate:
+    custom_model_data: 60
+  path: aiost/blocks/3d_stone_brick_mossy
+  effects: 
+    PlaceCustomBlock:
+      actions:
+      - right_click
+3D Stone Brick:
+  material: scute
+  group: building_blocks
+  item:
+    class: Item
+    creativeModeTab: decorations
+  predicate:
+    custom_model_data: 61
+  path: aiost/blocks/3d_stone_brick_normal
+  effects: 
+    PlaceCustomBlock:
+      actions:
+      - right_click
+3D Tall Grass:
+  material: scute
+  group: decoration_blocks
+  item:
+    class: Item
+    creativeModeTab: decorations
+  predicate:
+    custom_model_data: 62
+  path: aiost/blocks/3d_tall_grass
+  effects: 
+    PlaceCustomBlock:
+      actions:
+      - right_click
+3D Vine:
+  material: scute
+  group: decoration_blocks
+  item:
+    class: Item
+    creativeModeTab: decorations
+  predicate:
+    custom_model_data: 63
+  path: aiost/blocks/3d_vine
+3D Lily Pad:
+  material: scute
+  group: decoration_blocks
+  item:
+    class: Item
+    creativeModeTab: decorations
+  predicate:
+    custom_model_data: 64
+  path: aiost/blocks/3d_lily_pad
+  effects: 
+    PlaceCustomBlock:
+      actions:
+      - right_click
+3D White Tulip:
+  material: scute
+  group: decoration_blocks
+  item:
+    class: Item
+    creativeModeTab: decorations
+  predicate:
+    custom_model_data: 65
+  path: aiost/blocks/3d_white_tulip
+  effects: 
+    PlaceCustomBlock:
+      actions:
+      - right_click
+3D Ladder:
+  material: scute
+  group: decoration_blocks
+  item:
+    class: Item
+    creativeModeTab: decorations
+  predicate:
+    custom_model_data: 66
+  path: aiost/blocks/3d_ladder
+Display:
+  material: scute
+  group: furniture
+  item:
+    class: Item
+    creativeModeTab: decorations
+  predicate:
+    custom_model_data: 67
+  path: aiost/furniture/display
+  effects: 
+    PlaceFurniture:
+      actions:
+      - right_click
+Keyboard and Mouse:
+  material: scute
+  group: furniture
+  item:
+    class: Item
+    creativeModeTab: decorations
+  predicate:
+    custom_model_data: 68
+  path: aiost/furniture/keyboard_and_mouse
+  effects: 
+    PlaceFurniture:
+      actions:
+      - right_click
+Laptop:
+  material: scute
+  group: furniture
+  item:
+    class: Item
+    creativeModeTab: decorations
+  predicate:
+    custom_model_data: 69
+  path: aiost/furniture/laptop
+  effects: 
+    PlaceFurniture:
+      actions:
+      - right_click
+Emerald Apple:
+  material: golden_apple
+  group: foodstuffs
+  item:
+    class: Item
+    rarity: rare
+    creativeModeTab: food
+    foodInfo:
+      nutrition: 4
+      saturation: 1.2
+      effects:
+        regeneration:
+          value: 1.0
+          duration: 100
+          amplifier: 1
+        absorption:
+          value: 1.0
+          duration: 2400
+          amplifier: 0
+  predicate:
+    custom_model_data: 1
+  path: aiost/food/emerald_apple
+Mana Potion:
+  material: potion
+  group: brewing
+  item:
+    class: EffectPotion
+    creativeModeTab: brewing
+    time: 100
+    effects:
+      ManaRegeneration:
+        actions:
+        - tick
+        mana: 2
+Throwable TNT:
+  material: tnt
+  group: combat

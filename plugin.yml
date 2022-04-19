@@ -1,0 +1,4 @@
+name: AiostShared
+main: com.pm.aiost.main.SpigotPlugin
+version: 1.0
+commands:

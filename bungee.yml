@@ -1,0 +1,4 @@
+name: AiostShared
+main: com.pm.aiost.main.BungeePlugin
+version: 1.0
+author: MaximilianPaar

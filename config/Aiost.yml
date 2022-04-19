@@ -1,0 +1,118 @@
+database:
+  type: ''
+  hostname: ''
+  port: 0
+  database: ''
+  username: ''
+  password: ''
+url: www.aiost.com
+ranks:
+  example:
+    prefix: '[example] '
+    level: 0
+    color: GRAY
+permissions:
+- example
+settings:
+  example1: 0
+  example2:
+    value: 0
+    name: ExampleName
+    lore:
+    - Example text 1
+    - Example text 2
+wordRestrictions:
+  blocked:
+  - __example__
+  symbols:
+    :(: ☹
+    :-(: ☹
+    :): ☺
+    :-): ☺
+    :D: ☻
+    :-D: ☻
+    ;\: ツ
+    ;): ㋡
+    <3: ♥
+    peace: ☮
+    hourglass: ⌛
+    death: ☠
+    nuke: ☢
+    biohazard: ☣
+    danger: ⚠
+    yay: ✅
+    nay: ❌
+    nay2: ❎
+    stop: ⛔
+    kommunist: ☭
+    car: ⛟
+    ship: ⛴
+    plane: ✈
+    fly: ✈
+    house: ⛪
+    tent: ⛺
+    gas: ⛽
+    sun: ☀
+    sun1: ☼
+    cloud: ☁
+    cloud1: ⛅
+    rain: ⛈
+    umbrella: ☂
+    thunder: ⚡
+    snowman: ☃
+    moon: ☽
+    moon1: ☾
+    star: ☆
+    star1: ★
+    star3: ⭐
+    phone: ☎
+    post: ✉
+    mail: ✉
+    cup: ☕
+    coffee: ⛾
+    yinyang: ☯
+    note: ♫
+    note1: ♪
+    flag: ⚐
+    flag1: ⚑
+    soccer: ⚽
+    baseball: ⚾
+    whiteking: ♔
+    whitequeen: ♕
+    whiterook: ♖
+    whitebishop: ♗
+    whiteknight: ♘
+    whitepond: ♙
+    blackking: ♚
+    blackqueen: ♛
+    blackrook: ♜
+    blackbishop: ♝
+    blackknight: ♞
+    blackpond: ♟
+    king: ♚
+    queen: ♛
+    rook: ♜
+    bishop: ♝
+    knight: ♞
+    pond: ♟
+    sparkle: ✨
+    coin: ⛀
+    coin1: ⛁
+    coin2: ⛂
+    coin3: ⛃
+    spades: ♠
+    clubs: ♣
+    hearts: ♥
+    diamonds: ♦
+    spades1: ♤
+    clubs1: ♧
+    hearts1: ♡
+    diamonds1: ♢
+    male: ♂
+    female: ♀
+    fight: ⚔
+    craft: ⚒
+    navi: ⚓
+    shop: ⚖
+    royal: ⚜
+    ankh: ☥

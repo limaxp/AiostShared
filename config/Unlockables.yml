@@ -1,0 +1,926 @@
+Types:
+- Trails
+- Particle Effects
+- Projectile Particles
+- Hats
+- Suits
+- Morphs
+- Pets
+- Skills
+- Music
+- Gadgets
+- Banners
+Trails:
+  Fire Trail:
+    price: 1000
+    description:
+    - §7A fire trail to burn your foes
+    - §7Attention! Does not actually burn foes
+    type: PARTICLE
+    particle: FLAME
+    count: 5
+    offset: 0.1
+  Water Trail:
+    price: 1000
+    description:
+    - §7
+    type: PARTICLE
+    particle: DRIP_WATER
+    count: 5
+    offset: 0.1
+  Wind Trail:
+    price: 1000
+    description:
+    - §7
+    type: PARTICLE
+    particle: CLOUD
+    count: 5
+    offset: 0.1
+  Earth Trail:
+    price: 1000
+    description:
+    - §7
+    type: DATA_PARTICLE
+    particle: BLOCK_DUST
+    count: 5
+    offset: 0.12
+    material: DIRT
+  Black Dust Trail:
+    price: 1500
+    description:
+    - §7
+    type: DATA_PARTICLE
+    particle: BLOCK_DUST
+    count: 5
+    offset: 0.12
+    material: COAL_BLOCK
+  Snow Trail:
+    price: 1500
+    description:
+    - §7
+    type: PARTICLE
+    particle: SNOW_SHOVEL
+    count: 5
+    offset: 0.1
+  Glitter Trail:
+    price: 1500
+    description:
+    - §7
+    type: PARTICLE
+    particle: FIREWORKS_SPARK
+    count: 5
+    offset: 0.1
+  Black Magic Trail:
+    price: 1500
+    description:
+    - §7
+    type: PARTICLE
+    particle: SPELL_MOB
+    count: 5
+    offset: 0.1
+  White Magic Trail:
+    price: 1500
+    description:
+    - §7
+    type: PARTICLE
+    particle: SPELL
+    count: 5
+    offset: 0.1
+  Spark Trail:
+    price: 1500
+    description:
+    - §7
+    type: PARTICLE
+    particle: SPELL_INSTANT
+    count: 5
+    offset: 0.1
+  Shadow Magic Trail:
+    price: 1500
+    description:
+    - §7
+    type: PARTICLE
+    particle: SPELL_MOB_AMBIENT
+    count: 5
+    offset: 0.1
+  Purple Spark Trail:
+    price: 1500
+    description:
+    - §7
+    type: PARTICLE
+    particle: SPELL_WITCH
+    count: 5
+    offset: 0.1
+  Turquoise Spark Trail:
+    price: 1500
+    description:
+    - §7
+    type: PARTICLE
+    particle: CRIT_MAGIC
+    count: 5
+    offset: 0.1
+  Little Spark Trail:
+    price: 1500
+    description:
+    - §7
+    type: PARTICLE
+    particle: CRIT
+    count: 5
+    offset: 0.1
+  Rune Trail:
+    price: 1500
+    description:
+    - §7
+    type: PARTICLE
+    particle: ENCHANTMENT_TABLE
+    count: 5
+    offset: 0.1
+  Slime Trail:
+    price: 1500
+    description:
+    - §7
+    type: PARTICLE
+    particle: SLIME
+    count: 5
+    offset: 0.1
+  Angry Trail:
+    price: 1500
+    description:
+    - §7
+    type: PARTICLE
+    particle: VILLAGER_ANGRY
+    count: 5
+    offset: 0.1
+  Experience Trail:
+    price: 1500
+    description:
+    - §7
+    type: PARTICLE
+    particle: VILLAGER_HAPPY
+    count: 5
+    offset: 0.1
+  Lava Trail:
+    price: 1500
+    description:
+    - §7
+    type: PARTICLE
+    particle: DRIP_LAVA
+    count: 5
+    offset: 0.1
+  Water Explosion Trail:
+    price: 1500
+    description:
+    - §7
+    type: PARTICLE
+    particle: WATER_WAKE
+    count: 10
+    offset: 0.1
+  Smoke Trail:
+    price: 1000
+    description:
+    - §7
+    type: PARTICLE
+    particle: SMOKE_NORMAL
+    count: 10
+    offset: 0.1 
+  Large Smoke Trail:
+    price: 1500
+    description:
+    - §7
+    type: PARTICLE
+    particle: SMOKE_LARGE
+    count: 5
+    offset: 0.1
+  Ender Trail:
+    price: 1500
+    description:
+    - §7
+    type: PARTICLE
+    particle: PORTAL
+    count: 5
+    offset: 0.1
+  Mother of Flame Trail:
+    price: 1000
+    description:
+    - §7
+    type: PARTICLE
+    particle: LAVA
+    count: 5
+    offset: 0.1
+  Hearth Trail:
+    price: 1000
+    description:
+    - §7
+    type: PARTICLE
+    particle: HEART
+    count: 5
+    offset: 0.1
+  Cloud Trail:
+    price: 1000
+    description:
+    - §7
+    type: PARTICLE
+    particle: EXPLOSION_NORMAL
+    count: 5
+    offset: 0.1
+  Blood Trail:
+    price: 1000
+    description:
+    - §7
+    type: DATA_PARTICLE
+    particle: BLOCK_DUST
+    count: 5
+    offset: 0.1
+    material: REDSTONE_BLOCK
+  Monster Blood Trail:
+    price: 1000
+    description:
+    - §7
+    type: DATA_PARTICLE
+    particle: BLOCK_DUST
+    count: 5
+    offset: 0.1
+    material: COAL_BLOCK
+  Glow Trail:
+    price: 1000
+    description:
+    - §7
+    type: DATA_PARTICLE
+    particle: BLOCK_DUST
+    count: 5
+    offset: 0.1
+    material: GLOWSTONE
+  Gold Trail:
+    price: 1000
+    description:
+    - §7
+    type: DATA_PARTICLE
+    particle: BLOCK_DUST
+    count: 5
+    offset: 0.1
+    material: GOLD_BLOCK
+  Diamond Trail:
+    price: 1000
+    description:
+    - §7
+    type: DATA_PARTICLE
+    particle: BLOCK_DUST
+    count: 5
+    offset: 0.1
+    material: DIAMOND_BLOCK
+  Emerald Trail:
+    price: 1000
+    description:
+    - §7
+    type: DATA_PARTICLE
+    particle: BLOCK_DUST
+    count: 5
+    offset: 0.1
+    material: EMERALD_BLOCK
+  Iron Trail:
+    price: 1000
+    description:
+    - §7
+    type: DATA_PARTICLE
+    particle: BLOCK_DUST
+    count: 5
+    offset: 0.1
+    material: IRON_BLOCK
+  Lapis Trail:
+    price: 1000
+    description:
+    - §7
+    type: DATA_PARTICLE
+    particle: BLOCK_DUST
+    count: 5
+    offset: 0.11
+    material: LAPIS_BLOCK
+  Obsidian Trail:
+    price: 1000
+    description:
+    - §7
+    type: DATA_PARTICLE
+    particle: BLOCK_DUST
+    count: 5
+    offset: 0.11
+    material: OBSIDIAN
+  Rail Trail:
+    price: 1000
+    description:
+    - §7
+    type: DATA_PARTICLE
+    particle: BLOCK_DUST
+    count: 5
+    offset: 0.11
+    material: RAIL
+  Bedrock Trail:
+    price: 1000
+    description:
+    - §7
+    type: DATA_PARTICLE
+    particle: BLOCK_DUST
+    count: 5
+    offset: 0.11
+    material: BEDROCK
+  Grass Trail:
+    price: 1000
+    description:
+    - §7
+    type: DATA_PARTICLE
+    particle: BLOCK_DUST
+    count: 5
+    offset: 0.11
+    material: OAK_LEAVES
+  Sand Trail:
+    price: 1000
+    description:
+    - §7
+    type: DATA_PARTICLE
+    particle: BLOCK_DUST
+    count: 5
+    offset: 0.11
+    material: SAND
+  Nether Trail:
+    price: 1000
+    description:
+    - §7
+    type: DATA_PARTICLE
+    particle: BLOCK_DUST
+    count: 5
+    offset: 0.11
+    material: NETHERRACK
+  Cobweb Trail:
+    price: 1000
+    description:
+    - §7
+    type: DATA_PARTICLE
+    particle: BLOCK_DUST
+    count: 5
+    offset: 0.11
+    material: COBWEB
+  Hay Trail:
+    price: 1000
+    description:
+    - §7
+    type: DATA_PARTICLE
+    particle: BLOCK_DUST
+    count: 5
+    offset: 0.11
+    material: HAY_BLOCK
+  Mystic Trail:
+    price: 1000
+    description:
+    - §7
+    type: DATA_PARTICLE
+    particle: BLOCK_DUST
+    count: 5
+    offset: 0.11
+    material: END_PORTAL_FRAME
+  Shiny Trail:
+    price: 1000
+    description:
+    - §7
+    type: DATA_PARTICLE
+    particle: BLOCK_DUST
+    count: 5
+    offset: 0.11
+    material: TORCH
+  Holy Trail:
+    price: 1000
+    description:
+    - §7
+    type: DATA_PARTICLE
+    particle: BLOCK_DUST
+    count: 5
+    offset: 0.11
+    material: DAYLIGHT_DETECTOR
+  Rose Trail:
+    price: 1500
+    description:
+    - §7Want a good bit of flowers in your life?
+    - §7We got you
+    type: DATA_PARTICLE
+    particle: BLOCK_DUST
+    count: 5
+    offset: 0.11
+    material: POPPY
+  Red Trail:
+    price: 1000
+    description:
+    - §7Wanna show your appreciation
+    - §7for the color red?
+    type: DATA_PARTICLE
+    particle: REDSTONE
+    count: 5
+    offset: 0.1
+    color:
+    - 255 
+    - 0
+    - 0
+    size: 1
+  Blue Trail:
+    price: 1000
+    description:
+    - §7
+    type: DATA_PARTICLE
+    particle: REDSTONE
+    count: 5
+    offset: 0.1
+    color:
+    - 0 
+    - 0
+    - 255
+    size: 1
+  Green Trail:
+    price: 1000
+    description:
+    - §7
+    type: DATA_PARTICLE
+    particle: REDSTONE
+    count: 5
+    offset: 0.1
+    color:
+    - 0 
+    - 255
+    - 0
+    size: 1
+  Yellow Trail:
+    price: 1000
+    description:
+    - §7
+    type: DATA_PARTICLE
+    particle: REDSTONE
+    count: 5
+    offset: 0.1
+    color:
+    - 255 
+    - 255
+    - 0
+    size: 1
+  Orange Trail:
+    price: 1000
+    description:
+    - §7
+    type: DATA_PARTICLE
+    particle: REDSTONE
+    count: 5
+    offset: 0.1
+    color:
+    - 255 
+    - 122
+    - 0
+    size: 1
+  Aqua Trail:
+    price: 1000
+    description:
+    - §7
+    type: DATA_PARTICLE
+    particle: REDSTONE
+    count: 5
+    offset: 0.1
+    color:
+    - 0 
+    - 255
+    - 255
+    size: 1
+  Pink Trail:
+    price: 1000
+    description:
+    - §7
+    type: DATA_PARTICLE
+    particle: REDSTONE
+    count: 5
+    offset: 0.1
+    color:
+    - 255 
+    - 122
+    - 255
+    size: 1
+  Purple Trail:
+    price: 1000
+    description:
+    - §7
+    type: DATA_PARTICLE
+    particle: REDSTONE
+    count: 5
+    offset: 0.1
+    color:
+    - 255 
+    - 0
+    - 255
+    size: 1
+  Gray Trail:
+    price: 1000
+    description:
+    - §7
+    type: DATA_PARTICLE
+    particle: REDSTONE
+    count: 5
+    offset: 0.1
+    color:
+    - 200 
+    - 200
+    - 200
+    size: 1
+  Dark Red Trail:
+    price: 1000
+    description:
+    - §7
+    type: DATA_PARTICLE
+    particle: REDSTONE
+    count: 5
+    offset: 0.1
+    color:
+    - 122 
+    - 0
+    - 0
+    size: 1
+  Dark Blue Trail:
+    price: 1000
+    description:
+    - §7
+    type: DATA_PARTICLE
+    particle: REDSTONE
+    count: 5
+    offset: 0.1
+    color:
+    - 0 
+    - 0
+    - 122
+    size: 1
+  Dark Green Trail:
+    price: 1000
+    description:
+    - §7
+    type: DATA_PARTICLE
+    particle: REDSTONE
+    count: 5
+    offset: 0.1
+    color:
+    - 0 
+    - 122
+    - 0
+    size: 1
+  Dark Aqua Trail:
+    price: 1000
+    description:
+    - §7
+    type: DATA_PARTICLE
+    particle: REDSTONE
+    count: 5
+    offset: 0.1
+    color:
+    - 0 
+    - 122
+    - 122
+    size: 1
+  Dark Gray Trail:
+    price: 1000
+    description:
+    - §7
+    type: DATA_PARTICLE
+    particle: REDSTONE
+    count: 5
+    offset: 0.1
+    color:
+    - 122 
+    - 122
+    - 122
+    size: 1
+  Black Trail:
+    price: 1000
+    description:
+    - §7
+    type: DATA_PARTICLE
+    particle: REDSTONE
+    count: 5
+    offset: 0.1
+    color:
+    - 0 
+    - 0
+    - 0
+    size: 1
+  White Trail:
+    price: 1000
+    description:
+    - §7
+    type: DATA_PARTICLE
+    particle: REDSTONE
+    count: 5
+    offset: 0.1
+    color:
+    - 255 
+    - 255
+    - 255
+    size: 1
+  Item Trail:
+    price: 1500
+    description:
+    - §7
+    type: DATA_PARTICLE
+    particle: ITEM_CRACK
+    count: 5
+    offset: 0.12
+    item: bow
+  Rainbow Magic Trail:
+    price: 2000
+    description:
+    - §7
+    type: PARTICLE
+    particle: SPELL_MOB
+    count: 5
+    offset: 0.1
+    extra: 0.1
+  Rainbow Trail:
+    price: 2000
+    description:
+    - §7
+    type: DATA_PARTICLE
+    particle: REDSTONE
+    count: 5
+    offset: 0.1
+    randomColor: true
+    size: 1
+Particle Effects:
+  Fire Body:
+    price: 1000
+    description:
+    - §7
+    type: BODY
+    subtype: PARTICLE
+    particle: FLAME
+    count: 50
+    offset: 
+    - 0.15
+    - 0.3
+    - 0.15
+  Water Body:
+    price: 1000
+    description:
+    - §7
+    type: BODY
+    subtype: PARTICLE
+    particle: DRIP_WATER
+    count: 50
+    offset: 
+    - 0.15
+    - 0.3
+    - 0.15
+  Wind Body:
+    price: 1000
+    description:
+    - §7
+    type: BODY
+    subtype: PARTICLE
+    particle: CLOUD
+    count: 50
+    offset: 
+    - 0.15
+    - 0.3
+    - 0.15
+  Earth Body:
+    price: 1000
+    description:
+    - §7
+    type: BODY
+    subtype: DATA_PARTICLE
+    particle: BLOCK_CRACK
+    count: 50
+    offset: 
+    - 0.15
+    - 0.3
+    - 0.15
+    material: DIRT
+  Multi Particle Test Body:
+    price: 1000
+    description:
+    - §7
+    type: BODY
+    subtype: MULTI_PARTICLE
+    particles:
+      1:
+        type: PARTICLE
+        particle: FLAME
+        count: 50
+        offset: 
+        - 0.15
+        - 0.3
+        - 0.15
+      2:
+        type: PARTICLE
+        particle: DRIP_WATER
+        count: 50
+        offset: 
+        - 0.15
+        - 0.3
+        - 0.15
+      3:
+        type: PARTICLE
+        particle: CLOUD
+        count: 50
+        offset: 
+        - 0.15
+        - 0.3
+        - 0.15
+  Double Particle Test Body:
+    price: 1000
+    description:
+    - §7
+    type: BODY
+    subtype: DOUBLE_PARTICLE
+    particle1:
+      type: LOCATION_PARTICLE
+      particle: FLAME
+      count: 50
+      offset: 
+      - 0.15
+      - 0.3
+      - 0.15
+      xyz: 1
+    particle2:
+      type: LOCATION_PARTICLE
+      particle: CLOUD
+      count: 50
+      offset: 
+      - 0.15
+      - 0.3
+      - 0.15
+      y: 2
+  Fire Ring:
+    price: 1000
+    description:
+    - §7
+    type: RING
+    subtype: PARTICLE
+    particle: FLAME
+    count: 1
+    offset: 0
+  Animated Fire Ring:
+    price: 1000
+    description:
+    - §7
+    type: ANIMATED_RING
+    subtype: PARTICLE
+    particle: FLAME
+    count: 1
+    offset: 0
+  Vertical Fire Ring:
+    price: 1000
+    description:
+    - §7
+    type: VERTICAL_RING
+    subtype: PARTICLE
+    particle: FLAME
+    count: 1
+    offset: 0
+  Directional Fire Ring:
+    price: 1000
+    description:
+    - §7
+    type: DIRECTION_RING
+    subtype: PARTICLE
+    particle: FLAME
+    count: 1
+    offset: 0
+  Fire Hula:
+    price: 1000
+    description:
+    - §7
+    type: DOUBLE_RING
+    subtype: PARTICLE
+    particle: FLAME
+    count: 1
+    offset: 0
+  Animated Fire Hula:
+    price: 1000
+    description:
+    - §7
+    type: ANIMATED_DOUBLE_RING
+    subtype: PARTICLE
+    particle: FLAME
+    count: 1
+    offset: 0
+  Fire Ball:
+    price: 1000
+    description:
+    - §7
+    type: BALL
+    subtype: PARTICLE
+    particle: FLAME
+    count: 1
+    offset: 0
+  Animated Fire Ball:
+    price: 1000
+    description:
+    - §7
+    type: VERTICAL_ANIMATED_BALL
+    subtype: PARTICLE
+    particle: FLAME
+    count: 1
+    offset: 0
+  Fire Sphere:
+    price: 1000
+    description:
+    - §7
+    type: SPHERE
+    subtype: PARTICLE
+    particle: FLAME
+    count: 1
+    offset: 0
+    radius: 1
+    height: 0.5
+  Animated Fire Sphere:
+    price: 1000
+    description:
+    - §7
+    type: VERTICAL_ANIMATED_SPHERE
+    subtype: PARTICLE
+    particle: FLAME
+    count: 1
+    offset: 0
+    radius: 1
+    height: 0.5
+  Fire Helix:
+    price: 1000
+    description:
+    - §7
+    type: HELIX
+    subtype: PARTICLE
+    particle: FLAME
+    count: 1
+    offset: 0
+    radius: 1
+    height: 2
+  Wing Test:
+    price: 1000
+    description:
+    - §7
+    type: WING
+    subtype: PARTICLE
+    particle: FLAME
+    count: 1
+    offset: 0
+Projectile Particles:
+  Fire Particle:
+    price: 1000
+    description:
+    - §7
+    type: PARTICLE
+    particle: FLAME
+    count: 1
+    offset: 0
+Morphs:
+  Zombie:
+    price: 1000
+    description:
+    - §7Transform into a zombie
+    type: ENTITY_LIVING
+    entityType: ZOMBIE
+  Dirt:
+    price: 500
+    description:
+    - §7Transform into a dirt block
+    type: FALLING_BLOCK
+    material: DIRT
+  Stick:
+    price: 500
+    description:
+    - §7Transform into a stick
+    type: FURNITURE
+    item: stick
+  Oak Chair:
+    price: 500
+    description:
+    - §7Transform into an oak chair
+    type: FURNITURE
+    item: oak_chair
+  Player:
+    price: 500
+    description:
+    - §7Transform into a player
+    type: PLAYER
+    profileName: Tiimmyy1209
+Pets:
+  Zombie:
+    price: 1000
+    description:
+    - §7A pet zombie
+    type: ownable_zombie
+  Skeleton:
+    price: 1000
+    description:
+    - §7A pet skeleton
+    type: ownable_skeleton
+Hats:
+  Test Hat:
+    price: 1000
+    description:
+    - §7A test
+    item: stick
+Skills:
+  ThrowItem:
+    price: 1000
+    description:
+    - §7A ThrowItem test
+    actions:
+    - right_click
+    velocityMultiplier: 1.5

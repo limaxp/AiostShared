@@ -1,0 +1,34 @@
+CancelItemInventoryMove:
+  CancelEvent:
+    actions:
+    - inventory_click
+    - inventory_place
+    condition: self  
+  CancelEvent_1:
+    actions:
+    - item_swap
+CancelItemInventoryMoveAndDrop:
+  CancelEvent:
+    actions:
+    - item_drop
+    - inventory_click
+    - inventory_place
+    condition: self
+  CancelEvent_1:
+    actions:
+    - item_swap
+ThrowSpear:
+  ThrowArmorStand:
+    actions:
+    - projectile_launch
+    velocityMultiplier: 1.5
+  CancelEvent:
+    actions:
+    - projectile_launch
+Dagger:
+  ThrowItem:
+    actions:
+    - right_click
+    velocityMultiplier: 1.5
+  Stack: 
+    size: 16

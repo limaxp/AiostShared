@@ -1,0 +1,5 @@
+Flame:
+    type: PARTICLE
+    particle: FLAME
+    count: 5
+    offset: 0.1

@@ -1,0 +1,1443 @@
+Obsidian:
+  item: obsidian
+  type: shapeless
+  ingredients:
+    A: lava_bucket
+    B: water_bucket
+Leather:
+  item: leather
+  type: furnace
+  ingredient: rotten_flesh
+  experience: 2
+  cookingTime: 200
+Quartz Crystal Hammer:
+  item: quartz_crystal_hammer
+  type: shaped
+  shape:
+  - "XXX"
+  - "XXX"
+  - " S "
+  ingredients:
+    S: stick
+  exact_ingredients:
+    X: quartz_crystal
+Lava Crystal Hammer:
+  item: lava_crystal_hammer
+  type: shaped
+  shape:
+  - "XXX"
+  - "XXX"
+  - " S "
+  ingredients:
+    S: stick
+  exact_ingredients:
+    X: lava_crystal
+Obsidian Crystal Hammer:
+  item: obsidian_crystal_hammer
+  type: shaped
+  shape:
+  - "XXX"
+  - "XXX"
+  - " S "
+  ingredients:
+    S: stick
+  exact_ingredients:
+    X: obsidian_crystal
+Black Diamond Hammer:
+  item: black_diamond_hammer
+  type: shaped
+  shape:
+  - "XXX"
+  - "XXX"
+  - " S "
+  ingredients:
+    S: stick
+  exact_ingredients:
+    X: black_diamond
+Ruby Hammer:
+  item: ruby_hammer
+  type: shaped
+  shape:
+  - "XXX"
+  - "XXX"
+  - " S "
+  ingredients:
+    S: stick
+  exact_ingredients:
+    X: ruby
+Emerald Hammer:
+  item: emerald_hammer
+  type: shaped
+  shape:
+  - "XXX"
+  - "XXX"
+  - " S "
+  ingredients:
+    X: emerald
+    S: stick
+Diamond Hammer:
+  item: diamond_hammer
+  type: shaped
+  shape:
+  - "XXX"
+  - "XXX"
+  - " S "
+  ingredients:
+    X: diamond
+    S: stick
+Iron Hammer:
+  item: iron_hammer
+  type: shaped
+  shape:
+  - "XXX"
+  - "XXX"
+  - " S "
+  ingredients:
+    X: iron_ingot
+    S: stick
+Bronze Hammer:
+  item: bronze_hammer
+  type: shaped
+  shape:
+  - "XXX"
+  - "XXX"
+  - " S "
+  ingredients:
+    S: stick
+  exact_ingredients:
+    X: bronze_ingot
+Golden Hammer:
+  item: golden_hammer
+  type: shaped
+  shape:
+  - "XXX"
+  - "XXX"
+  - " S "
+  ingredients:
+    X: gold_ingot
+    S: stick
+Tin Hammer:
+  item: tin_hammer
+  type: shaped
+  shape:
+  - "XXX"
+  - "XXX"
+  - " S "
+  ingredients:
+    S: stick
+  exact_ingredients:
+    X: tin_ingot
+Copper Hammer:
+  item: copper_hammer
+  type: shaped
+  shape:
+  - "XXX"
+  - "XXX"
+  - " S "
+  ingredients:
+    S: stick
+  exact_ingredients:
+    X: copper_ingot
+Stone Hammer:
+  item: stone_hammer
+  type: shaped
+  shape:
+  - "XXX"
+  - "XXX"
+  - " S "
+  ingredients:
+    X:
+    - stone
+    - cobblestone
+    S: stick
+Wooden Hammer:
+  item: wooden_hammer
+  type: shaped
+  shape:
+  - "XXX"
+  - "XXX"
+  - " S "
+  ingredients:
+    X:
+    - acacia_planks
+    - birch_planks
+    - oak_planks
+    - dark_oak_planks
+    - jungle_planks
+    - spruce_planks
+    S: stick
+Quartz Crystal Pickaxe:
+  item: quartz_crystal_pickaxe
+  type: shaped
+  shape:
+  - "XXX"
+  - " S "
+  - " S "
+  ingredients:
+    S: stick
+  exact_ingredients:
+    X: quartz_crystal
+Lava Crystal Pickaxe:
+  item: lava_crystal_pickaxe
+  type: shaped
+  shape:
+  - "XXX"
+  - " S "
+  - " S "
+  ingredients:
+    S: stick
+  exact_ingredients:
+    X: lava_crystal
+Obsidian Crystal Pickaxe:
+  item: obsidian_crystal_pickaxe
+  type: shaped
+  shape:
+  - "XXX"
+  - " S "
+  - " S "
+  ingredients:
+    S: stick
+  exact_ingredients:
+    X: obsidian_crystal
+Black Diamond Pickaxe:
+  item: black_diamond_pickaxe
+  type: shaped
+  shape:
+  - "XXX"
+  - " S "
+  - " S "
+  ingredients:
+    S: stick
+  exact_ingredients:
+    X: black_diamond
+Ruby Pickaxe:
+  item: ruby_pickaxe
+  type: shaped
+  shape:
+  - "XXX"
+  - " S "
+  - " S "
+  ingredients:
+    S: stick
+  exact_ingredients:
+    X: ruby
+Emerald Pickaxe:
+  item: emerald_pickaxe
+  type: shaped
+  shape:
+  - "XXX"
+  - " S "
+  - " S "
+  ingredients:
+    S: stick
+    X: emerald
+Bronze Pickaxe:
+  item: bronze_pickaxe
+  type: shaped
+  shape:
+  - "XXX"
+  - " S "
+  - " S "
+  ingredients:
+    S: stick
+  exact_ingredients:
+    X: bronze_ingot
+Tin Pickaxe:
+  item: tin_pickaxe
+  type: shaped
+  shape:
+  - "XXX"
+  - " S "
+  - " S "
+  ingredients:
+    S: stick
+  exact_ingredients:
+    X: tin_ingot
+Copper Pickaxe:
+  item: copper_pickaxe
+  type: shaped
+  shape:
+  - "XXX"
+  - " S "
+  - " S "
+  ingredients:
+    S: stick
+  exact_ingredients:
+    X: copper_ingot
+Quartz Crystal Shovel:
+  item: quartz_crystal_shovel
+  type: shaped
+  shape:
+  - " X "
+  - " S "
+  - " S "
+  ingredients:
+    S: stick
+  exact_ingredients:
+    X: quartz_crystal
+Lava Crystal Shovel:
+  item: lava_crystal_shovel
+  type: shaped
+  shape:
+  - " X "
+  - " S "
+  - " S "
+  ingredients:
+    S: stick
+  exact_ingredients:
+    X: lava_crystal
+Obsidian Crystal Shovel:
+  item: obsidian_crystal_shovel
+  type: shaped
+  shape:
+  - " X "
+  - " S "
+  - " S "
+  ingredients:
+    S: stick
+  exact_ingredients:
+    X: obsidian_crystal
+Black Diamond Shovel:
+  item: black_diamond_shovel
+  type: shaped
+  shape:
+  - " X "
+  - " S "
+  - " S "
+  ingredients:
+    S: stick
+  exact_ingredients:
+    X: black_diamond
+Ruby Shovel:
+  item: ruby_shovel
+  type: shaped
+  shape:
+  - " X "
+  - " S "
+  - " S "
+  ingredients:
+    S: stick
+  exact_ingredients:
+    X: ruby
+Emerald Shovel:
+  item: emerald_shovel
+  type: shaped
+  shape:
+  - " X "
+  - " S "
+  - " S "
+  ingredients:
+    S: stick
+    X: emerald
+Bronze Shovel:
+  item: bronze_shovel
+  type: shaped
+  shape:
+  - " X "
+  - " S "
+  - " S "
+  ingredients:
+    S: stick
+  exact_ingredients:
+    X: bronze_ingot
+Tin Shovel:
+  item: tin_shovel
+  type: shaped
+  shape:
+  - " X "
+  - " S "
+  - " S "
+  ingredients:
+    S: stick
+  exact_ingredients:
+    X: tin_ingot
+Copper Shovel:
+  item: copper_shovel
+  type: shaped
+  shape:
+  - " X "
+  - " S "
+  - " S "
+  ingredients:
+    S: stick
+  exact_ingredients:
+    X: copper_ingot
+Quartz Crystal Waraxe:
+  item: quartz_crystal_waraxe
+  type: shaped
+  shape:
+  - "XXX"
+  - "XSX"
+  - " S "
+  ingredients:
+    S: stick
+  exact_ingredients:
+    X: quartz_crystal
+Lava Crystal Waraxe:
+  item: lava_crystal_waraxe
+  type: shaped
+  shape:
+  - "XXX"
+  - "XSX"
+  - " S "
+  ingredients:
+    S: stick
+  exact_ingredients:
+    X: lava_crystal
+Obsidian Crystal Waraxe:
+  item: obsidian_crystal_waraxe
+  type: shaped
+  shape:
+  - "XXX"
+  - "XSX"
+  - " S "
+  ingredients:
+    S: stick
+  exact_ingredients:
+    X: obsidian_crystal
+Black Diamond Waraxe:
+  item: black_diamond_waraxe
+  type: shaped
+  shape:
+  - "XXX"
+  - "XSX"
+  - " S "
+  ingredients:
+    S: stick
+  exact_ingredients:
+    X: black_diamond
+Ruby Waraxe:
+  item: ruby_waraxe
+  type: shaped
+  shape:
+  - "XXX"
+  - "XSX"
+  - " S "
+  ingredients:
+    S: stick
+  exact_ingredients:
+    X: ruby
+Emerald Waraxe:
+  item: emerald_waraxe
+  type: shaped
+  shape:
+  - "XXX"
+  - "XSX"
+  - " S "
+  ingredients:
+    S: stick
+    X: emerald
+Diamond Waraxe:
+  item: diamond_waraxe
+  type: shaped
+  shape:
+  - "XXX"
+  - "XSX"
+  - " S "
+  ingredients:
+    S: stick
+    X: diamond
+Iron Waraxe:
+  item: iron_waraxe
+  type: shaped
+  shape:
+  - "XXX"
+  - "XSX"
+  - " S "
+  ingredients:
+    S: stick
+    X: iron_ingot
+Bronze Waraxe:
+  item: bronze_waraxe
+  type: shaped
+  shape:
+  - "XXX"
+  - "XSX"
+  - " S "
+  ingredients:
+    S: stick
+  exact_ingredients:
+    X: bronze_ingot
+Golden Waraxe:
+  item: golden_waraxe
+  type: shaped
+  shape:
+  - "XXX"
+  - "XSX"
+  - " S "
+  ingredients:
+    S: stick
+    X: gold_ingot
+Tin Waraxe:
+  item: tin_waraxe
+  type: shaped
+  shape:
+  - "XXX"
+  - "XSX"
+  - " S "
+  ingredients:
+    S: stick
+  exact_ingredients:
+    X: tin_ingot
+Copper Waraxe:
+  item: copper_waraxe
+  type: shaped
+  shape:
+  - "XXX"
+  - "XSX"
+  - " S "
+  ingredients:
+    S: stick
+  exact_ingredients:
+    X: copper_ingot
+Stone Waraxe:
+  item: stone_waraxe
+  type: shaped
+  shape:
+  - "XXX"
+  - "XSX"
+  - " S "
+  ingredients:
+    S: stick
+    X:
+    - stone
+    - cobblestone
+Wooden Waraxe:
+  item: wooden_waraxe
+  type: shaped
+  shape:
+  - "XXX"
+  - "XSX"
+  - " S "
+  ingredients:
+    S: stick
+    X:
+    - acacia_planks
+    - birch_planks
+    - oak_planks
+    - dark_oak_planks
+    - jungle_planks
+    - spruce_planks
+Quartz Crystal Axe:
+  item: quartz_crystal_axe
+  type: shaped
+  shape:
+  - "XX "
+  - "XS "
+  - " S "
+  ingredients:
+    S: stick
+  exact_ingredients:
+    X: quartz_crystal
+Lava Crystal Axe:
+  item: lava_crystal_axe
+  type: shaped
+  shape:
+  - "XX "
+  - "XS "
+  - " S "
+  ingredients:
+    S: stick
+  exact_ingredients:
+    X: lava_crystal
+Obsidian Crystal Axe:
+  item: obsidian_crystal_axe
+  type: shaped
+  shape:
+  - "XX "
+  - "XS "
+  - " S "
+  ingredients:
+    S: stick
+  exact_ingredients:
+    X: obsidian_crystal
+Black Diamond Axe:
+  item: black_diamond_axe
+  type: shaped
+  shape:
+  - "XX "
+  - "XS "
+  - " S "
+  ingredients:
+    S: stick
+  exact_ingredients:
+    X: black_diamond
+Ruby Axe:
+  item: ruby_axe
+  type: shaped
+  shape:
+  - "XX "
+  - "XS "
+  - " S "
+  ingredients:
+    S: stick
+  exact_ingredients:
+    X: ruby
+Emerald Axe:
+  item: emerald_axe
+  type: shaped
+  shape:
+  - "XX "
+  - "XS "
+  - " S "
+  ingredients:
+    S: stick
+    X: emerald
+Bronze Axe:
+  item: bronze_axe
+  type: shaped
+  shape:
+  - "XX "
+  - "XS "
+  - " S "
+  ingredients:
+    S: stick
+  exact_ingredients:
+    X: bronze_ingot
+Tin Axe:
+  item: tin_axe
+  type: shaped
+  shape:
+  - "XX "
+  - "XS "
+  - " S "
+  ingredients:
+    S: stick
+  exact_ingredients:
+    X: tin_ingot
+Copper Axe:
+  item: copper_axe
+  type: shaped
+  shape:
+  - "XX "
+  - "XS "
+  - " S "
+  ingredients:
+    S: stick
+  exact_ingredients:
+    X: copper_ingot
+Quartz Crystal Hoe:
+  item: quartz_crystal_hoe
+  type: shaped
+  shape:
+  - "XX "
+  - " S "
+  - " S "
+  ingredients:
+    S: stick
+  exact_ingredients:
+    X: quartz_crystal
+Lava Crystal Hoe:
+  item: lava_crystal_hoe
+  type: shaped
+  shape:
+  - "XX "
+  - " S "
+  - " S "
+  ingredients:
+    S: stick
+  exact_ingredients:
+    X: lava_crystal
+Obsidian Crystal Hoe:
+  item: obsidian_crystal_hoe
+  type: shaped
+  shape:
+  - "XX "
+  - " S "
+  - " S "
+  ingredients:
+    S: stick
+  exact_ingredients:
+    X: obsidian_crystal
+Black Diamond Hoe:
+  item: black_diamond_hoe
+  type: shaped
+  shape:
+  - "XX "
+  - " S "
+  - " S "
+  ingredients:
+    S: stick
+  exact_ingredients:
+    X: black_diamond
+Ruby Hoe:
+  item: ruby_hoe
+  type: shaped
+  shape:
+  - "XX "
+  - " S "
+  - " S "
+  ingredients:
+    S: stick
+  exact_ingredients:
+    X: ruby
+Emerald Hoe:
+  item: emerald_hoe
+  type: shaped
+  shape:
+  - "XX "
+  - " S "
+  - " S "
+  ingredients:
+    S: stick
+    X: emerald
+Bronze Hoe:
+  item: bronze_hoe
+  type: shaped
+  shape:
+  - "XX "
+  - " S "
+  - " S "
+  ingredients:
+    S: stick
+  exact_ingredients:
+    X: bronze_ingot
+Tin Hoe:
+  item: tin_hoe
+  type: shaped
+  shape:
+  - "XX "
+  - " S "
+  - " S "
+  ingredients:
+    S: stick
+  exact_ingredients:
+    X: tin_ingot
+Copper Hoe:
+  item: copper_hoe
+  type: shaped
+  shape:
+  - "XX "
+  - " S "
+  - " S "
+  ingredients:
+    S: stick
+  exact_ingredients:
+    X: copper_ingot
+Quartz Crystal Bow:
+  item: quartz_crystal_bow
+  type: shaped
+  shape:
+  - " XS"
+  - "X S"
+  - " XS"
+  ingredients:
+    S: string
+  exact_ingredients:
+    X: quartz_crystal
+Lava Crystal Bow:
+  item: lava_crystal_bow
+  type: shaped
+  shape:
+  - " XS"
+  - "X S"
+  - " XS"
+  ingredients:
+    S: string
+  exact_ingredients:
+    X: lava_crystal
+Obsidian Crystal Bow:
+  item: obsidian_crystal_bow
+  type: shaped
+  shape:
+  - " XS"
+  - "X S"
+  - " XS"
+  ingredients:
+    S: string
+  exact_ingredients:
+    X: obsidian_crystal
+Black Diamond Bow:
+  item: black_diamond_bow
+  type: shaped
+  shape:
+  - " XS"
+  - "X S"
+  - " XS"
+  ingredients:
+    S: string
+  exact_ingredients:
+    X: black_diamond
+Ruby Bow:
+  item: ruby_bow
+  type: shaped
+  shape:
+  - " XS"
+  - "X S"
+  - " XS"
+  ingredients:
+    S: string
+  exact_ingredients:
+    X: ruby
+Emerald Bow:
+  item: emerald_bow
+  type: shaped
+  shape:
+  - " XS"
+  - "X S"
+  - " XS"
+  ingredients:
+    S: string
+    X: emerald
+Diamond Bow:
+  item: diamond_bow
+  type: shaped
+  shape:
+  - " XS"
+  - "X S"
+  - " XS"
+  ingredients:
+    S: string
+    X: diamond
+Iron Bow:
+  item: iron_bow
+  type: shaped
+  shape:
+  - " XS"
+  - "X S"
+  - " XS"
+  ingredients:
+    S: string
+    X: iron_ingot
+Bronze Bow:
+  item: bronze_bow
+  type: shaped
+  shape:
+  - " XS"
+  - "X S"
+  - " XS"
+  ingredients:
+    S: string
+  exact_ingredients:
+    X: bronze_ingot
+Golden Bow:
+  item: golden_bow
+  type: shaped
+  shape:
+  - " XS"
+  - "X S"
+  - " XS"
+  ingredients:
+    S: string
+  exact_ingredients:
+    X: gold_ingot
+Bronze Bow:
+  item: bronze_bow
+  type: shaped
+  shape:
+  - " XS"
+  - "X S"
+  - " XS"
+  ingredients:
+    S: string
+  exact_ingredients:
+    X: bronze_ingot
+Tin Bow:
+  item: tin_bow
+  type: shaped
+  shape:
+  - " XS"
+  - "X S"
+  - " XS"
+  ingredients:
+    S: string
+  exact_ingredients:
+    X: tin_ingot
+Copper Bow:
+  item: copper_bow
+  type: shaped
+  shape:
+  - " XS"
+  - "X S"
+  - " XS"
+  ingredients:
+    S: string
+  exact_ingredients:
+    X: copper_ingot
+Quartz Crystal Bihander:
+  item: quartz_crystal_bihander
+  type: shaped
+  shape:
+  - " XX"
+  - "XXX"
+  - "SX "
+  ingredients:
+    S: stick
+  exact_ingredients:
+    X: quartz_crystal
+Lava Crystal Bihander:
+  item: lava_crystal_bihander
+  type: shaped
+  shape:
+  - " XX"
+  - "XXX"
+  - "SX "
+  ingredients:
+    S: stick
+  exact_ingredients:
+    X: lava_crystal
+Obsidian Crystal Bihander:
+  item: obsidian_crystal_bihander
+  type: shaped
+  shape:
+  - " XX"
+  - "XXX"
+  - "SX "
+  ingredients:
+    S: stick
+  exact_ingredients:
+    X: obsidian_crystal
+Black Diamond Bihander:
+  item: black_diamond_bihander
+  type: shaped
+  shape:
+  - " XX"
+  - "XXX"
+  - "SX "
+  ingredients:
+    S: stick
+  exact_ingredients:
+    X: black_diamond
+Ruby Bihander:
+  item: ruby_bihander
+  type: shaped
+  shape:
+  - " XX"
+  - "XXX"
+  - "SX "
+  ingredients:
+    S: stick
+  exact_ingredients:
+    X: ruby
+Emerald Bihander:
+  item: emerald_bihander
+  type: shaped
+  shape:
+  - " XX"
+  - "XXX"
+  - "SX "
+  ingredients:
+    S: stick
+    X: emerald
+Diamond Bihander:
+  item: diamond_bihander
+  type: shaped
+  shape:
+  - " XX"
+  - "XXX"
+  - "SX "
+  ingredients:
+    S: stick
+    X: diamond
+Golden Bihander:
+  item: golden_bihander
+  type: shaped
+  shape:
+  - " XX"
+  - "XXX"
+  - "SX "
+  ingredients:
+    S: stick
+    X: gold_ingot
+Iron Bihander:
+  item: iron_bihander
+  type: shaped
+  shape:
+  - " XX"
+  - "XXX"
+  - "SX "
+  ingredients:
+    S: stick
+    X: iron_ingot
+Bronze Bihander:
+  item: bronze_bihander
+  type: shaped
+  shape:
+  - " XX"
+  - "XXX"
+  - "SX "
+  ingredients:
+    S: stick
+  exact_ingredients:
+    X: bronze_ingot
+Tin Bihander:
+  item: tin_bihander
+  type: shaped
+  shape:
+  - " XX"
+  - "XXX"
+  - "SX "
+  ingredients:
+    S: stick
+  exact_ingredients:
+    X: tin_ingot
+Copper Bihander:
+  item: copper_bihander
+  type: shaped
+  shape:
+  - " XX"
+  - "XXX"
+  - "SX "
+  ingredients:
+    S: stick
+  exact_ingredients:
+    X: copper_ingot
+Stone Bihander:
+  item: stone_bihander
+  type: shaped
+  shape:
+  - " XX"
+  - "XXX"
+  - "SX "
+  ingredients:
+    S: stick
+    X:
+    - stone
+    - cobblestone
+Wooden Bihander:
+  item: wooden_bihander
+  type: shaped
+  shape:
+  - " XX"
+  - "XXX"
+  - "SX "
+  ingredients:
+    S: stick
+    X:
+    - acacia_planks
+    - birch_planks
+    - oak_planks
+    - dark_oak_planks
+    - jungle_planks
+    - spruce_planks
+Quartz Crystal Sword:
+  item: quartz_crystal_sword
+  type: shaped
+  shape:
+  - " X "
+  - " X "
+  - " S "
+  ingredients:
+    S: stick
+  exact_ingredients:
+    X: quartz_crystal
+Lava Crystal Sword:
+  item: lava_crystal_sword
+  type: shaped
+  shape:
+  - " X "
+  - " X "
+  - " S "
+  ingredients:
+    S: stick
+  exact_ingredients:
+    X: lava_crystal
+Obsidian Crystal Sword:
+  item: obsidian_crystal_sword
+  type: shaped
+  shape:
+  - " X "
+  - " X "
+  - " S "
+  ingredients:
+    S: stick
+  exact_ingredients:
+    X: obsidian_crystal
+Black Diamond Sword:
+  item: black_diamond_sword
+  type: shaped
+  shape:
+  - " X "
+  - " X "
+  - " S "
+  ingredients:
+    S: stick
+  exact_ingredients:
+    X: black_diamond
+Ruby Sword:
+  item: ruby_sword
+  type: shaped
+  shape:
+  - " X "
+  - " X "
+  - " S "
+  ingredients:
+    S: stick
+  exact_ingredients:
+    X: ruby
+Emerald Sword:
+  item: emerald_sword
+  type: shaped
+  shape:
+  - " X "
+  - " X "
+  - " S "
+  ingredients:
+    S: stick
+    X: emerald
+Bronze Sword:
+  item: bronze_sword
+  type: shaped
+  shape:
+  - " X "
+  - " X "
+  - " S "
+  ingredients:
+    S: stick
+  exact_ingredients:
+    X: bronze_ingot
+Tin Sword:
+  item: tin_sword
+  type: shaped
+  shape:
+  - " X "
+  - " X "
+  - " S "
+  ingredients:
+    S: stick
+  exact_ingredients:
+    X: tin_ingot
+Copper Sword:
+  item: copper_sword
+  type: shaped
+  shape:
+  - " X "
+  - " X "
+  - " S "
+  ingredients:
+    S: stick
+  exact_ingredients:
+    X: copper_ingot
+Quartz Crystal Dagger:
+  item: quartz_crystal_dagger
+  type: shaped
+  shape:
+  - "   "
+  - " X "
+  - " S "
+  ingredients:
+    S: stick
+  exact_ingredients:
+    X: quartz_crystal
+Lava Crystal Dagger:
+  item: lava_crystal_dagger
+  type: shaped
+  shape:
+  - "   "
+  - " X "
+  - " S "
+  ingredients:
+    S: stick
+  exact_ingredients:
+    X: lava_crystal
+Obsidian Crystal Dagger:
+  item: obsidian_crystal_dagger
+  type: shaped
+  shape:
+  - "   "
+  - " X "
+  - " S "
+  ingredients:
+    S: stick
+  exact_ingredients:
+    X: obsidian_crystal
+Black Diamond Dagger:
+  item: black_diamond_dagger
+  type: shaped
+  shape:
+  - "   "
+  - " X "
+  - " S "
+  ingredients:
+    S: stick
+  exact_ingredients:
+    X: black_diamond
+Ruby Dagger:
+  item: ruby_dagger
+  type: shaped
+  shape:
+  - "   "
+  - " X "
+  - " S "
+  ingredients:
+    S: stick
+  exact_ingredients:
+    X: ruby
+Emerald Dagger:
+  item: emerald_dagger
+  type: shaped
+  shape:
+  - "   "
+  - " X "
+  - " S "
+  ingredients:
+    S: stick
+    X: emerald
+Diamond Dagger:
+  item: diamond_dagger
+  type: shaped
+  shape:
+  - "   "
+  - " X "
+  - " S "
+  ingredients:
+    S: stick
+    X: diamond
+Golden Dagger:
+  item: golden_dagger
+  type: shaped
+  shape:
+  - "   "
+  - " X "
+  - " S "
+  ingredients:
+    S: stick
+    X: gold_ingot
+Iron Dagger:
+  item: iron_dagger
+  type: shaped
+  shape:
+  - "   "
+  - " X "
+  - " S "
+  ingredients:
+    S: stick
+    X: iron_ingot
+Bronze Dagger:
+  item: bronze_dagger
+  type: shaped
+  shape:
+  - "   "
+  - " X "
+  - " S "
+  ingredients:
+    S: stick
+  exact_ingredients:
+    X: bronze_ingot
+Tin Dagger:
+  item: tin_dagger
+  type: shaped
+  shape:
+  - "   "
+  - " X "
+  - " S "
+  ingredients:
+    S: stick
+  exact_ingredients:
+    X: tin_ingot
+Copper Dagger:
+  item: copper_dagger
+  type: shaped
+  shape:
+  - "   "
+  - " X "
+  - " S "
+  ingredients:
+    S: stick
+  exact_ingredients:
+    X: copper_ingot
+Stone Dagger:
+  item: stone_dagger
+  type: shaped
+  shape:
+  - "   "
+  - " X "
+  - " S "
+  ingredients:
+    S: stick
+    X:
+    - stone
+    - cobblestone
+Wooden Dagger:
+  item: wooden_dagger
+  type: shaped
+  shape:
+  - "   "
+  - " X "
+  - " S "
+  ingredients:
+    S: stick
+    X:
+    - acacia_planks
+    - birch_planks
+    - oak_planks
+    - dark_oak_planks
+    - jungle_planks
+    - spruce_planks
+Quartz Crystal Spear:
+  item: quartz_crystal_spear
+  type: shaped
+  shape:
+  - " XX"
+  - " SX"
+  - "S  "
+  ingredients:
+    S: stick
+  exact_ingredients:
+    X: quartz_crystal
+Lava Crystal Spear:
+  item: lava_crystal_spear
+  type: shaped
+  shape:
+  - " XX"
+  - " SX"
+  - "S  "
+  ingredients:
+    S: stick
+  exact_ingredients:
+    X: lava_crystal
+Obsidian Crystal Spear:
+  item: obsidian_crystal_spear
+  type: shaped
+  shape:
+  - " XX"
+  - " SX"
+  - "S  "
+  ingredients:
+    S: stick
+  exact_ingredients:
+    X: obsidian_crystal
+Black Diamond Spear:
+  item: black_diamond_spear
+  type: shaped
+  shape:
+  - " XX"
+  - " SX"
+  - "S  "
+  ingredients:
+    S: stick
+  exact_ingredients:
+    X: black_diamond
+Ruby Spear:
+  item: ruby_spear
+  type: shaped
+  shape:
+  - " XX"
+  - " SX"
+  - "S  "
+  ingredients:
+    S: stick
+  exact_ingredients:
+    X: ruby
+Emerald Spear:
+  item: emerald_spear
+  type: shaped
+  shape:
+  - " XX"
+  - " SX"
+  - "S  "
+  ingredients:
+    S: stick
+    X: emerald
+Diamond Spear:
+  item: diamond_spear
+  type: shaped
+  shape:
+  - " XX"
+  - " SX"
+  - "S  "
+  ingredients:
+    S: stick
+    X: diamond
+Golden Spear:
+  item: golden_spear
+  type: shaped
+  shape:
+  - " XX"
+  - " SX"
+  - "S  "
+  ingredients:
+    S: stick
+    X: gold_ingot
+Iron Spear:
+  item: iron_spear
+  type: shaped
+  shape:
+  - " XX"
+  - " SX"
+  - "S  "
+  ingredients:
+    S: stick
+    X: iron_ingot
+Bronze Spear:
+  item: bronze_spear
+  type: shaped
+  shape:
+  - " XX"
+  - " SX"
+  - "S  "
+  ingredients:
+    S: stick
+  exact_ingredients:
+    X: bronze_ingot
+Tin Spear:
+  item: tin_spear
+  type: shaped
+  shape:
+  - " XX"
+  - " SX"
+  - "S  "
+  ingredients:
+    S: stick
+  exact_ingredients:
+    X: tin_ingot
+Copper Spear:
+  item: copper_spear
+  type: shaped
+  shape:
+  - " XX"
+  - " SX"
+  - "S  "
+  ingredients:
+    S: stick
+  exact_ingredients:
+    X: copper_ingot
+Stone Spear:
+  item: stone_spear
+  type: shaped
+  shape:
+  - " XX"
+  - " SX"
+  - "S  "
+  ingredients:
+    S: stick
+    X:
+    - stone
+    - cobblestone
+Wooden Spear:
+  item: wooden_spear
+  type: shaped
+  shape:
+  - " XX"
+  - " SX"
+  - "S  "
+  ingredients:
+    S: stick
+    X:
+    - acacia_planks
+    - birch_planks
+    - oak_planks
+    - dark_oak_planks
+    - jungle_planks
+    - spruce_planks
+Aluminium Ingot 1:
+  item: aluminium_ingot
+  type: furnace
+  exact_ingredient: aluminium_ore
+  experience: 2
+  cookingTime: 200
+Aluminium Ingot 2:
+  item: aluminium_ingot
+  type: shaped
+  shape:
+  - "XXX"
+  - "XXX"
+  - "XXX"
+  exact_ingredients:
+    X: aluminium_nugget
+Aluminium Nugget:
+  item: aluminium_nugget
+  amount: 9
+  type: shapeless
+  exact_ingredients:
+    A: aluminium_ingot
