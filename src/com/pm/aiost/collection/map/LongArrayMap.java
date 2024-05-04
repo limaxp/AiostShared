@@ -2,9 +2,9 @@ package com.pm.aiost.collection.map;
 
 import java.util.Arrays;
 
-import org.bukkit.craftbukkit.libs.it.unimi.dsi.fastutil.longs.AbstractLong2ObjectMap;
-import org.bukkit.craftbukkit.libs.it.unimi.dsi.fastutil.longs.Long2ObjectMap;
-import org.bukkit.craftbukkit.libs.it.unimi.dsi.fastutil.objects.ObjectSet;
+import it.unimi.dsi.fastutil.longs.AbstractLong2ObjectMap;
+import it.unimi.dsi.fastutil.longs.Long2ObjectMap;
+import it.unimi.dsi.fastutil.objects.ObjectSet;
 
 public class LongArrayMap<V> extends AbstractLong2ObjectMap<V> implements Long2ObjectMap<V> {
 

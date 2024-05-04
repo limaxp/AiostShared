@@ -7,8 +7,6 @@ import java.util.Map.Entry;
 import java.util.Random;
 import java.util.UUID;
 
-import org.bukkit.craftbukkit.libs.it.unimi.dsi.fastutil.longs.Long2ObjectLinkedOpenHashMap;
-import org.bukkit.craftbukkit.libs.it.unimi.dsi.fastutil.objects.Object2ObjectLinkedOpenHashMap;
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.ParseException;
@@ -16,6 +14,9 @@ import org.json.simple.parser.ParseException;
 import com.pm.aiost.misc.ConfigManager;
 import com.pm.aiost.misc.log.Logger;
 import com.pm.aiost.misc.utils.FileUtils;
+
+import it.unimi.dsi.fastutil.longs.Long2ObjectLinkedOpenHashMap;
+import it.unimi.dsi.fastutil.objects.Object2ObjectLinkedOpenHashMap;
 
 @SuppressWarnings("unchecked")
 public class DataManager {
@@ -52,8 +53,7 @@ public class DataManager {
 	}
 
 	public static void save() {
-		for (org.bukkit.craftbukkit.libs.it.unimi.dsi.fastutil.longs.Long2ObjectMap.Entry<JSONObject> entry : PLAYER_CACHE
-				.long2ObjectEntrySet())
+		for (it.unimi.dsi.fastutil.longs.Long2ObjectMap.Entry<JSONObject> entry : PLAYER_CACHE.long2ObjectEntrySet())
 			savePlayer(entry.getLongKey(), entry.getValue());
 
 		for (Entry<UUID, JSONObject> entry : WORLD_CACHE.entrySet())

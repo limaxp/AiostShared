@@ -22,7 +22,6 @@ import java.util.List;
 import java.util.zip.ZipEntry;
 import java.util.zip.ZipOutputStream;
 
-import org.bukkit.craftbukkit.libs.org.apache.commons.io.IOUtils;
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
@@ -139,10 +138,6 @@ public class FileUtils {
 		byte[] targetArray = new byte[is.available()];
 		is.read(targetArray);
 		return targetArray;
-	}
-
-	public static byte[] streamToByteArray_(InputStream is) throws IOException {
-		return IOUtils.toByteArray(is);
 	}
 
 	public static List<String> streamToList(InputStream is) throws IOException {
