@@ -53,7 +53,7 @@ Groups:
     name: Furniture
     item: 
       Oak Chair:
-        material: scute
+        material: turtle_scute
         predicate: 
           custom_model_data: 32
 Quartz Crystal Hammer:
@@ -2240,7 +2240,7 @@ Wooden Spear:
         throwing: 1  
       path: aiost/weapons/wooden_spear_throwing
 Aluminium Ingot:
-  material: scute
+  material: turtle_scute
   group: miscellaneous
   item:
     class: Item
@@ -2249,7 +2249,7 @@ Aluminium Ingot:
     custom_model_data: 1
   path: aiost/items/aluminium_ingot
 Aluminium Nugget:
-  material: scute
+  material: turtle_scute
   group: miscellaneous
   item:
     class: Item
@@ -2258,7 +2258,7 @@ Aluminium Nugget:
     custom_model_data: 2
   path: aiost/items/aluminium_nugget
 Black Diamond:
-  material: scute
+  material: turtle_scute
   group: miscellaneous
   item:
     class: Item
@@ -2267,7 +2267,7 @@ Black Diamond:
     custom_model_data: 3
   path: aiost/items/black_diamond
 Bronze Ingot:
-  material: scute
+  material: turtle_scute
   group: miscellaneous
   item:
     class: Item
@@ -2276,7 +2276,7 @@ Bronze Ingot:
     custom_model_data: 4
   path: aiost/items/bronze_ingot
 Bronze Nugget:
-  material: scute
+  material: turtle_scute
   group: miscellaneous
   item:
     class: Item
@@ -2285,7 +2285,7 @@ Bronze Nugget:
     custom_model_data: 5
   path: aiost/items/bronze_nugget
 Copper Ingot:
-  material: scute
+  material: turtle_scute
   group: miscellaneous
   item:
     class: Item
@@ -2294,7 +2294,7 @@ Copper Ingot:
     custom_model_data: 6
   path: aiost/items/copper_ingot
 Copper Nugget:
-  material: scute
+  material: turtle_scute
   group: miscellaneous
   item:
     class: Item
@@ -2303,7 +2303,7 @@ Copper Nugget:
     custom_model_data: 7
   path: aiost/items/copper_nugget
 Invisible Item:
-  material: scute
+  material: turtle_scute
   group: miscellaneous
   item:
     class: Item
@@ -2312,7 +2312,7 @@ Invisible Item:
     custom_model_data: 8
   path: aiost/items/invisible_item
 Lava Crystal:
-  material: scute
+  material: turtle_scute
   group: miscellaneous
   item:
     class: Item
@@ -2321,7 +2321,7 @@ Lava Crystal:
     custom_model_data: 9
   path: aiost/items/lava_crystal
 Obsidian Crystal:
-  material: scute
+  material: turtle_scute
   group: miscellaneous
   item:
     class: Item
@@ -2330,7 +2330,7 @@ Obsidian Crystal:
     custom_model_data: 10
   path: aiost/items/obsidian_crystal
 Quartz Crystal:
-  material: scute
+  material: turtle_scute
   group: miscellaneous
   item:
     class: Item
@@ -2339,7 +2339,7 @@ Quartz Crystal:
     custom_model_data: 11
   path: aiost/items/quartz_crystal
 ruby:
-  material: scute
+  material: turtle_scute
   group: miscellaneous
   item:
     class: Item
@@ -2348,7 +2348,7 @@ ruby:
     custom_model_data: 12
   path: aiost/items/ruby
 Silver Ingot:
-  material: scute
+  material: turtle_scute
   group: miscellaneous
   item:
     class: Item
@@ -2357,7 +2357,7 @@ Silver Ingot:
     custom_model_data: 13
   path: aiost/items/silver_ingot
 Silver Nugget:
-  material: scute
+  material: turtle_scute
   group: miscellaneous
   item:
     class: Item
@@ -2366,7 +2366,7 @@ Silver Nugget:
     custom_model_data: 14
   path: aiost/items/silver_nugget
 Tin Ingot:
-  material: scute
+  material: turtle_scute
   group: miscellaneous
   item:
     class: Item
@@ -2375,7 +2375,7 @@ Tin Ingot:
     custom_model_data: 15
   path: aiost/items/tin_ingot
 Tin Nugget:
-  material: scute
+  material: turtle_scute
   group: miscellaneous
   item:
     class: Item
@@ -2384,7 +2384,7 @@ Tin Nugget:
     custom_model_data: 16
   path: aiost/items/tin_nugget
 Aluminium Block:
-  material: scute
+  material: turtle_scute
   group: building_blocks
   item:
     class: Item
@@ -2397,7 +2397,7 @@ Aluminium Block:
       actions:
       - right_click
 Aluminium Ore:
-  material: scute
+  material: turtle_scute
   group: building_blocks
   item:
     class: Item
@@ -2410,7 +2410,7 @@ Aluminium Ore:
       actions:
       - right_click
 Apple Block:
-  material: scute
+  material: turtle_scute
   group: decoration_blocks
   item:
     class: Item
@@ -2423,7 +2423,7 @@ Apple Block:
       actions:
       - right_click
 Black Diamond Block:
-  material: scute
+  material: turtle_scute
   group: building_blocks
   item:
     class: Item
@@ -2436,7 +2436,7 @@ Black Diamond Block:
       actions:
       - right_click
 Bronze Block:
-  material: scute
+  material: turtle_scute
   group: building_blocks
   item:
     class: Item
@@ -2449,7 +2449,7 @@ Bronze Block:
       actions:
       - right_click
 Copper Block:
-  material: scute
+  material: turtle_scute
   group: building_blocks
   item:
     class: Item
@@ -2462,7 +2462,7 @@ Copper Block:
       actions:
       - right_click
 Copper Ore:
-  material: scute
+  material: turtle_scute
   group: building_blocks
   item:
     class: Item
@@ -2475,7 +2475,7 @@ Copper Ore:
       actions:
       - right_click
 Lucky Block:
-  material: scute
+  material: turtle_scute
   group: building_blocks
   item:
     class: Item
@@ -2488,7 +2488,7 @@ Lucky Block:
       actions:
       - right_click
 Ruby Block:
-  material: scute
+  material: turtle_scute
   group: building_blocks
   item:
     class: Item
@@ -2501,7 +2501,7 @@ Ruby Block:
       actions:
       - right_click
 Ruby Ore:
-  material: scute
+  material: turtle_scute
   group: building_blocks
   item:
     class: Item
@@ -2514,7 +2514,7 @@ Ruby Ore:
       actions:
       - right_click
 Silver Block:
-  material: scute
+  material: turtle_scute
   group: building_blocks
   item:
     class: Item
@@ -2527,7 +2527,7 @@ Silver Block:
       actions:
       - right_click
 Silver Ore:
-  material: scute
+  material: turtle_scute
   group: building_blocks
   item:
     class: Item
@@ -2540,7 +2540,7 @@ Silver Ore:
       actions:
       - right_click
 Super Lucky Block:
-  material: scute
+  material: turtle_scute
   group: building_blocks
   item:
     class: Item
@@ -2553,7 +2553,7 @@ Super Lucky Block:
       actions:
       - right_click
 Tin Block:
-  material: scute
+  material: turtle_scute
   group: building_blocks
   item:
     class: Item
@@ -2566,7 +2566,7 @@ Tin Block:
       actions:
       - right_click
 Tin Ore:
-  material: scute
+  material: turtle_scute
   group: building_blocks
   item:
     class: Item
@@ -2579,7 +2579,7 @@ Tin Ore:
       actions:
       - right_click
 Oak Chair:
-  material: scute
+  material: turtle_scute
   group: furniture
   item:
     class: Item
@@ -2592,7 +2592,7 @@ Oak Chair:
       actions:
       - right_click
 Oak Table:
-  material: scute
+  material: turtle_scute
   group: furniture
   item:
     class: Item
@@ -2605,7 +2605,7 @@ Oak Table:
       actions:
       - right_click
 Bullet 1:
-  material: scute
+  material: turtle_scute
   group: miscellaneous
   item:
     class: Item
@@ -2614,7 +2614,7 @@ Bullet 1:
     custom_model_data: 34
   path: aiost/guns/bullet_1
 Stop Symbol:
-  material: scute
+  material: turtle_scute
   group: miscellaneous
   item:
     class: Item
@@ -2626,7 +2626,7 @@ Stop Symbol:
     CancelItemInventoryMove:
       none: none
 Snail Brown:
-  material: scute
+  material: turtle_scute
   group: decoration_blocks
   item:
     class: Item
@@ -2635,7 +2635,7 @@ Snail Brown:
     custom_model_data: 36
   path: aiost/mobs/snail_brown_standing
 Snail Brown Walking:
-  material: scute
+  material: turtle_scute
   group: decoration_blocks
   item:
     class: Item
@@ -2644,7 +2644,7 @@ Snail Brown Walking:
     custom_model_data: 37
   path: aiost/mobs/snail_brown_walking
 3D Allium:
-  material: scute
+  material: turtle_scute
   group: decoration_blocks
   item:
     class: Item
@@ -2657,7 +2657,7 @@ Snail Brown Walking:
       actions:
       - right_click
 3D Bookshelf:
-  material: scute
+  material: turtle_scute
   group: building_blocks
   item:
     class: Item
@@ -2670,7 +2670,7 @@ Snail Brown Walking:
       actions:
       - right_click
 3D Brown Mushroom:
-  material: scute
+  material: turtle_scute
   group: decoration_blocks
   item:
     class: Item
@@ -2683,7 +2683,7 @@ Snail Brown Walking:
       actions:
       - right_click
 3D Cactus:
-  material: scute
+  material: turtle_scute
   group: building_blocks
   item:
     class: Item
@@ -2696,7 +2696,7 @@ Snail Brown Walking:
       actions:
       - right_click
 3D Crafting Table:
-  material: scute
+  material: turtle_scute
   group: building_blocks
   item:
     class: Item
@@ -2709,7 +2709,7 @@ Snail Brown Walking:
       actions:
       - right_click
 3D Daisy:
-  material: scute
+  material: turtle_scute
   group: decoration_blocks
   item:
     class: Item
@@ -2722,7 +2722,7 @@ Snail Brown Walking:
       actions:
       - right_click
 3D Dandelion:
-  material: scute
+  material: turtle_scute
   group: decoration_blocks
   item:
     class: Item
@@ -2735,7 +2735,7 @@ Snail Brown Walking:
       actions:
       - right_click
 3D Enchanting Table:
-  material: scute
+  material: turtle_scute
   group: building_blocks
   item:
     class: Item
@@ -2748,7 +2748,7 @@ Snail Brown Walking:
       actions:
       - right_click
 3D Furnace:
-  material: scute
+  material: turtle_scute
   group: decoration_blocks
   item:
     class: Item
@@ -2761,7 +2761,7 @@ Snail Brown Walking:
       actions:
       - right_click
 3D Grass:
-  material: scute
+  material: turtle_scute
   group: building_blocks
   item:
     class: Item
@@ -2774,7 +2774,7 @@ Snail Brown Walking:
       actions:
       - right_click
 3D Houstonia:
-  material: scute
+  material: turtle_scute
   group: decoration_blocks
   item:
     class: Item
@@ -2787,7 +2787,7 @@ Snail Brown Walking:
       actions:
       - right_click
 3D Orange Tulip:
-  material: scute
+  material: turtle_scute
   group: decoration_blocks
   item:
     class: Item
@@ -2800,7 +2800,7 @@ Snail Brown Walking:
       actions:
       - right_click
 3D Orchid:
-  material: scute
+  material: turtle_scute
   group: decoration_blocks
   item:
     class: Item
@@ -2813,7 +2813,7 @@ Snail Brown Walking:
       actions:
       - right_click
 3D Pink Tulip:
-  material: scute
+  material: turtle_scute
   group: decoration_blocks
   item:
     class: Item
@@ -2826,7 +2826,7 @@ Snail Brown Walking:
       actions:
       - right_click
 3D Poppy:
-  material: scute
+  material: turtle_scute
   group: decoration_blocks
   item:
     class: Item
@@ -2839,7 +2839,7 @@ Snail Brown Walking:
       actions:
       - right_click
 3D Chiseled Quartz:
-  material: scute
+  material: turtle_scute
   group: building_blocks
   item:
     class: Item
@@ -2852,7 +2852,7 @@ Snail Brown Walking:
       actions:
       - right_click
 3D Quartz Stairs:
-  material: scute
+  material: turtle_scute
   group: building_blocks
   item:
     class: Item
@@ -2865,7 +2865,7 @@ Snail Brown Walking:
       actions:
       - right_click
 3D Red Mushroom:
-  material: scute
+  material: turtle_scute
   group: decoration_blocks
   item:
     class: Item
@@ -2878,7 +2878,7 @@ Snail Brown Walking:
       actions:
       - right_click
 3D Red Tulip:
-  material: scute
+  material: turtle_scute
   group: decoration_blocks
   item:
     class: Item
@@ -2891,7 +2891,7 @@ Snail Brown Walking:
       actions:
       - right_click
 3D Reeds:
-  material: scute
+  material: turtle_scute
   group: decoration_blocks
   item:
     class: Item
@@ -2904,7 +2904,7 @@ Snail Brown Walking:
       actions:
       - right_click
 3D Chiseled Stone Brick:
-  material: scute
+  material: turtle_scute
   group: building_blocks
   item:
     class: Item
@@ -2917,7 +2917,7 @@ Snail Brown Walking:
       actions:
       - right_click
 3D Cracked Stone Brick:
-  material: scute
+  material: turtle_scute
   group: building_blocks
   item:
     class: Item
@@ -2930,7 +2930,7 @@ Snail Brown Walking:
       actions:
       - right_click
 3D Mossy Stone Brick:
-  material: scute
+  material: turtle_scute
   group: building_blocks
   item:
     class: Item
@@ -2943,7 +2943,7 @@ Snail Brown Walking:
       actions:
       - right_click
 3D Stone Brick:
-  material: scute
+  material: turtle_scute
   group: building_blocks
   item:
     class: Item
@@ -2956,7 +2956,7 @@ Snail Brown Walking:
       actions:
       - right_click
 3D Tall Grass:
-  material: scute
+  material: turtle_scute
   group: decoration_blocks
   item:
     class: Item
@@ -2969,7 +2969,7 @@ Snail Brown Walking:
       actions:
       - right_click
 3D Vine:
-  material: scute
+  material: turtle_scute
   group: decoration_blocks
   item:
     class: Item
@@ -2978,7 +2978,7 @@ Snail Brown Walking:
     custom_model_data: 63
   path: aiost/blocks/3d_vine
 3D Lily Pad:
-  material: scute
+  material: turtle_scute
   group: decoration_blocks
   item:
     class: Item
@@ -2991,7 +2991,7 @@ Snail Brown Walking:
       actions:
       - right_click
 3D White Tulip:
-  material: scute
+  material: turtle_scute
   group: decoration_blocks
   item:
     class: Item
@@ -3004,7 +3004,7 @@ Snail Brown Walking:
       actions:
       - right_click
 3D Ladder:
-  material: scute
+  material: turtle_scute
   group: decoration_blocks
   item:
     class: Item
@@ -3013,7 +3013,7 @@ Snail Brown Walking:
     custom_model_data: 66
   path: aiost/blocks/3d_ladder
 Display:
-  material: scute
+  material: turtle_scute
   group: furniture
   item:
     class: Item
@@ -3026,7 +3026,7 @@ Display:
       actions:
       - right_click
 Keyboard and Mouse:
-  material: scute
+  material: turtle_scute
   group: furniture
   item:
     class: Item
@@ -3039,7 +3039,7 @@ Keyboard and Mouse:
       actions:
       - right_click
 Laptop:
-  material: scute
+  material: turtle_scute
   group: furniture
   item:
     class: Item
