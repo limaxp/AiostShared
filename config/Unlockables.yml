@@ -99,7 +99,7 @@ Trails:
     description:
     - §7
     type: PARTICLE
-    particle: SPELL_MOB_AMBIENT
+    particle: ENTITY_EFFECT
     count: 5
     offset: 0.1
   Purple Spark Trail:
