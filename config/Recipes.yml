@@ -4,7 +4,7 @@ Obsidian:
   ingredients:
     A: lava_bucket
     B: water_bucket
-Leather:
+Leather2:
   item: leather
   type: furnace
   ingredient: rotten_flesh
