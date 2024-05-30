@@ -1284,112 +1284,156 @@ Ray Gun:
 Flame:
   material: bow
   group: spells
-  item:
-    class: Spell
-    creativeModeTab: combat
-    spell: Flame
   predicate: 
     custom_model_data: 16
   path: aiost/magic/flame
+  effects:
+    CastSpell:
+      spell: Flame
+      actions:
+      - bow_shoot
+    CancelEvent:
+      actions:
+      - bow_shoot
 Fire Ball:
   material: bow
   group: spells
-  item:
-    class: Spell
-    creativeModeTab: combat
-    spell: Fireball
   predicate: 
     custom_model_data: 17
   path: aiost/magic/fire_ball
+  effects:
+    CastSpell:
+      spell: Fireball
+      actions:
+      - bow_shoot
+    CancelEvent:
+      actions:
+      - bow_shoot
 Fire Aura:
   material: bow
   group: spells
-  item:
-    class: Spell
-    creativeModeTab: combat
-    spell: FireAura
   predicate: 
     custom_model_data: 18
   path: aiost/magic/fire_aura
+  effects:
+    CastSpell:
+      spell: FireAura
+      actions:
+      - bow_shoot
+    CancelEvent:
+      actions:
+      - bow_shoot
 Water Beam:
   material: bow
   group: spells
-  item:
-    class: Spell
-    creativeModeTab: combat
-    spell: WaterBeam
   predicate: 
     custom_model_data: 19
   path: aiost/magic/water_beam
+  effects:
+    CastSpell:
+      spell: WaterBeam
+      actions:
+      - bow_shoot
+    CancelEvent:
+      actions:
+      - bow_shoot
 Fountain:
   material: bow
   group: spells
-  item:
-    class: Spell
-    creativeModeTab: combat
-    spell: Fountain
   predicate: 
     custom_model_data: 20
   path: aiost/magic/fountain
+  effects:
+    CastSpell:
+      spell: Fountain
+      actions:
+      - bow_shoot
+    CancelEvent:
+      actions:
+      - bow_shoot
 Water Aura:
   material: bow
   group: spells
-  item:
-    class: Spell
-    creativeModeTab: combat
-    spell: WaterAura
   predicate: 
     custom_model_data: 21
   path: aiost/magic/water_aura
+  effects:
+    CastSpell:
+      spell: WaterAura
+      actions:
+      - bow_shoot
+    CancelEvent:
+      actions:
+      - bow_shoot
 Earth Beam:
   material: bow
   group: spells
-  item:
-    class: Spell
-    creativeModeTab: combat
-    spell: EarthBeam
   predicate: 
     custom_model_data: 22
   path: aiost/magic/earth_beam
+  effects:
+    CastSpell:
+      spell: EarthBeam
+      actions:
+      - bow_shoot
+    CancelEvent:
+      actions:
+      - bow_shoot
 Earth Ball:
   material: bow
   group: spells
-  item:
-    class: Spell
-    creativeModeTab: combat
-    spell: Earthball
   predicate: 
     custom_model_data: 23
   path: aiost/magic/earth_ball
+  effects:
+    CastSpell:
+      spell: Earthball
+      actions:
+      - bow_shoot
+    CancelEvent:
+      actions:
+      - bow_shoot
 Earth Aura:
   material: bow
   group: spells
-  item:
-    class: Spell
-    creativeModeTab: combat
-    spell: EarthAura
   predicate: 
     custom_model_data: 24
   path: aiost/magic/earth_aura
+  effects:
+    CastSpell:
+      spell: EarthAura
+      actions:
+      - bow_shoot
+    CancelEvent:
+      actions:
+      - bow_shoot
 Summon Zombie:
   material: bow
   group: spells
-  item:
-    class: Spell
-    creativeModeTab: combat
-    spell: SummonZombie
   predicate: 
     custom_model_data: 25
   path: aiost/magic/summon
+  effects:
+    CastSpell:
+      spell: SummonZombie
+      actions:
+      - bow_shoot
+    CancelEvent:
+      actions:
+      - bow_shoot
 Summon Skeleton:
   material: bow
   group: spells
-  item:
-    class: Spell
-    creativeModeTab: combat
-    spell: SummonSkeleton
   predicate: 
     custom_model_data: 26
+    effects:
+    CastSpell:
+      spell: SummonSkeleton
+      actions:
+      - bow_shoot
+    CancelEvent:
+      actions:
+      - bow_shoot
 Quartz Crystal Bihander:
   material: diamond_sword
   group: combat
