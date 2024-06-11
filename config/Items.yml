@@ -61,7 +61,6 @@ Quartz Crystal Hammer:
   group: tools
   item:
     class: Pickaxe
-    creativeModeTab: tools
     toolMaterial: quartz_crystal
     damage: 3
     attackSpeed: -3.2
@@ -80,7 +79,6 @@ Lava Crystal Hammer:
   group: tools
   item:
     class: Pickaxe
-    creativeModeTab: tools
     toolMaterial: lava_crystal
     damage: 3
     attackSpeed: -3.2
@@ -99,7 +97,6 @@ Obsidian Crystal Hammer:
   group: tools
   item:
     class: Pickaxe
-    creativeModeTab: tools
     toolMaterial: obsidian_crystal
     damage: 3
     attackSpeed: -3.2
@@ -118,7 +115,6 @@ Black Diamond Hammer:
   group: tools
   item:
     class: Pickaxe
-    creativeModeTab: tools
     toolMaterial: black_diamond
     damage: 3
     attackSpeed: -3.2
@@ -137,7 +133,6 @@ Ruby Hammer:
   group: tools
   item:
     class: Pickaxe
-    creativeModeTab: tools
     toolMaterial: ruby
     damage: 3
     attackSpeed: -3.2
@@ -155,7 +150,6 @@ Emerald Hammer:
   group: tools
   item:
     class: Pickaxe
-    creativeModeTab: tools
     toolMaterial: emerald
     damage: 3
     attackSpeed: -3.2
@@ -173,7 +167,6 @@ Diamond Hammer:
   group: tools
   item:
     class: Pickaxe
-    creativeModeTab: tools
     toolMaterial: diamond
     damage: 3
     attackSpeed: -3.2
@@ -191,7 +184,6 @@ Quartz Crystal Pickaxe:
   group: tools
   item:
     class: Pickaxe
-    creativeModeTab: tools
     toolMaterial: quartz_crystal
     damage: 1
     attackSpeed: -2.8
@@ -204,7 +196,6 @@ Lava Crystal Pickaxe:
   group: tools
   item:
     class: Pickaxe
-    creativeModeTab: tools
     toolMaterial: lava_crystal
     damage: 1
     attackSpeed: -2.8
@@ -217,7 +208,6 @@ Obsidian Crystal Pickaxe:
   group: tools
   item:
     class: Pickaxe
-    creativeModeTab: tools
     toolMaterial: obsidian_crystal
     damage: 1
     attackSpeed: -2.8
@@ -230,7 +220,6 @@ Black Diamond Pickaxe:
   group: tools
   item:
     class: Pickaxe
-    creativeModeTab: tools
     toolMaterial: black_diamond
     damage: 1
     attackSpeed: -2.8
@@ -243,7 +232,6 @@ Ruby Pickaxe:
   group: tools
   item:
     class: Pickaxe
-    creativeModeTab: tools
     toolMaterial: ruby
     damage: 1
     attackSpeed: -2.8
@@ -255,7 +243,6 @@ Emerald Pickaxe:
   group: tools
   item:
     class: Pickaxe
-    creativeModeTab: tools
     toolMaterial: diamond
     damage: 1
     attackSpeed: -2.8
@@ -267,7 +254,6 @@ Iron Hammer:
   group: tools
   item:
     class: Pickaxe
-    creativeModeTab: tools
     toolMaterial: iron
     damage: 3
     attackSpeed: -3.2
@@ -285,7 +271,6 @@ Bronze Hammer:
   group: tools
   item:
     class: Pickaxe
-    creativeModeTab: tools
     toolMaterial: bronze
     damage: 3
     attackSpeed: -3.2
@@ -303,7 +288,6 @@ Bronze Pickaxe:
   group: tools
   item:
     class: Pickaxe
-    creativeModeTab: tools
     toolMaterial: bronze
     damage: 1
     attackSpeed: -2.8
@@ -315,7 +299,6 @@ Golden Hammer:
   group: tools
   item:
     class: Pickaxe
-    creativeModeTab: tools
     toolMaterial: gold
     damage: 3
     attackSpeed: -3.2
@@ -333,7 +316,6 @@ Tin Hammer:
   group: tools
   item:
     class: Pickaxe
-    creativeModeTab: tools
     toolMaterial: tin
     damage: 3
     attackSpeed: -3.2
@@ -351,7 +333,6 @@ Copper Hammer:
   group: tools
   item:
     class: Pickaxe
-    creativeModeTab: tools
     toolMaterial: copper
     damage: 3
     attackSpeed: -3.2
@@ -369,7 +350,6 @@ Stone Hammer:
   group: tools
   item:
     class: Pickaxe
-    creativeModeTab: tools
     toolMaterial: stone
     damage: 3
     attackSpeed: -3.2
@@ -387,7 +367,6 @@ Tin Pickaxe:
   group: tools
   item:
     class: Pickaxe
-    creativeModeTab: tools
     toolMaterial: tin
     damage: 1
     attackSpeed: -2.8
@@ -399,7 +378,6 @@ Copper Pickaxe:
   group: tools
   item:
     class: Pickaxe
-    creativeModeTab: tools
     toolMaterial: copper
     damage: 1
     attackSpeed: -2.8
@@ -411,7 +389,6 @@ Wooden Hammer:
   group: tools
   item:
     class: Pickaxe
-    creativeModeTab: tools
     toolMaterial: wood
     damage: 3
     attackSpeed: -3.2
@@ -429,7 +406,6 @@ Quartz Crystal Shovel:
   group: tools
   item:
     class: Shovel
-    creativeModeTab: tools
     toolMaterial: quartz_crystal
     damage: 1.5
     attackSpeed: -3.0
@@ -442,7 +418,6 @@ Lava Crystal Shovel:
   group: tools
   item:
     class: Shovel
-    creativeModeTab: tools
     toolMaterial: lava_crystal
     damage: 1.5
     attackSpeed: -3.0
@@ -455,7 +430,6 @@ Obsidian Crystal Shovel:
   group: tools
   item:
     class: Shovel
-    creativeModeTab: tools
     toolMaterial: obsidian_crystal
     damage: 1.5
     attackSpeed: -3.0
@@ -468,7 +442,6 @@ Black Diamond Shovel:
   group: tools
   item:
     class: Shovel
-    creativeModeTab: tools
     toolMaterial: black_diamond
     damage: 1.5
     attackSpeed: -3.0
@@ -481,7 +454,6 @@ Ruby Shovel:
   group: tools
   item:
     class: Shovel
-    creativeModeTab: tools
     toolMaterial: ruby
     damage: 1.5
     attackSpeed: -3.0
@@ -493,7 +465,6 @@ Emerald Shovel:
   group: tools
   item:
     class: Shovel
-    creativeModeTab: tools
     toolMaterial: emerald
     damage: 1.5
     attackSpeed: -3.0
@@ -505,7 +476,6 @@ Bronze Shovel:
   group: tools
   item:
     class: Shovel
-    creativeModeTab: tools
     toolMaterial: bronze
     damage: 1.5
     attackSpeed: -3.0
@@ -517,7 +487,6 @@ Tin Shovel:
   group: tools
   item:
     class: Shovel
-    creativeModeTab: tools
     toolMaterial: tin
     damage: 1.5
     attackSpeed: -3.0
@@ -529,7 +498,6 @@ Copper Shovel:
   group: tools
   item:
     class: Shovel
-    creativeModeTab: tools
     toolMaterial: copper
     damage: 1.5
     attackSpeed: -3.0
@@ -541,7 +509,6 @@ Quartz Crystal Waraxe:
   group: combat
   item:
     class: Axe
-    creativeModeTab: combat
     toolMaterial: quartz_crystal
     damage: 6
     attackSpeed: -3.1
@@ -554,7 +521,6 @@ Lava Crystal Waraxe:
   group: combat
   item:
     class: Axe
-    creativeModeTab: combat
     toolMaterial: lava_crystal
     damage: 6
     attackSpeed: -3.1
@@ -567,7 +533,6 @@ Obsidian Crystal Waraxe:
   group: combat
   item:
     class: Axe
-    creativeModeTab: combat
     toolMaterial: obsidian_crystal
     damage: 6
     attackSpeed: -3.1
@@ -580,7 +545,6 @@ Black Diamond Waraxe:
   group: combat
   item:
     class: Axe
-    creativeModeTab: combat
     toolMaterial: black_diamond
     damage: 6
     attackSpeed: -3.1
@@ -593,7 +557,6 @@ Ruby Waraxe:
   group: combat
   item:
     class: Axe
-    creativeModeTab: combat
     toolMaterial: ruby
     damage: 6
     attackSpeed: -3.1
@@ -605,7 +568,6 @@ Emerald Waraxe:
   group: combat
   item:
     class: Axe
-    creativeModeTab: combat
     toolMaterial: emerald
     damage: 6
     attackSpeed: -3.1
@@ -617,7 +579,6 @@ Diamond Waraxe:
   group: combat
   item:
     class: Axe
-    creativeModeTab: combat
     toolMaterial: diamond
     damage: 6
     attackSpeed: -3.1
@@ -629,7 +590,6 @@ Quartz Crystal Axe:
   group: tools
   item:
     class: Axe
-    creativeModeTab: tools
     toolMaterial: quartz_crystal
     damage: 5
     attackSpeed: -3.0
@@ -642,7 +602,6 @@ Lava Crystal Axe:
   group: tools
   item:
     class: Axe
-    creativeModeTab: tools
     toolMaterial: lava_crystal
     damage: 5
     attackSpeed: -3.0
@@ -655,7 +614,6 @@ Obsidian Crystal Axe:
   group: tools
   item:
     class: Axe
-    creativeModeTab: tools
     toolMaterial: obsidian_crystal
     damage: 5
     attackSpeed: -3.0
@@ -668,7 +626,6 @@ Black Diamond Axe:
   group: tools
   item:
     class: Axe
-    creativeModeTab: tools
     toolMaterial: black_diamond
     damage: 5
     attackSpeed: -3.0
@@ -681,7 +638,6 @@ Ruby Axe:
   group: tools
   item:
     class: Axe
-    creativeModeTab: tools
     toolMaterial: ruby
     damage: 5
     attackSpeed: -3.0
@@ -693,7 +649,6 @@ Emerald Axe:
   group: tools
   item:
     class: Axe
-    creativeModeTab: tools
     toolMaterial: emerald
     damage: 5
     attackSpeed: -3.0
@@ -705,7 +660,6 @@ Iron Waraxe:
   group: combat
   item:
     class: Axe
-    creativeModeTab: combat
     toolMaterial: iron
     damage: 6
     attackSpeed: -3.1
@@ -717,7 +671,6 @@ Bronze Waraxe:
   group: combat
   item:
     class: Axe
-    creativeModeTab: combat
     toolMaterial: bronze
     damage: 6
     attackSpeed: -3.1
@@ -729,7 +682,6 @@ Bronze Axe:
   group: tools
   item:
     class: Axe
-    creativeModeTab: tools
     toolMaterial: bronze
     damage: 5
     attackSpeed: -3.0
@@ -741,7 +693,6 @@ Golden Waraxe:
   group: combat
   item:
     class: Axe
-    creativeModeTab: combat
     toolMaterial: gold
     damage: 6
     attackSpeed: -3.1
@@ -753,7 +704,6 @@ Tin Waraxe:
   group: combat
   item:
     class: Axe
-    creativeModeTab: combat
     toolMaterial: tin
     damage: 6
     attackSpeed: -3.1
@@ -765,7 +715,6 @@ Copper Waraxe:
   group: combat
   item:
     class: Axe
-    creativeModeTab: combat
     toolMaterial: copper
     damage: 6
     attackSpeed: -3.1
@@ -777,7 +726,6 @@ Stone Waraxe:
   group: combat
   item:
     class: Axe
-    creativeModeTab: combat
     toolMaterial: stone
     damage: 6
     attackSpeed: -3.1
@@ -789,7 +737,6 @@ Tin Axe:
   group: tools
   item:
     class: Axe
-    creativeModeTab: tools
     toolMaterial: tin
     damage: 5
     attackSpeed: -3.0
@@ -801,7 +748,6 @@ Copper Axe:
   group: tools
   item:
     class: Axe
-    creativeModeTab: tools
     toolMaterial: copper
     damage: 5
     attackSpeed: -3.0
@@ -813,7 +759,6 @@ Wooden Waraxe:
   group: combat
   item:
     class: Axe
-    creativeModeTab: combat
     toolMaterial: wood
     damage: 6
     attackSpeed: -3.1
@@ -825,7 +770,6 @@ Quartz Crystal Hoe:
   group: tools
   item:
     class: Hoe
-    creativeModeTab: tools
     toolMaterial: quartz_crystal
     attackSpeed: 0
     rarity: rare
@@ -837,7 +781,6 @@ Lava Crystal Hoe:
   group: tools
   item:
     class: Hoe
-    creativeModeTab: tools
     toolMaterial: lava_crystal
     attackSpeed: 0
     rarity: rare
@@ -849,7 +792,6 @@ Obsidian Crystal Hoe:
   group: tools
   item:
     class: Hoe
-    creativeModeTab: tools
     toolMaterial: obsidian_crystal
     attackSpeed: 0
     rarity: rare
@@ -861,7 +803,6 @@ Black Diamond Hoe:
   group: tools
   item:
     class: Hoe
-    creativeModeTab: tools
     toolMaterial: black_diamond
     attackSpeed: 0
     rarity: rare
@@ -873,7 +814,6 @@ Ruby Hoe:
   group: tools
   item:
     class: Hoe
-    creativeModeTab: tools
     toolMaterial: ruby
     attackSpeed: 0
   predicate: 
@@ -884,7 +824,6 @@ Emerald Hoe:
   group: tools
   item:
     class: Hoe
-    creativeModeTab: tools
     toolMaterial: emerald
     attackSpeed: 0
   predicate: 
@@ -895,7 +834,6 @@ Bronze Hoe:
   group: tools
   item:
     class: Hoe
-    creativeModeTab: tools
     toolMaterial: bronze
     attackSpeed: -1.0F
   predicate: 
@@ -906,7 +844,6 @@ Tin Hoe:
   group: tools
   item:
     class: Hoe
-    creativeModeTab: tools
     toolMaterial: tin
     attackSpeed: -2.0F
   predicate: 
@@ -917,7 +854,6 @@ Copper Hoe:
   group: tools
   item:
     class: Hoe
-    creativeModeTab: tools
     toolMaterial: copper
     attackSpeed: -2.0F
   predicate: 
@@ -928,7 +864,6 @@ Iron Bow:
   group: combat
   item:
     class: MaterialBow
-    creativeModeTab: combat
     toolMaterial: iron
   predicate: 
     custom_model_data: 1
@@ -956,7 +891,6 @@ Golden Bow:
   group: combat
   item:
     class: MaterialBow
-    creativeModeTab: combat
     toolMaterial: gold
   predicate: 
     custom_model_data: 2
@@ -984,7 +918,6 @@ Diamond Bow:
   group: combat
   item:
     class: MaterialBow
-    creativeModeTab: combat
     toolMaterial: diamond
   predicate: 
     custom_model_data: 3
@@ -1012,7 +945,6 @@ Emerald Bow:
   group: combat
   item:
     class: MaterialBow
-    creativeModeTab: combat
     toolMaterial: emerald
   predicate: 
     custom_model_data: 4
@@ -1040,7 +972,6 @@ Black Diamond Bow:
   group: combat
   item:
     class: MaterialBow
-    creativeModeTab: combat
     toolMaterial: black_diamond
     rarity: rare
   predicate: 
@@ -1069,7 +1000,6 @@ Bronze Bow:
   group: combat
   item:
     class: MaterialBow
-    creativeModeTab: combat
     toolMaterial: bronze
   predicate: 
     custom_model_data: 6
@@ -1097,7 +1027,6 @@ Copper Bow:
   group: combat
   item:
     class: MaterialBow
-    creativeModeTab: combat
     toolMaterial: copper
   predicate: 
     custom_model_data: 7
@@ -1125,7 +1054,6 @@ Lava Crystal Bow:
   group: combat
   item:
     class: MaterialBow
-    creativeModeTab: combat
     toolMaterial: lava_crystal
     rarity: rare
   predicate: 
@@ -1154,7 +1082,6 @@ Obsidian Crystal Bow:
   group: combat
   item:
     class: MaterialBow
-    creativeModeTab: combat
     toolMaterial: obsidian_crystal
     rarity: rare
   predicate: 
@@ -1183,7 +1110,6 @@ Quartz Crystal Bow:
   group: combat
   item:
     class: MaterialBow
-    creativeModeTab: combat
     toolMaterial: quartz_crystal
     rarity: rare
   predicate: 
@@ -1212,7 +1138,6 @@ Ruby Bow:
   group: combat
   item:
     class: MaterialBow
-    creativeModeTab: combat
     toolMaterial: ruby
   predicate: 
     custom_model_data: 11
@@ -1240,7 +1165,6 @@ Tin Bow:
   group: combat
   item:
     class: MaterialBow
-    creativeModeTab: combat
     toolMaterial: tin
   predicate: 
     custom_model_data: 12
@@ -1439,7 +1363,6 @@ Quartz Crystal Bihander:
   group: combat
   item:
     class: Sword
-    creativeModeTab: combat
     toolMaterial: quartz_crystal
     damage: 7
     attackSpeed: -3.2
@@ -1455,7 +1378,6 @@ Lava Crystal Bihander:
   group: combat
   item:
     class: Sword
-    creativeModeTab: combat
     toolMaterial: lava_crystal
     damage: 7
     attackSpeed: -3.2
@@ -1471,7 +1393,6 @@ Obsidian Crystal Bihander:
   group: combat
   item:
     class: Sword
-    creativeModeTab: combat
     toolMaterial: obsidian_crystal
     damage: 7
     attackSpeed: -3.2
@@ -1487,7 +1408,6 @@ Black Diamond Bihander:
   group: combat
   item:
     class: Sword
-    creativeModeTab: combat
     toolMaterial: black_diamond
     damage: 7
     attackSpeed: -3.2
@@ -1503,7 +1423,6 @@ Ruby Bihander:
   group: combat
   item:
     class: Sword
-    creativeModeTab: combat
     toolMaterial: ruby
     damage: 7
     attackSpeed: -3.2
@@ -1518,7 +1437,6 @@ Emerald Bihander:
   group: combat
   item:
     class: Sword
-    creativeModeTab: combat
     toolMaterial: emerald
     damage: 7
     attackSpeed: -3.2
@@ -1533,7 +1451,6 @@ Diamond Bihander:
   group: combat
   item:
     class: Sword
-    creativeModeTab: combat
     toolMaterial: diamond
     damage: 7
     attackSpeed: -3.2
@@ -1548,7 +1465,6 @@ Golden Bihander:
   group: combat
   item:
     class: Sword
-    creativeModeTab: combat
     toolMaterial: gold
     damage: 7
     attackSpeed: -3.2
@@ -1563,7 +1479,6 @@ Iron Bihander:
   group: combat
   item:
     class: Sword
-    creativeModeTab: combat
     toolMaterial: iron
     damage: 7
     attackSpeed: -3.2
@@ -1578,7 +1493,6 @@ Bronze Bihander:
   group: combat
   item:
     class: Sword
-    creativeModeTab: combat
     toolMaterial: bronze
     damage: 7
     attackSpeed: -3.2
@@ -1593,7 +1507,6 @@ Tin Bihander:
   group: combat
   item:
     class: Sword
-    creativeModeTab: combat
     toolMaterial: tin
     damage: 7
     attackSpeed: -3.2
@@ -1608,7 +1521,6 @@ Copper Bihander:
   group: combat
   item:
     class: Sword
-    creativeModeTab: combat
     toolMaterial: copper
     damage: 7
     attackSpeed: -3.2
@@ -1623,7 +1535,6 @@ Stone Bihander:
   group: combat
   item:
     class: Sword
-    creativeModeTab: combat
     toolMaterial: stone
     damage: 7
     attackSpeed: -3.2
@@ -1638,7 +1549,6 @@ Wooden Bihander:
   group: combat
   item:
     class: Sword
-    creativeModeTab: combat
     toolMaterial: wood
     damage: 7
     attackSpeed: -3.2
@@ -1653,7 +1563,6 @@ Quartz Crystal Sword:
   group: combat
   item:
     class: Sword
-    creativeModeTab: combat
     toolMaterial: quartz_crystal
     damage: 3
     attackSpeed: -2.4
@@ -1666,7 +1575,6 @@ Lava Crystal Sword:
   group: combat
   item:
     class: Sword
-    creativeModeTab: combat
     toolMaterial: lava_crystal
     damage: 3
     attackSpeed: -2.4
@@ -1679,7 +1587,6 @@ Obsidian Crystal Sword:
   group: combat
   item:
     class: Sword
-    creativeModeTab: combat
     toolMaterial: obsidian_crystal
     damage: 3
     attackSpeed: -2.4
@@ -1692,7 +1599,6 @@ Black Diamond Sword:
   group: combat
   item:
     class: Sword
-    creativeModeTab: combat
     toolMaterial: black_diamond
     damage: 3
     attackSpeed: -2.4
@@ -1705,7 +1611,6 @@ Ruby Sword:
   group: combat
   item:
     class: Sword
-    creativeModeTab: combat
     toolMaterial: ruby
     damage: 3
     attackSpeed: -2.4
@@ -1717,7 +1622,6 @@ Emerald Sword:
   group: combat
   item:
     class: Sword
-    creativeModeTab: combat
     toolMaterial: emerald
     damage: 3
     attackSpeed: -2.4
@@ -1729,7 +1633,6 @@ Bronze Sword:
   group: combat
   item:
     class: Sword
-    creativeModeTab: combat
     toolMaterial: bronze
     damage: 3
     attackSpeed: -2.4
@@ -1741,7 +1644,6 @@ Tin Sword:
   group: combat
   item:
     class: Sword
-    creativeModeTab: combat
     toolMaterial: tin
     damage: 3
     attackSpeed: -2.4
@@ -1753,7 +1655,6 @@ Copper Sword:
   group: combat
   item:
     class: Sword
-    creativeModeTab: combat
     toolMaterial: copper
     damage: 3
     attackSpeed: -2.4
@@ -1771,7 +1672,6 @@ Quartz Crystal Dagger:
   group: combat
   item:
     class: Sword
-    creativeModeTab: combat
     toolMaterial: quartz_crystal
     damage: 2
     attackSpeed: -1.8
@@ -1787,7 +1687,6 @@ Lava Crystal Dagger:
   group: combat
   item:
     class: Sword
-    creativeModeTab: combat
     toolMaterial: lava_crystal
     damage: 2
     attackSpeed: -1.8
@@ -1803,7 +1702,6 @@ Obsidian Crystal Dagger:
   group: combat
   item:
     class: Sword
-    creativeModeTab: combat
     toolMaterial: obsidian_crystal
     damage: 2
     attackSpeed: -1.8
@@ -1819,7 +1717,6 @@ Black Diamond Dagger:
   group: combat
   item:
     class: Sword
-    creativeModeTab: combat
     toolMaterial: black_diamond
     damage: 2
     attackSpeed: -1.8
@@ -1835,7 +1732,6 @@ Ruby Dagger:
   group: combat
   item:
     class: Sword
-    creativeModeTab: combat
     toolMaterial: ruby
     damage: 2
     attackSpeed: -1.8
@@ -1850,7 +1746,6 @@ Emerald Dagger:
   group: combat
   item:
     class: Sword
-    creativeModeTab: combat
     toolMaterial: emerald
     damage: 2
     attackSpeed: -1.8
@@ -1865,7 +1760,6 @@ Diamond Dagger:
   group: combat
   item:
     class: Sword
-    creativeModeTab: combat
     toolMaterial: diamond
     damage: 2
     attackSpeed: -1.8
@@ -1880,7 +1774,6 @@ Golden Dagger:
   group: combat
   item:
     class: Sword
-    creativeModeTab: combat
     toolMaterial: gold
     damage: 2
     attackSpeed: -1.8
@@ -1895,7 +1788,6 @@ Iron Dagger:
   group: combat
   item:
     class: Sword
-    creativeModeTab: combat
     toolMaterial: iron
     damage: 2
     attackSpeed: -1.8
@@ -1910,7 +1802,6 @@ Bronze Dagger:
   group: combat
   item:
     class: Sword
-    creativeModeTab: combat
     toolMaterial: bronze
     damage: 2
     attackSpeed: -1.8
@@ -1925,7 +1816,6 @@ Tin Dagger:
   group: combat
   item:
     class: Sword
-    creativeModeTab: combat
     toolMaterial: tin
     damage: 2
     attackSpeed: -1.8
@@ -1940,7 +1830,6 @@ Copper Dagger:
   group: combat
   item:
     class: Sword
-    creativeModeTab: combat
     toolMaterial: copper
     damage: 2
     attackSpeed: -1.8
@@ -1955,7 +1844,6 @@ Stone Dagger:
   group: combat
   item:
     class: Sword
-    creativeModeTab: combat
     toolMaterial: stone
     damage: 2
     attackSpeed: -1.8
@@ -1970,7 +1858,6 @@ Wooden Dagger:
   group: combat
   item:
     class: Sword
-    creativeModeTab: combat
     toolMaterial: wood
     damage: 2
     attackSpeed: -1.8
@@ -2288,7 +2175,6 @@ Aluminium Ingot:
   group: miscellaneous
   item:
     class: Item
-    creativeModeTab: misc
   predicate:
     custom_model_data: 1
   path: aiost/items/aluminium_ingot
@@ -2297,7 +2183,6 @@ Aluminium Nugget:
   group: miscellaneous
   item:
     class: Item
-    creativeModeTab: misc
   predicate:
     custom_model_data: 2
   path: aiost/items/aluminium_nugget
@@ -2306,7 +2191,6 @@ Black Diamond:
   group: miscellaneous
   item:
     class: Item
-    creativeModeTab: misc
   predicate:
     custom_model_data: 3
   path: aiost/items/black_diamond
@@ -2315,7 +2199,6 @@ Bronze Ingot:
   group: miscellaneous
   item:
     class: Item
-    creativeModeTab: misc
   predicate:
     custom_model_data: 4
   path: aiost/items/bronze_ingot
@@ -2324,7 +2207,6 @@ Bronze Nugget:
   group: miscellaneous
   item:
     class: Item
-    creativeModeTab: misc
   predicate:
     custom_model_data: 5
   path: aiost/items/bronze_nugget
@@ -2333,7 +2215,6 @@ Copper Ingot:
   group: miscellaneous
   item:
     class: Item
-    creativeModeTab: misc
   predicate:
     custom_model_data: 6
   path: aiost/items/copper_ingot
@@ -2342,7 +2223,6 @@ Copper Nugget:
   group: miscellaneous
   item:
     class: Item
-    creativeModeTab: misc
   predicate:
     custom_model_data: 7
   path: aiost/items/copper_nugget
@@ -2351,7 +2231,6 @@ Invisible Item:
   group: miscellaneous
   item:
     class: Item
-    creativeModeTab: misc
   predicate:
     custom_model_data: 8
   path: aiost/items/invisible_item
@@ -2360,7 +2239,6 @@ Lava Crystal:
   group: miscellaneous
   item:
     class: Item
-    creativeModeTab: misc
   predicate:
     custom_model_data: 9
   path: aiost/items/lava_crystal
@@ -2369,7 +2247,6 @@ Obsidian Crystal:
   group: miscellaneous
   item:
     class: Item
-    creativeModeTab: misc
   predicate:
     custom_model_data: 10
   path: aiost/items/obsidian_crystal
@@ -2378,7 +2255,6 @@ Quartz Crystal:
   group: miscellaneous
   item:
     class: Item
-    creativeModeTab: misc
   predicate:
     custom_model_data: 11
   path: aiost/items/quartz_crystal
@@ -2387,7 +2263,6 @@ ruby:
   group: miscellaneous
   item:
     class: Item
-    creativeModeTab: misc
   predicate:
     custom_model_data: 12
   path: aiost/items/ruby
@@ -2396,7 +2271,6 @@ Silver Ingot:
   group: miscellaneous
   item:
     class: Item
-    creativeModeTab: misc
   predicate:
     custom_model_data: 13
   path: aiost/items/silver_ingot
@@ -2405,7 +2279,6 @@ Silver Nugget:
   group: miscellaneous
   item:
     class: Item
-    creativeModeTab: misc
   predicate:
     custom_model_data: 14
   path: aiost/items/silver_nugget
@@ -2414,7 +2287,6 @@ Tin Ingot:
   group: miscellaneous
   item:
     class: Item
-    creativeModeTab: misc
   predicate:
     custom_model_data: 15
   path: aiost/items/tin_ingot
@@ -2423,7 +2295,6 @@ Tin Nugget:
   group: miscellaneous
   item:
     class: Item
-    creativeModeTab: misc
   predicate:
     custom_model_data: 16
   path: aiost/items/tin_nugget
@@ -2432,7 +2303,6 @@ Aluminium Block:
   group: building_blocks
   item:
     class: Item
-    creativeModeTab: building_blocks
   predicate:
     custom_model_data: 17
   path: aiost/blocks/aluminium_block
@@ -2445,7 +2315,6 @@ Aluminium Ore:
   group: building_blocks
   item:
     class: Item
-    creativeModeTab: building_blocks
   predicate:
     custom_model_data: 18
   path: aiost/blocks/aluminium_ore
@@ -2458,7 +2327,6 @@ Apple Block:
   group: decoration_blocks
   item:
     class: Item
-    creativeModeTab: building_blocks
   predicate:
     custom_model_data: 19
   path: aiost/blocks/apple_block
@@ -2471,7 +2339,6 @@ Black Diamond Block:
   group: building_blocks
   item:
     class: Item
-    creativeModeTab: building_blocks
   predicate:
     custom_model_data: 20
   path: aiost/blocks/black_diamond_block
@@ -2484,7 +2351,6 @@ Bronze Block:
   group: building_blocks
   item:
     class: Item
-    creativeModeTab: building_blocks
   predicate:
     custom_model_data: 21
   path: aiost/blocks/bronze_block
@@ -2497,7 +2363,6 @@ Copper Block:
   group: building_blocks
   item:
     class: Item
-    creativeModeTab: building_blocks
   predicate:
     custom_model_data: 22
   path: aiost/blocks/copper_block
@@ -2510,7 +2375,6 @@ Copper Ore:
   group: building_blocks
   item:
     class: Item
-    creativeModeTab: building_blocks
   predicate:
     custom_model_data: 23
   path: aiost/blocks/copper_ore
@@ -2523,7 +2387,6 @@ Lucky Block:
   group: building_blocks
   item:
     class: Item
-    creativeModeTab: building_blocks
   predicate:
     custom_model_data: 24
   path: aiost/blocks/lucky_block
@@ -2536,7 +2399,6 @@ Ruby Block:
   group: building_blocks
   item:
     class: Item
-    creativeModeTab: building_blocks
   predicate:
     custom_model_data: 25
   path: aiost/blocks/ruby_block
@@ -2549,7 +2411,6 @@ Ruby Ore:
   group: building_blocks
   item:
     class: Item
-    creativeModeTab: building_blocks
   predicate:
     custom_model_data: 26
   path: aiost/blocks/ruby_ore
@@ -2562,7 +2423,6 @@ Silver Block:
   group: building_blocks
   item:
     class: Item
-    creativeModeTab: building_blocks
   predicate:
     custom_model_data: 27
   path: aiost/blocks/silver_block
@@ -2575,7 +2435,6 @@ Silver Ore:
   group: building_blocks
   item:
     class: Item
-    creativeModeTab: building_blocks
   predicate:
     custom_model_data: 28
   path: aiost/blocks/silver_ore
@@ -2588,7 +2447,6 @@ Super Lucky Block:
   group: building_blocks
   item:
     class: Item
-    creativeModeTab: building_blocks
   predicate:
     custom_model_data: 29
   path: aiost/blocks/super_lucky_block
@@ -2601,7 +2459,6 @@ Tin Block:
   group: building_blocks
   item:
     class: Item
-    creativeModeTab: building_blocks
   predicate:
     custom_model_data: 30
   path: aiost/blocks/tin_block
@@ -2614,7 +2471,6 @@ Tin Ore:
   group: building_blocks
   item:
     class: Item
-    creativeModeTab: building_blocks
   predicate:
     custom_model_data: 31
   path: aiost/blocks/tin_ore
@@ -2627,7 +2483,6 @@ Oak Chair:
   group: furniture
   item:
     class: Item
-    creativeModeTab: decorations
   predicate:
     custom_model_data: 32
   path: aiost/furniture/oak_chair
@@ -2640,7 +2495,6 @@ Oak Table:
   group: furniture
   item:
     class: Item
-    creativeModeTab: decorations
   predicate:
     custom_model_data: 33
   path: aiost/furniture/oak_table
@@ -2653,7 +2507,6 @@ Bullet 1:
   group: miscellaneous
   item:
     class: Item
-    creativeModeTab: misc
   predicate:
     custom_model_data: 34
   path: aiost/guns/bullet_1
@@ -2662,7 +2515,6 @@ Stop Symbol:
   group: miscellaneous
   item:
     class: Item
-    creativeModeTab: misc
   predicate:
     custom_model_data: 35
   path: aiost/symbols/stop_symbol
@@ -2674,7 +2526,6 @@ Snail Brown:
   group: decoration_blocks
   item:
     class: Item
-    creativeModeTab: decorations
   predicate:
     custom_model_data: 36
   path: aiost/mobs/snail_brown_standing
@@ -2683,7 +2534,6 @@ Snail Brown Walking:
   group: decoration_blocks
   item:
     class: Item
-    creativeModeTab: decorations
   predicate:
     custom_model_data: 37
   path: aiost/mobs/snail_brown_walking
@@ -2692,7 +2542,6 @@ Snail Brown Walking:
   group: decoration_blocks
   item:
     class: Item
-    creativeModeTab: decorations
   predicate:
     custom_model_data: 38
   path: aiost/blocks/3d_allium
@@ -2705,7 +2554,6 @@ Snail Brown Walking:
   group: building_blocks
   item:
     class: Item
-    creativeModeTab: decorations
   predicate:
     custom_model_data: 39
   path: aiost/blocks/3d_bookshelf
@@ -2718,7 +2566,6 @@ Snail Brown Walking:
   group: decoration_blocks
   item:
     class: Item
-    creativeModeTab: decorations
   predicate:
     custom_model_data: 40
   path: aiost/blocks/3d_brown_mushroom
@@ -2731,7 +2578,6 @@ Snail Brown Walking:
   group: building_blocks
   item:
     class: Item
-    creativeModeTab: decorations
   predicate:
     custom_model_data: 41
   path: aiost/blocks/3d_cactus
@@ -2744,7 +2590,6 @@ Snail Brown Walking:
   group: building_blocks
   item:
     class: Item
-    creativeModeTab: decorations
   predicate:
     custom_model_data: 42
   path: aiost/blocks/3d_crafting_table
@@ -2757,7 +2602,6 @@ Snail Brown Walking:
   group: decoration_blocks
   item:
     class: Item
-    creativeModeTab: decorations
   predicate:
     custom_model_data: 43
   path: aiost/blocks/3d_daisy
@@ -2770,7 +2614,6 @@ Snail Brown Walking:
   group: decoration_blocks
   item:
     class: Item
-    creativeModeTab: decorations
   predicate:
     custom_model_data: 44
   path: aiost/blocks/3d_dandelion
@@ -2783,7 +2626,6 @@ Snail Brown Walking:
   group: building_blocks
   item:
     class: Item
-    creativeModeTab: decorations
   predicate:
     custom_model_data: 45
   path: aiost/blocks/3d_enchanting_table_base
@@ -2796,7 +2638,6 @@ Snail Brown Walking:
   group: decoration_blocks
   item:
     class: Item
-    creativeModeTab: decorations
   predicate:
     custom_model_data: 46
   path: aiost/blocks/3d_furnace
@@ -2809,7 +2650,6 @@ Snail Brown Walking:
   group: building_blocks
   item:
     class: Item
-    creativeModeTab: decorations
   predicate:
     custom_model_data: 47
   path: aiost/blocks/3d_grass_normal
@@ -2822,7 +2662,6 @@ Snail Brown Walking:
   group: decoration_blocks
   item:
     class: Item
-    creativeModeTab: decorations
   predicate:
     custom_model_data: 48
   path: aiost/blocks/3d_houstonia
@@ -2835,7 +2674,6 @@ Snail Brown Walking:
   group: decoration_blocks
   item:
     class: Item
-    creativeModeTab: decorations
   predicate:
     custom_model_data: 49
   path: aiost/blocks/3d_orange_tulip
@@ -2848,7 +2686,6 @@ Snail Brown Walking:
   group: decoration_blocks
   item:
     class: Item
-    creativeModeTab: decorations
   predicate:
     custom_model_data: 50
   path: aiost/blocks/3d_orchid
@@ -2861,7 +2698,6 @@ Snail Brown Walking:
   group: decoration_blocks
   item:
     class: Item
-    creativeModeTab: decorations
   predicate:
     custom_model_data: 51
   path: aiost/blocks/3d_pink_tulip
@@ -2874,7 +2710,6 @@ Snail Brown Walking:
   group: decoration_blocks
   item:
     class: Item
-    creativeModeTab: decorations
   predicate:
     custom_model_data: 52
   path: aiost/blocks/3d_poppy
@@ -2887,7 +2722,6 @@ Snail Brown Walking:
   group: building_blocks
   item:
     class: Item
-    creativeModeTab: decorations
   predicate:
     custom_model_data: 53
   path: aiost/blocks/3d_quartz_chiseled
@@ -2900,7 +2734,6 @@ Snail Brown Walking:
   group: building_blocks
   item:
     class: Item
-    creativeModeTab: decorations
   predicate:
     custom_model_data: 54
   path: aiost/blocks/3d_quartz_stairs
@@ -2913,7 +2746,6 @@ Snail Brown Walking:
   group: decoration_blocks
   item:
     class: Item
-    creativeModeTab: decorations
   predicate:
     custom_model_data: 55
   path: aiost/blocks/3d_red_mushroom
@@ -2926,7 +2758,6 @@ Snail Brown Walking:
   group: decoration_blocks
   item:
     class: Item
-    creativeModeTab: decorations
   predicate:
     custom_model_data: 56
   path: aiost/blocks/3d_red_tulip
@@ -2939,7 +2770,6 @@ Snail Brown Walking:
   group: decoration_blocks
   item:
     class: Item
-    creativeModeTab: decorations
   predicate:
     custom_model_data: 57
   path: aiost/blocks/3d_reeds
@@ -2952,7 +2782,6 @@ Snail Brown Walking:
   group: building_blocks
   item:
     class: Item
-    creativeModeTab: decorations
   predicate:
     custom_model_data: 58
   path: aiost/blocks/3d_stone_brick_chiseled
@@ -2965,7 +2794,6 @@ Snail Brown Walking:
   group: building_blocks
   item:
     class: Item
-    creativeModeTab: decorations
   predicate:
     custom_model_data: 59
   path: aiost/blocks/3d_stone_brick_cracked
@@ -2978,7 +2806,6 @@ Snail Brown Walking:
   group: building_blocks
   item:
     class: Item
-    creativeModeTab: decorations
   predicate:
     custom_model_data: 60
   path: aiost/blocks/3d_stone_brick_mossy
@@ -2991,7 +2818,6 @@ Snail Brown Walking:
   group: building_blocks
   item:
     class: Item
-    creativeModeTab: decorations
   predicate:
     custom_model_data: 61
   path: aiost/blocks/3d_stone_brick_normal
@@ -3004,7 +2830,6 @@ Snail Brown Walking:
   group: decoration_blocks
   item:
     class: Item
-    creativeModeTab: decorations
   predicate:
     custom_model_data: 62
   path: aiost/blocks/3d_tall_grass
@@ -3017,7 +2842,6 @@ Snail Brown Walking:
   group: decoration_blocks
   item:
     class: Item
-    creativeModeTab: decorations
   predicate:
     custom_model_data: 63
   path: aiost/blocks/3d_vine
@@ -3026,7 +2850,6 @@ Snail Brown Walking:
   group: decoration_blocks
   item:
     class: Item
-    creativeModeTab: decorations
   predicate:
     custom_model_data: 64
   path: aiost/blocks/3d_lily_pad
@@ -3039,7 +2862,6 @@ Snail Brown Walking:
   group: decoration_blocks
   item:
     class: Item
-    creativeModeTab: decorations
   predicate:
     custom_model_data: 65
   path: aiost/blocks/3d_white_tulip
@@ -3052,7 +2874,6 @@ Snail Brown Walking:
   group: decoration_blocks
   item:
     class: Item
-    creativeModeTab: decorations
   predicate:
     custom_model_data: 66
   path: aiost/blocks/3d_ladder
@@ -3061,7 +2882,6 @@ Display:
   group: furniture
   item:
     class: Item
-    creativeModeTab: decorations
   predicate:
     custom_model_data: 67
   path: aiost/furniture/display
@@ -3074,7 +2894,6 @@ Keyboard and Mouse:
   group: furniture
   item:
     class: Item
-    creativeModeTab: decorations
   predicate:
     custom_model_data: 68
   path: aiost/furniture/keyboard_and_mouse
@@ -3087,7 +2906,6 @@ Laptop:
   group: furniture
   item:
     class: Item
-    creativeModeTab: decorations
   predicate:
     custom_model_data: 69
   path: aiost/furniture/laptop
@@ -3101,7 +2919,6 @@ Emerald Apple:
   item:
     class: Item
     rarity: rare
-    creativeModeTab: food
     foodInfo:
       nutrition: 4
       saturation: 1.2
@@ -3122,7 +2939,6 @@ Mana Potion:
   group: brewing
   item:
     class: EffectPotion
-    creativeModeTab: brewing
     time: 100
     effects:
       ManaRegeneration:
