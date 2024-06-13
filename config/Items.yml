@@ -2937,14 +2937,11 @@ Emerald Apple:
 Mana Potion:
   material: potion
   group: brewing
-  item:
-    class: EffectPotion
-    time: 100
-    effects:
-      ManaRegeneration:
-        actions:
-        - tick
-        mana: 2
+  effects: 
+    ManaRegeneration:
+      actions:
+      - item_consume
+      mana: 10
 Throwable TNT:
   material: tnt
   group: combat
