@@ -14,7 +14,7 @@ import net.md_5.bungee.config.Configuration;
 
 public class ResourcePackBuilder {
 
-	private static final int PACK_FORMAT = 5;
+	private static final int PACK_FORMAT = 32;
 
 	public static void checkResourcePack(FileConfiguration itemsConfig) {
 		File resourcePackFolder = getResourcePackFolder();
@@ -40,10 +40,22 @@ public class ResourcePackBuilder {
 		File resourcePackFolder = new File(ConfigManager.getAiostFolderPath(), "resourcePack");
 		if (!resourcePackFolder.exists() || resourcePackFolder.getTotalSpace() == 0) {
 			resourcePackFolder.mkdir();
-			Logger.warn("ResourcePackBuilder: No resource pack folder found! Cancel resource pack creation");
-			return null;
+			Logger.warn("ResourcePackBuilder: No resource pack folder found! Please copy to aiost folder!");
+			createResourcePackFolder(resourcePackFolder);
 		}
 		return resourcePackFolder;
+	}
+
+	private static void createResourcePackFolder(File file) {
+		// TODO
+//		Logger.warn("ResourcePackBuilder: No resource pack folder found! Start creating new one...");
+//		String filePath = ConfigManager.getConfigFolderPath() + File.separator + "resourcePack";
+//		try {
+//			FileUtils.writeResourceFile(ConfigManager.class.getClassLoader(), "resourcePack", filePath);
+//		} catch (IOException e) {
+//			// TODO Auto-generated catch block
+//			e.printStackTrace();
+//		}
 	}
 
 	private static boolean hasChangedItemsConfig(File resourcePackFolder) {
