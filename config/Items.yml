@@ -1216,6 +1216,9 @@ Flame:
       spell: Flame
       actions:
       - bow_shoot
+    Arrow:
+      actions:
+      - right_click
     CancelEvent:
       actions:
       - bow_shoot
@@ -1230,6 +1233,9 @@ Fire Ball:
       spell: Fireball
       actions:
       - bow_shoot
+    Arrow:
+      actions:
+      - right_click
     CancelEvent:
       actions:
       - bow_shoot
@@ -1244,6 +1250,9 @@ Fire Aura:
       spell: FireAura
       actions:
       - bow_shoot
+    Arrow:
+      actions:
+      - right_click
     CancelEvent:
       actions:
       - bow_shoot
@@ -1258,6 +1267,9 @@ Water Beam:
       spell: WaterBeam
       actions:
       - bow_shoot
+    Arrow:
+      actions:
+      - right_click
     CancelEvent:
       actions:
       - bow_shoot
@@ -1272,6 +1284,9 @@ Fountain:
       spell: Fountain
       actions:
       - bow_shoot
+    Arrow:
+      actions:
+      - right_click
     CancelEvent:
       actions:
       - bow_shoot
@@ -1286,6 +1301,9 @@ Water Aura:
       spell: WaterAura
       actions:
       - bow_shoot
+    Arrow:
+      actions:
+      - right_click
     CancelEvent:
       actions:
       - bow_shoot
@@ -1300,6 +1318,9 @@ Earth Beam:
       spell: EarthBeam
       actions:
       - bow_shoot
+    Arrow:
+      actions:
+      - right_click
     CancelEvent:
       actions:
       - bow_shoot
@@ -1314,6 +1335,9 @@ Earth Ball:
       spell: Earthball
       actions:
       - bow_shoot
+    Arrow:
+      actions:
+      - right_click
     CancelEvent:
       actions:
       - bow_shoot
@@ -1328,6 +1352,9 @@ Earth Aura:
       spell: EarthAura
       actions:
       - bow_shoot
+    Arrow:
+      actions:
+      - right_click
     CancelEvent:
       actions:
       - bow_shoot
@@ -1342,6 +1369,9 @@ Summon Zombie:
       spell: SummonZombie
       actions:
       - bow_shoot
+    Arrow:
+      actions:
+      - right_click
     CancelEvent:
       actions:
       - bow_shoot
@@ -1355,6 +1385,9 @@ Summon Skeleton:
       spell: SummonSkeleton
       actions:
       - bow_shoot
+    Arrow:
+      actions:
+      - right_click
     CancelEvent:
       actions:
       - bow_shoot
