@@ -1,0 +1,86 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "item/diamond_axe"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 1
+      },
+      "model": "aiost/weapons/quartz_crystal_waraxe"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2
+      },
+      "model": "aiost/weapons/lava_crystal_waraxe"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 3
+      },
+      "model": "aiost/weapons/obsidian_crystal_waraxe"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 4
+      },
+      "model": "aiost/weapons/black_diamond_waraxe"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 5
+      },
+      "model": "aiost/weapons/ruby_waraxe"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 6
+      },
+      "model": "aiost/weapons/emerald_waraxe"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 7
+      },
+      "model": "aiost/weapons/diamond_waraxe"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8
+      },
+      "model": "aiost/tools/quartz_crystal_axe"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 9
+      },
+      "model": "aiost/tools/lava_crystal_axe"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10
+      },
+      "model": "aiost/tools/obsidian_crystal_axe"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 11
+      },
+      "model": "aiost/tools/black_diamond_axe"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 12
+      },
+      "model": "aiost/tools/ruby_axe"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 13
+      },
+      "model": "aiost/tools/emerald_axe"
+    }
+  ]
+}

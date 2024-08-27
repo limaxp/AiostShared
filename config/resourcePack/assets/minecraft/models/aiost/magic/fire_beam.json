@@ -1,0 +1,7 @@
+{
+	"parent": "aiost/double_plane",
+	"textures": {
+		"particle": "item/fire_beam",
+		"texture": "item/fire_beam"
+	}
+}

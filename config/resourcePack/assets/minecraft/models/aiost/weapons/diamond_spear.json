@@ -1,0 +1,6 @@
+{
+ "parent": "aiost/weapons/spear",
+  "textures": {
+    "layer0": "item/diamond_spear"
+  }
+}

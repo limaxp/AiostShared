@@ -1,0 +1,88 @@
+{
+"__comment": "Designed by Thematrixmax with BDcraft Cubik PRO 0.96 Beta - http://bdcraft.net",
+"textures": {
+    "texture": "entity/turtle_1",
+    "hardened_clay_stained_lime": "block/hardened_clay_stained_lime",
+    "coal_block": "block/coal_block",
+    "turtle2": "entity/turtle_2",
+    "turtle3": "entity/turtle_3"
+},
+"elements": [ 
+{
+    "from": [ 0, 0, 6 ],
+    "to": [ 4, 3, 10 ],
+    "faces": {
+        "down":  { "uv": [ 16, 10, 12, 6 ], "texture": "#hardened_clay_stained_lime" },
+        "up":    { "uv": [ 0, 6, 4, 10 ], "texture": "#hardened_clay_stained_lime" },
+        "north": { "uv": [ 12, 13, 16, 16 ], "texture": "#hardened_clay_stained_lime" },
+        "south": { "uv": [ 0, 13, 4, 16 ], "texture": "#hardened_clay_stained_lime" },
+        "west":  { "uv": [ 6, 13, 10, 16 ], "texture": "#hardened_clay_stained_lime" },
+        "east":  { "uv": [ 6, 13, 10, 16 ], "texture": "#hardened_clay_stained_lime" }
+    }
+},
+{
+    "from": [ 1, 1, 10 ],
+    "to": [ 2, 2, 10.5 ],
+    "faces": {
+        "down":  { "uv": [ 15, 10.5, 14, 10 ], "texture": "#coal_block" },
+        "up":    { "uv": [ 1, 10, 2, 10.5 ], "texture": "#coal_block" },
+        "south": { "uv": [ 1, 14, 2, 15 ], "texture": "#coal_block" },
+        "west":  { "uv": [ 10, 14, 10.5, 15 ], "texture": "#coal_block" },
+        "east":  { "uv": [ 5.5, 14, 6, 15 ], "texture": "#coal_block" }
+    }
+},
+{
+    "from": [ 1, 1, 5.5 ],
+    "to": [ 2, 2, 6 ],
+    "faces": {
+        "down":  { "uv": [ 15, 6, 14, 5.5 ], "texture": "#coal_block" },
+        "up":    { "uv": [ 1, 5.5, 2, 6 ], "texture": "#coal_block" },
+        "north": { "uv": [ 14, 14, 15, 15 ], "texture": "#coal_block" },
+        "west":  { "uv": [ 5.5, 14, 6, 15 ], "texture": "#coal_block" },
+        "east":  { "uv": [ 10, 14, 10.5, 15 ], "texture": "#coal_block" }
+    }
+}
+],
+"display": {
+    "thirdperson_righthand": {
+        "rotation": [ 75, -75, 0 ],
+        "translation": [ 1.5, -2, 8 ],
+        "scale": [ 1, 1, 1 ]
+    },
+    "thirdperson_lefthand": {
+        "rotation": [ 75, 105, 0 ],
+        "translation": [ 1.5, -2, 8 ],
+        "scale": [ 1, 1, 1 ]
+    },
+    "head": {
+        "rotation": [ 0, -90, 0 ],
+        "translation": [ 0, 0, 0 ],
+        "scale": [ 1.6, 1.6, 1.6 ]
+    },
+    "ground": {
+        "rotation": [ 0, 0, 0 ],
+        "translation": [ 0, 6, 0 ],
+        "scale": [ 1, 1, 1 ]
+    },
+    "fixed": {
+        "rotation": [ 180, 90, 0 ],
+        "translation": [ 0, -19, 14 ],
+        "scale": [ 3, 3, 3 ]
+    },
+    "firstperson_righthand": {
+        "rotation": [ 60, -80, 35 ],
+        "translation": [ 12, 2, 3 ],
+        "scale": [ 3, 3, 3 ]
+    },
+    "firstperson_lefthand": {
+        "rotation": [ 60, 95, -35 ],
+        "translation": [ 12, 2, 3 ],
+        "scale": [ 3, 3, 3 ]
+    },
+    "gui": {
+        "rotation": [ 35, 75, 0 ],
+        "translation": [ 3.5, 17.5, 0 ],
+        "scale": [ 2, 2, 2 ]
+    }
+}
+}

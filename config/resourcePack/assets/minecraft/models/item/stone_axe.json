@@ -1,0 +1,38 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "item/stone_axe"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 1
+      },
+      "model": "aiost/weapons/tin_waraxe"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2
+      },
+      "model": "aiost/weapons/copper_waraxe"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 3
+      },
+      "model": "aiost/weapons/stone_waraxe"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 4
+      },
+      "model": "aiost/tools/tin_axe"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 5
+      },
+      "model": "aiost/tools/copper_axe"
+    }
+  ]
+}

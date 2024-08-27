@@ -1,0 +1,38 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "item/stone_pickaxe"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 1
+      },
+      "model": "aiost/tools/tin_hammer"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2
+      },
+      "model": "aiost/tools/copper_hammer"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 3
+      },
+      "model": "aiost/tools/stone_hammer"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 4
+      },
+      "model": "aiost/tools/tin_pickaxe"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 5
+      },
+      "model": "aiost/tools/copper_pickaxe"
+    }
+  ]
+}

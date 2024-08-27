@@ -1,0 +1,26 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "item/iron_axe"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 1
+      },
+      "model": "aiost/weapons/iron_waraxe"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2
+      },
+      "model": "aiost/weapons/bronze_waraxe"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 3
+      },
+      "model": "aiost/tools/bronze_axe"
+    }
+  ]
+}

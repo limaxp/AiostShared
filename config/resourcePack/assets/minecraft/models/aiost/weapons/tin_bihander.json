@@ -1,0 +1,6 @@
+{
+"parent": "aiost/weapons/bihander",
+  "textures": {
+    "layer0": "item/tin_bihander"
+  }
+}

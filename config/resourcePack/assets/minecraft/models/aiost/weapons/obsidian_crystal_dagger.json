@@ -1,0 +1,6 @@
+{
+"parent": "aiost/weapons/dagger",
+  "textures": {
+    "layer0": "item/obsidian_crystal_dagger"
+  }
+}

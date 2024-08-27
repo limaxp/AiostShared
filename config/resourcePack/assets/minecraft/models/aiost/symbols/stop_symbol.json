@@ -1,0 +1,6 @@
+{
+    "parent": "aiost/symbols/symbol",
+    "textures": {
+        "layer0": "item/barrier"
+    }
+}

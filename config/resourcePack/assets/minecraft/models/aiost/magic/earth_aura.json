@@ -1,0 +1,7 @@
+{
+	"parent": "aiost/double_plane",
+	"textures": {
+		"particle": "item/earth_aura",
+		"texture": "item/earth_aura"
+	}
+}

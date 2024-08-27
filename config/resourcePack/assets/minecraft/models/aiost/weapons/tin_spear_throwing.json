@@ -1,0 +1,6 @@
+{
+  "parent": "aiost/weapons/spear_throwing",
+  "textures": {
+    "layer0": "item/tin_spear"
+  } 
+}

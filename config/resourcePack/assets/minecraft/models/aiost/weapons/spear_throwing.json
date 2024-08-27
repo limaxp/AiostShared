@@ -1,0 +1,25 @@
+{
+	"parent": "aiost/weapons/spear",
+	"display": {
+        "thirdperson_righthand": {
+			"rotation": [ 90, -90, -35 ],
+			"translation": [ 0, 0, 1 ],
+			"scale": [ 1.5, 1.5, 1.5 ]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [ 180, -90, -35 ],
+			"translation": [ 0, 0, 1 ],
+			"scale": [ 1.5, 1.5, 1.5 ]
+		},
+		"firstperson_righthand": {
+			"rotation": [ 5, -90, 60 ],
+			"translation": [ 1, 3, 0 ],
+			"scale": [ 1.5, 1.5, 1.5 ]
+		},
+		"firstperson_lefthand": {
+			"rotation": [ 5, -90, -40 ],
+			"translation": [ 1, 3, 0 ],
+			"scale": [ 1.5, 1.5, 1.5 ]
+		}
+    }
+}

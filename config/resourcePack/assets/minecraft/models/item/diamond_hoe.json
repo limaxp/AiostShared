@@ -1,0 +1,62 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "item/diamond_hoe"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 1
+      },
+      "model": "aiost/tools/quartz_crystal_hoe"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2
+      },
+      "model": "aiost/tools/lava_crystal_hoe"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 3
+      },
+      "model": "aiost/tools/obsidian_crystal_hoe"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 4
+      },
+      "model": "aiost/tools/black_diamond_hoe"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 5
+      },
+      "model": "aiost/tools/ruby_hoe"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 6
+      },
+      "model": "aiost/tools/emerald_hoe"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 7
+      },
+      "model": "aiost/tools/bronze_hoe"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8
+      },
+      "model": "aiost/tools/tin_hoe"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 9
+      },
+      "model": "aiost/tools/copper_hoe"
+    }
+  ]
+}

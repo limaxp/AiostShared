@@ -1,0 +1,6 @@
+{
+"parent": "item/handheld",
+  "textures": {
+    "layer0": "item/obsidian_crystal_axe"
+  }
+}

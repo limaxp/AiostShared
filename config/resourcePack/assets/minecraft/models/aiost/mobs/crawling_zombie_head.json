@@ -1,0 +1,63 @@
+{
+"__comment": "Designed by Thematrixmax with BDcraft Cubik PRO 0.96 Beta - http://bdcraft.net",
+"textures": {
+    "texture": "entity/crawling_zombie"
+},
+"elements": [ 
+{
+    "from": [ 4.5, 0.501062, 4.0625 ],
+    "to": [ 12.5, 8.50106, 11.9375 ],
+    "rotation": { "origin": [ 4.5, 8.50106, 4.0625 ], "axis": "z", "angle": 22.5 },
+    "faces": {
+        "down":  { "uv": [ 4, 0, 6, 2 ], "rotation": 180, "texture": "#texture" },
+        "up":    { "uv": [ 6, 2, 8, 4 ], "rotation": 180, "texture": "#texture" },
+        "north": { "uv": [ 4, 2, 6, 4 ], "texture": "#texture" },
+        "south": { "uv": [ 0, 2, 2, 4 ], "texture": "#texture" },
+        "west":  { "uv": [ 2, 0, 4, 2 ], "texture": "#texture" },
+        "east":  { "uv": [ 2, 2, 4, 4 ], "texture": "#texture" }
+    }
+}
+],
+"display": {
+    "thirdperson_righthand": {
+        "rotation": [ 75, 125, 0 ],
+        "translation": [ -0.5, 2.5, 2 ],
+        "scale": [ 0.37, 0.37, 0.37 ]
+    },
+    "thirdperson_lefthand": {
+        "rotation": [ 75, -55, 0 ],
+        "translation": [ -0.5, 2.5, 2 ],
+        "scale": [ 0.37, 0.37, 0.37 ]
+    },
+    "head": {
+        "rotation": [ 0, 90, 0 ],
+        "translation": [ 0, 0, 0 ],
+        "scale": [ 1.6, 1.6, 1.6 ]
+    },
+    "ground": {
+        "rotation": [ 0, 0, 0 ],
+        "translation": [ 0, 3, 0 ],
+        "scale": [ 0.35, 0.35, 0.35 ]
+    },
+    "fixed": {
+        "rotation": [ -22, 90, 0 ],
+        "translation": [ 0, 1.5, 0 ],
+        "scale": [ 1, 1, 1 ]
+    },
+    "firstperson_righthand": {
+        "rotation": [ 20, -146, -3 ],
+        "translation": [ 15.69, -2.83, -20 ],
+        "scale": [ 1.7, 1.7, 1.7 ]
+    },
+    "firstperson_lefthand": {
+        "rotation": [ 20, 31, -3 ],
+        "translation": [ 15.69, -2.83, -20 ],
+        "scale": [ 1.7, 1.7, 1.7 ]
+    },
+    "gui": {
+        "rotation": [ 40, -120, 0 ],
+        "translation": [ 1.2, 2.5, 4 ],
+        "scale": [ 1, 1, 1 ]
+    }
+}
+}

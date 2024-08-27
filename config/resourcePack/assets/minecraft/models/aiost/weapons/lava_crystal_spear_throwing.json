@@ -1,0 +1,6 @@
+{
+  "parent": "aiost/weapons/spear_throwing",
+  "textures": {
+    "layer0": "item/lava_crystal_spear"
+  } 
+}

@@ -1,0 +1,422 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "item/turtle_scute"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 1
+      },
+      "model": "aiost/items/aluminium_ingot"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2
+      },
+      "model": "aiost/items/aluminium_nugget"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 3
+      },
+      "model": "aiost/items/black_diamond"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 4
+      },
+      "model": "aiost/items/bronze_ingot"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 5
+      },
+      "model": "aiost/items/bronze_nugget"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 6
+      },
+      "model": "aiost/items/copper_ingot"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 7
+      },
+      "model": "aiost/items/copper_nugget"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8
+      },
+      "model": "aiost/items/invisible_item"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 9
+      },
+      "model": "aiost/items/lava_crystal"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10
+      },
+      "model": "aiost/items/obsidian_crystal"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 11
+      },
+      "model": "aiost/items/quartz_crystal"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 12
+      },
+      "model": "aiost/items/ruby"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 13
+      },
+      "model": "aiost/items/silver_ingot"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 14
+      },
+      "model": "aiost/items/silver_nugget"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 15
+      },
+      "model": "aiost/items/tin_ingot"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 16
+      },
+      "model": "aiost/items/tin_nugget"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 17
+      },
+      "model": "aiost/blocks/aluminium_block"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 18
+      },
+      "model": "aiost/blocks/aluminium_ore"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 19
+      },
+      "model": "aiost/blocks/apple_block"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 20
+      },
+      "model": "aiost/blocks/black_diamond_block"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 21
+      },
+      "model": "aiost/blocks/bronze_block"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 22
+      },
+      "model": "aiost/blocks/copper_block"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 23
+      },
+      "model": "aiost/blocks/copper_ore"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 24
+      },
+      "model": "aiost/blocks/lucky_block"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 25
+      },
+      "model": "aiost/blocks/ruby_block"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 26
+      },
+      "model": "aiost/blocks/ruby_ore"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 27
+      },
+      "model": "aiost/blocks/silver_block"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 28
+      },
+      "model": "aiost/blocks/silver_ore"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 29
+      },
+      "model": "aiost/blocks/super_lucky_block"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 30
+      },
+      "model": "aiost/blocks/tin_block"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 31
+      },
+      "model": "aiost/blocks/tin_ore"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 32
+      },
+      "model": "aiost/furniture/oak_chair"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 33
+      },
+      "model": "aiost/furniture/oak_table"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 34
+      },
+      "model": "aiost/guns/bullet_1"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 35
+      },
+      "model": "aiost/symbols/stop_symbol"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 36
+      },
+      "model": "aiost/mobs/snail_brown_standing"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 37
+      },
+      "model": "aiost/mobs/snail_brown_walking"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 38
+      },
+      "model": "aiost/blocks/3d_allium"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 39
+      },
+      "model": "aiost/blocks/3d_bookshelf"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 40
+      },
+      "model": "aiost/blocks/3d_brown_mushroom"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 41
+      },
+      "model": "aiost/blocks/3d_cactus"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 42
+      },
+      "model": "aiost/blocks/3d_crafting_table"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 43
+      },
+      "model": "aiost/blocks/3d_daisy"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 44
+      },
+      "model": "aiost/blocks/3d_dandelion"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 45
+      },
+      "model": "aiost/blocks/3d_enchanting_table_base"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 46
+      },
+      "model": "aiost/blocks/3d_furnace"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 47
+      },
+      "model": "aiost/blocks/3d_grass_normal"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 48
+      },
+      "model": "aiost/blocks/3d_houstonia"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 49
+      },
+      "model": "aiost/blocks/3d_orange_tulip"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 50
+      },
+      "model": "aiost/blocks/3d_orchid"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 51
+      },
+      "model": "aiost/blocks/3d_pink_tulip"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 52
+      },
+      "model": "aiost/blocks/3d_poppy"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 53
+      },
+      "model": "aiost/blocks/3d_quartz_chiseled"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 54
+      },
+      "model": "aiost/blocks/3d_quartz_stairs"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 55
+      },
+      "model": "aiost/blocks/3d_red_mushroom"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 56
+      },
+      "model": "aiost/blocks/3d_red_tulip"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 57
+      },
+      "model": "aiost/blocks/3d_reeds"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 58
+      },
+      "model": "aiost/blocks/3d_stone_brick_chiseled"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 59
+      },
+      "model": "aiost/blocks/3d_stone_brick_cracked"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 60
+      },
+      "model": "aiost/blocks/3d_stone_brick_mossy"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 61
+      },
+      "model": "aiost/blocks/3d_stone_brick_normal"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 62
+      },
+      "model": "aiost/blocks/3d_tall_grass"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 63
+      },
+      "model": "aiost/blocks/3d_vine"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 64
+      },
+      "model": "aiost/blocks/3d_lily_pad"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 65
+      },
+      "model": "aiost/blocks/3d_white_tulip"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 66
+      },
+      "model": "aiost/blocks/3d_ladder"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 67
+      },
+      "model": "aiost/furniture/display"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 68
+      },
+      "model": "aiost/furniture/keyboard_and_mouse"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 69
+      },
+      "model": "aiost/furniture/laptop"
+    }
+  ]
+}

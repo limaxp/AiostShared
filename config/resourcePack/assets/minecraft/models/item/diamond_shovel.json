@@ -1,0 +1,44 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "item/diamond_shovel"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 1
+      },
+      "model": "aiost/tools/quartz_crystal_shovel"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2
+      },
+      "model": "aiost/tools/lava_crystal_shovel"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 3
+      },
+      "model": "aiost/tools/obsidian_crystal_shovel"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 4
+      },
+      "model": "aiost/tools/black_diamond_shovel"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 5
+      },
+      "model": "aiost/tools/ruby_shovel"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 6
+      },
+      "model": "aiost/tools/emerald_shovel"
+    }
+  ]
+}

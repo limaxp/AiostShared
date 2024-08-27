@@ -1,0 +1,6 @@
+{
+	"parent": "aiost/blocks/cube_all",
+	"textures": {
+		"all": "block/ruby_block"
+	}
+}

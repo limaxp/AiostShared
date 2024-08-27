@@ -1,0 +1,6 @@
+{
+	"parent": "item/bow",
+    "textures": {
+        "layer0": "item/obsidian_crystal_bow_pulling_1"
+    }
+}

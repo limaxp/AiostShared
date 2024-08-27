@@ -1,0 +1,104 @@
+{
+  "parent": "item/handheld_rod",
+  "textures": {
+    "layer0": "item/fishing_rod_uncast"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "cast": 1
+      },
+      "model": "item/fishing_rod_cast"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1
+      },
+      "model": "aiost/weapons/quartz_crystal_dagger"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2
+      },
+      "model": "aiost/weapons/lava_crystal_dagger"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 3
+      },
+      "model": "aiost/weapons/obsidian_crystal_dagger"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 4
+      },
+      "model": "aiost/weapons/black_diamond_dagger"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 5
+      },
+      "model": "aiost/weapons/ruby_dagger"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 6
+      },
+      "model": "aiost/weapons/emerald_dagger"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 7
+      },
+      "model": "aiost/weapons/diamond_dagger"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8
+      },
+      "model": "aiost/weapons/golden_dagger"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 9
+      },
+      "model": "aiost/weapons/iron_dagger"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10
+      },
+      "model": "aiost/weapons/bronze_dagger"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 11
+      },
+      "model": "aiost/weapons/tin_dagger"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 12
+      },
+      "model": "aiost/weapons/copper_dagger"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 13
+      },
+      "model": "aiost/weapons/stone_dagger"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 14
+      },
+      "model": "aiost/weapons/wooden_dagger"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 15
+      },
+      "model": "aiost/weapons/shuriken"
+    }
+  ]
+}

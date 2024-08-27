@@ -1,0 +1,317 @@
+{
+  "parent": "builtin/entity",
+  "textures": {
+    "particle": "item/trident"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "throwing": 1
+      },
+      "model": "item/trident_throwing"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1
+      },
+      "model": "aiost/weapons/quartz_crystal_spear"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1,
+        "throwing": 1
+      },
+      "model": "aiost/weapons/quartz_crystal_spear_throwing"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2
+      },
+      "model": "aiost/weapons/lava_crystal_spear"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2,
+        "throwing": 1
+      },
+      "model": "aiost/weapons/lava_crystal_spear_throwing"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 3
+      },
+      "model": "aiost/weapons/obsidian_crystal_spear"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 3,
+        "throwing": 1
+      },
+      "model": "aiost/weapons/obsidian_crystal_spear_throwing"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 4
+      },
+      "model": "aiost/weapons/black_diamond_spear"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 4,
+        "throwing": 1
+      },
+      "model": "aiost/weapons/black_diamond_spear_throwing"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 5
+      },
+      "model": "aiost/weapons/ruby_spear"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 5,
+        "throwing": 1
+      },
+      "model": "aiost/weapons/ruby_spear_throwing"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 6
+      },
+      "model": "aiost/weapons/emerald_spear"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 6,
+        "throwing": 1
+      },
+      "model": "aiost/weapons/emerald_spear_throwing"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 7
+      },
+      "model": "aiost/weapons/diamond_spear"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 7,
+        "throwing": 1
+      },
+      "model": "aiost/weapons/diamond_spear_throwing"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8
+      },
+      "model": "aiost/weapons/golden_spear"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8,
+        "throwing": 1
+      },
+      "model": "aiost/weapons/golden_spear_throwing"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 9
+      },
+      "model": "aiost/weapons/iron_spear"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 9,
+        "throwing": 1
+      },
+      "model": "aiost/weapons/iron_spear_throwing"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10
+      },
+      "model": "aiost/weapons/bronze_spear"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10,
+        "throwing": 1
+      },
+      "model": "aiost/weapons/bronze_spear_throwing"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 11
+      },
+      "model": "aiost/weapons/tin_spear"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 11,
+        "throwing": 1
+      },
+      "model": "aiost/weapons/tin_spear_throwing"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 12
+      },
+      "model": "aiost/weapons/copper_spear"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 12,
+        "throwing": 1
+      },
+      "model": "aiost/weapons/copper_spear_throwing"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 13
+      },
+      "model": "aiost/weapons/stone_spear"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 13,
+        "throwing": 1
+      },
+      "model": "aiost/weapons/stone_spear_throwing"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 14
+      },
+      "model": "aiost/weapons/wooden_spear"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 14,
+        "throwing": 1
+      },
+      "model": "aiost/weapons/wooden_spear_throwing"
+    }
+  ],
+  "display": {
+    "thirdperson_righthand": {
+      "rotation": [
+        0,
+        60,
+        0
+      ],
+      "translation": [
+        11,
+        17,
+        -2
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [
+        0,
+        60,
+        0
+      ],
+      "translation": [
+        3,
+        17,
+        12
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "firstperson_righthand": {
+      "rotation": [
+        0,
+        -90,
+        25
+      ],
+      "translation": [
+        -3,
+        17,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "firstperson_lefthand": {
+      "rotation": [
+        0,
+        90,
+        -25
+      ],
+      "translation": [
+        13,
+        17,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "gui": {
+      "rotation": [
+        15,
+        -25,
+        -5
+      ],
+      "translation": [
+        2,
+        3,
+        0
+      ],
+      "scale": [
+        0.65,
+        0.65,
+        0.65
+      ]
+    },
+    "fixed": {
+      "rotation": [
+        0,
+        180,
+        0
+      ],
+      "translation": [
+        -2,
+        4,
+        -5
+      ],
+      "scale": [
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    "ground": {
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        4,
+        4,
+        2
+      ],
+      "scale": [
+        0.25,
+        0.25,
+        0.25
+      ]
+    }
+  }
+}
