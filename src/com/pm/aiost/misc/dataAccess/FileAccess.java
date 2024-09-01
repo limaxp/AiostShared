@@ -430,11 +430,21 @@ public class FileAccess implements IDataAccess {
 		gameJson.put("update_date", date);
 
 		JSONObject worldJson = (JSONObject) DataManager.getWorld(worldID);
-		long playerID = (long) worldJson.get("owner_ID");
 
-		((JSONArray) DataManager.getGames(playerID)).add(uuidString);
+		((JSONArray) DataManager.getGames((long) worldJson.get("owner_ID"))).add(uuidString);
 		DataManager.addGamePerType(type, uuidString);
 		return uuid;
+	}
+
+	@Override
+	public void removeGame(UUID uuid) throws SQLException {
+		String uuidString = uuid.toString();
+		JSONObject gameJson = (JSONObject) DataManager.getGame(uuid);
+		JSONObject worldJson = (JSONObject) DataManager.getWorld((UUID) gameJson.get("world_uuid"));
+
+		DataManager.removeGamePerType((int) gameJson.get("type"), uuidString);
+		DataManager.getGames((long) worldJson.get("owner_ID")).remove(uuidString);
+		DataManager.deleteGame(uuid);
 	}
 
 	@Override

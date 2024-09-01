@@ -19,7 +19,7 @@ public interface IDataAccess {
 	public void addUnlockable(long playerID, int typeID, short unlockableID) throws SQLException;
 
 	public void buyUnlockable(long playerID, int typeID, short unlockableID, int price) throws SQLException;
-	
+
 	public ResultSet getUnlockables(long playerID, int typeID) throws SQLException;
 
 	public ResultSet getUnlockables(long playerID, int typeID, short startID, short size) throws SQLException;
@@ -58,6 +58,8 @@ public interface IDataAccess {
 	public void updatePlayerWorldLastSaveDate(UUID uuid) throws SQLException;
 
 	public UUID addGame(UUID worldID, String name, int type) throws SQLException;
+
+	public void removeGame(UUID uuid) throws SQLException;
 
 	public void updateGame(UUID uuid) throws SQLException;
 

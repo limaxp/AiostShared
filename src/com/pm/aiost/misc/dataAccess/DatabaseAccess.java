@@ -308,6 +308,16 @@ public class DatabaseAccess implements IDataAccess {
 			return UUID.fromString(statement.getString(4));
 		}
 	}
+	
+	@Override
+	public void removeGame(UUID uuid) throws SQLException {
+		Database database = DatabaseManager.getDatabase();
+		try (Connection connection = database.getConnection();
+				CallableStatement statement = database.prepareCall(connection, "removeGame(?)")) {
+			statement.setString(1, uuid.toString());
+			statement.execute();
+		}
+	}
 
 	@Override
 	public void updateGame(UUID uuid) throws SQLException {

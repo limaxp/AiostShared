@@ -464,6 +464,33 @@ public class DataManager {
 		saveGamesPerType(gameTypeFile, gameTypeJson);
 	}
 
+	public static void removeGamePerType(int type, String uuid) {
+		String typeKey = Integer.toString(type);
+		if (!gameTypeMeta.containsKey(typeKey))
+			return;
+
+		long typeGameSize = (long) gameTypeMeta.get(typeKey);
+		gameTypeMeta.put(typeKey, typeGameSize - 1);
+
+		int fileSize = ((int) typeGameSize / 28) + 1;
+		for (int i = 0; i < fileSize; i++) {
+			JSONArray gameTypeJson = getGamesPerType(type, i);
+			int size = gameTypeJson.size();
+			for (int j = 0; j < size; j++) {
+				if (uuid == gameTypeJson.get(j)) {
+					Object current = gameTypeJson.get(j);
+					JSONArray lastGameTypeJson = getGamesPerType(type, fileSize - 1);
+					int lastPos = lastGameTypeJson.size() - 1;
+					gameTypeJson.set(j, lastGameTypeJson.get(lastPos));
+					lastGameTypeJson.set(lastPos, current);
+					saveGamesPerType(getGamesPerTypeFile(type, i), gameTypeJson);
+					saveGamesPerType(getGamesPerTypeFile(type, fileSize - 1), gameTypeJson);
+					return;
+				}
+			}
+		}
+	}
+
 	public static JSONArray getGamesPerType(int type, int offset) {
 		return getGamesPerType(getGamesPerTypeFile(type, offset));
 	}

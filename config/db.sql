@@ -805,6 +805,19 @@ END;
 DELIMITER ;
 
 -- ----------------------------
+-- Procedure structure for removeGame
+-- ----------------------------
+DROP PROCEDURE IF EXISTS `removeGame`;
+DELIMITER ;;
+CREATE DEFINER=`root`@`localhost` PROCEDURE `removeGame`(
+        IN `_uuid` BINARY(36)
+    )
+DELETE FROM games
+WHERE uuid = UUID_TO_BIN(_uuid)
+;;
+DELIMITER ;
+
+-- ----------------------------
 -- Procedure structure for updateGame
 -- ----------------------------
 DROP PROCEDURE IF EXISTS `updateGame`;
