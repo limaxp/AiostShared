@@ -1232,6 +1232,34 @@ WHERE uuid = UUID_TO_BIN(_uuid) AND save_date < request_date
 DELIMITER ;
 
 -- ----------------------------
+-- Procedure structure for getGameStats
+-- ----------------------------
+DROP PROCEDURE IF EXISTS `getGameStats`;
+DELIMITER ;;
+CREATE DEFINER=`root`@`localhost` PROCEDURE `getGameStats`(
+        IN `_uuid` BINARY(36),
+        IN `_limit` INT UNSIGNED,
+        IN `_offset` INT UNSIGNED
+    )
+BEGIN
+
+PREPARE stmt FROM
+"SELECT pg.time, pg.player, pg.winner, pg.playerData, pg.save_date
+FROM played_games AS pg
+WHERE pg.uuid = Uuid_To_Bin(?)
+ORDER BY pw.last_save_date DESC
+LIMIT ?
+OFFSET ?";
+
+EXECUTE stmt USING _uuid, _limit, _offset;
+
+DEALLOCATE PREPARE stmt; 
+
+END;
+;;
+DELIMITER ;
+
+-- ----------------------------
 -- Function structure for Uuid_To_Bin
 -- ----------------------------
 DROP FUNCTION IF EXISTS `Uuid_To_Bin`;

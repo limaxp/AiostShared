@@ -464,6 +464,12 @@ public class FileAccess implements IDataAccess {
 	}
 
 	@Override
+	public ResultSet getGameStats(UUID uuid, int limit, int offset) throws SQLException {
+		CachedRowSet result = RowSetProvider.newFactory().createCachedRowSet();
+		return result;
+	}
+
+	@Override
 	public void deleteGameStats(UUID uuid) throws SQLException {
 	}
 

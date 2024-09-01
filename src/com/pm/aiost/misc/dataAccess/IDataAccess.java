@@ -66,6 +66,8 @@ public interface IDataAccess {
 
 	public void updateGameRate(UUID uuid, int amount, int value) throws SQLException;
 
+	public ResultSet getGameStats(UUID uuid, int limit, int offset) throws SQLException;
+
 	public void deleteGameStats(UUID uuid) throws SQLException;
 
 	public void deleteGameStats(UUID uuid, Date date) throws SQLException;

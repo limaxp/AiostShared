@@ -343,6 +343,17 @@ public class DatabaseAccess implements IDataAccess {
 	}
 
 	@Override
+	public ResultSet getGameStats(UUID uuid, int limit, int offset) throws SQLException {
+		Database database = DatabaseManager.getDatabase();
+		Connection connection = database.getConnection();
+		CallableStatement statement = database.prepareCall(connection, "getGameStats(?, ?, ?)");
+		statement.setString(1, uuid.toString());
+		statement.setInt(2, limit);
+		statement.setInt(3, offset);
+		return statement.executeQuery();
+	}
+
+	@Override
 	public void deleteGameStats(UUID uuid) throws SQLException {
 		Database database = DatabaseManager.getDatabase();
 		try (Connection connection = database.getConnection();
