@@ -1,5 +1,8 @@
 package com.pm.aiost.misc.database;
 
+import java.sql.Connection;
+import java.sql.SQLException;
+
 import javax.annotation.Nullable;
 
 import org.bukkit.configuration.ConfigurationSection;
@@ -15,10 +18,19 @@ public class DatabaseManager {
 	private static boolean init(String type, String hostName, int port, String database, String userName,
 			String password) {
 		if (type.isEmpty() || hostName.isEmpty() || port == 0 || database.isEmpty() || userName.isEmpty()) {
-			Logger.log("DatabaseManager: Database connection data incomplete! Using FileDataAccess instead!");
+			Logger.log("Database connection data incomplete! Using FileDataAccess instead!");
 			return false;
 		}
 		DatabaseManager.database = DatabaseType.create(type, hostName, port, database, userName, password);
+		try (Connection testConnection = DatabaseManager.database.getConnection()) {
+			if (testConnection == null) {
+				Logger.log("Coud not create database connection! Using FileDataAccess instead!");
+				return false;
+			}
+		} catch (SQLException e) {
+			Logger.log("Error creating database connection! Using FileDataAccess instead!");
+			return false;
+		}
 		return true;
 	}
 
