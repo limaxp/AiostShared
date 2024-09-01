@@ -873,7 +873,7 @@ Morphs:
     price: 1000
     description:
     - §7Transform into a zombie
-    type: ENTITY_LIVING
+    type: ENTITY
     entityType: ZOMBIE
   Dirt:
     price: 500
