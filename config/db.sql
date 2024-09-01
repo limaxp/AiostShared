@@ -1205,6 +1205,33 @@ END;
 DELIMITER ;
 
 -- ----------------------------
+-- Procedure structure for deleteGameStats
+-- ----------------------------
+DROP PROCEDURE IF EXISTS `deleteGameStats`;
+DELIMITER ;;
+CREATE DEFINER=`root`@`localhost` PROCEDURE `deleteGameStats`(
+        IN `_uuid` BINARY(36)
+    )
+DELETE FROM played_games
+WHERE uuid = UUID_TO_BIN(_uuid)
+;;
+DELIMITER ;
+
+-- ----------------------------
+-- Procedure structure for deleteGameStatsBefore
+-- ----------------------------
+DROP PROCEDURE IF EXISTS `deleteGameStatsBefore`;
+DELIMITER ;;
+CREATE DEFINER=`root`@`localhost` PROCEDURE `deleteGameStatsBefore`(
+        IN `_uuid` BINARY(36),
+        IN `request_date` DATETIME
+    )
+DELETE FROM played_games
+WHERE uuid = UUID_TO_BIN(_uuid) AND save_date < request_date
+;;
+DELIMITER ;
+
+-- ----------------------------
 -- Function structure for Uuid_To_Bin
 -- ----------------------------
 DROP FUNCTION IF EXISTS `Uuid_To_Bin`;

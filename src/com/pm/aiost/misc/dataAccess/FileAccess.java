@@ -5,6 +5,7 @@ import java.sql.SQLException;
 import java.sql.Timestamp;
 import java.sql.Types;
 import java.time.LocalDateTime;
+import java.util.Date;
 import java.util.UUID;
 
 import javax.sql.RowSetMetaData;
@@ -460,6 +461,14 @@ public class FileAccess implements IDataAccess {
 		gameJson.put("rate_Amount", rateAmount = (long) gameJson.get("rate_Amount") + amount);
 		gameJson.put("rate_Value", rateValue = (long) gameJson.get("rate_Value") + value);
 		gameJson.put("rate", (double) rateValue / rateAmount);
+	}
+
+	@Override
+	public void deleteGameStats(UUID uuid) throws SQLException {
+	}
+
+	@Override
+	public void deleteGameStats(UUID uuid, Date date) throws SQLException {
 	}
 
 	@Override

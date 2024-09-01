@@ -2,6 +2,7 @@ package com.pm.aiost.misc.dataAccess;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.util.Date;
 import java.util.UUID;
 
 import com.pm.aiost.misc.rank.Rank;
@@ -64,6 +65,10 @@ public interface IDataAccess {
 	public void updateGame(UUID uuid) throws SQLException;
 
 	public void updateGameRate(UUID uuid, int amount, int value) throws SQLException;
+
+	public void deleteGameStats(UUID uuid) throws SQLException;
+
+	public void deleteGameStats(UUID uuid, Date date) throws SQLException;
 
 	public ResultSet getGames(int type, byte orderBy, int offset) throws SQLException;
 

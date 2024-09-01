@@ -7,6 +7,7 @@ import java.sql.SQLException;
 import java.sql.SQLIntegrityConstraintViolationException;
 import java.sql.Statement;
 import java.sql.Types;
+import java.util.Date;
 import java.util.UUID;
 
 import com.pm.aiost.misc.database.Database;
@@ -308,7 +309,7 @@ public class DatabaseAccess implements IDataAccess {
 			return UUID.fromString(statement.getString(4));
 		}
 	}
-	
+
 	@Override
 	public void removeGame(UUID uuid) throws SQLException {
 		Database database = DatabaseManager.getDatabase();
@@ -337,6 +338,27 @@ public class DatabaseAccess implements IDataAccess {
 			statement.setString(1, uuid.toString());
 			statement.setInt(2, amount);
 			statement.setInt(3, value);
+			statement.execute();
+		}
+	}
+
+	@Override
+	public void deleteGameStats(UUID uuid) throws SQLException {
+		Database database = DatabaseManager.getDatabase();
+		try (Connection connection = database.getConnection();
+				CallableStatement statement = database.prepareCall(connection, "deleteGameStats(?)")) {
+			statement.setString(1, uuid.toString());
+			statement.execute();
+		}
+	}
+
+	@Override
+	public void deleteGameStats(UUID uuid, Date date) throws SQLException {
+		Database database = DatabaseManager.getDatabase();
+		try (Connection connection = database.getConnection();
+				CallableStatement statement = database.prepareCall(connection, "deleteGameStatsBefore(?, ?)")) {
+			statement.setString(1, uuid.toString());
+			statement.setDate(2, new java.sql.Date(date.getTime()));
 			statement.execute();
 		}
 	}
