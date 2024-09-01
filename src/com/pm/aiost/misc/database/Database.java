@@ -31,7 +31,7 @@ public abstract class Database {
 		this.password = password;
 	}
 
-	protected abstract Connection openConnection() throws SQLException, ClassNotFoundException;
+	public abstract Connection openConnection() throws SQLException, ClassNotFoundException;
 
 	public abstract DatabaseType<? extends Database> getType();
 

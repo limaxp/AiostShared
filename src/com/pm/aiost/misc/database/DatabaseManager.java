@@ -22,12 +22,12 @@ public class DatabaseManager {
 			return false;
 		}
 		DatabaseManager.database = DatabaseType.create(type, hostName, port, database, userName, password);
-		try (Connection testConnection = DatabaseManager.database.getConnection()) {
+		try (Connection testConnection = DatabaseManager.database.openConnection()) {
 			if (testConnection == null) {
 				Logger.log("Coud not create database connection! Using FileDataAccess instead!");
 				return false;
 			}
-		} catch (SQLException e) {
+		} catch (Exception e) {
 			Logger.log("Error creating database connection! Using FileDataAccess instead!");
 			return false;
 		}

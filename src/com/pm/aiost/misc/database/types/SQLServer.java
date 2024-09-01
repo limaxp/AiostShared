@@ -21,7 +21,7 @@ public class SQLServer extends Database {
 	}
 
 	@Override
-	protected Connection openConnection() throws SQLException, ClassNotFoundException {
+	public Connection openConnection() throws SQLException, ClassNotFoundException {
 		String connectionURL = "jdbc:sqlserver://" + hostname + ":" + port;
 		if (database != null)
 			connectionURL = connectionURL + "/" + database;
