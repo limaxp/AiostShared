@@ -1247,7 +1247,7 @@ PREPARE stmt FROM
 "SELECT pg.time, pg.player, pg.winner, pg.playerData, pg.save_date
 FROM played_games AS pg
 WHERE pg.uuid = Uuid_To_Bin(?)
-ORDER BY pw.last_save_date DESC
+ORDER BY pw.save_date DESC
 LIMIT ?
 OFFSET ?";
 
