@@ -3,7 +3,6 @@ Types:
 - Particle Effects
 - Projectile Particles
 - Hats
-- Suits
 - Morphs
 - Pets
 - Skills
@@ -904,12 +903,12 @@ Pets:
     price: 1000
     description:
     - §7A pet zombie
-    type: ownable_zombie
+    type: zombie
   Skeleton:
     price: 1000
     description:
     - §7A pet skeleton
-    type: ownable_skeleton
+    type: skeleton
 Hats:
   Test Hat:
     price: 1000
